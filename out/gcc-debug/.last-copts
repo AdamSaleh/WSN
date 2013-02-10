@@ -1,0 +1,1 @@
+-g -Wall -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DXMLPARSER=expat -DWITH_PARSIM -DWITH_NETBUILDER  -I/home/asaleh/Install/omnetpp-4.2.1/src/envir -I/home/asaleh/Install/omnetpp-4.2.1/include/platdep -I. -I/home/asaleh/Install/omnetpp-4.2.1/include

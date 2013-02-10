@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<AnalogueModels>
+		<AnalogueModel type="SimplePathlossModel">
+	    	<!-- Environment parameter of the pathloss formula 
+	    		 If ommited default value is 3.5-->
+	    	<parameter name="alpha" type="double" value="2"/>
+            
+	    	<!-- Carrier frequency of the signal in Hz 
+	    		 If ommited the carrier frequency from the
+	    		 connection manager is taken if available
+	    		 otherwise set to default frequency of 2.412e+9-->
+	    	<parameter name="carrierFrequency" type="double" value="2.48e+9"/>
+	    </AnalogueModel>
+	</AnalogueModels>
+
+    <AnalogueModel type="LogNormalShadowing">
+        <!-- Mean attenuation in dB -->
+        <parameter name="mean" type="double" value="0"/>
+        
+        <!-- Standart deviation of the attenuation in dB -->
+        <parameter name="stdDev" type="double" value="2"/>
+        
+        <!-- Interval in which to define attenuation for in seconds -->
+        <parameter name="interval" type="double" value="0.001"/>
+    </AnalogueModel>
+	    
+	<Decider type="Decider802154NarrowEx">
+		<!--Length of Start Frame Delimiter (used to compute probability of successful 
+			synchronization)-->
+		<parameter name="sfdLength" type="long" value="8"/>
+		
+		<!--minimum possible bit error rate (BER floor)-->
+		<parameter name="berLowerBound" type="double" value="1e-8"/>
+		
+		<!--modulation type-->
+		<parameter name="modulation" type="string" value="oqpsk16"/>
+	</Decider>
+</root>

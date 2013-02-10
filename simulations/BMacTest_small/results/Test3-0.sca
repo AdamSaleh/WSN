@@ -1,0 +1,3072 @@
+version 2
+run Test3-0-20130109-21:16:07-26679
+attr configname Test3
+attr datetime 20130109-21:16:07
+attr experiment Test3
+attr inifile default_indi.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network wsn.networks.BMacTest
+attr processid 26679
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+statistic BMacTest.simHelper 	numNeighbors
+field count 28
+field mean 26.035714285714
+field stddev 0.18898223650466
+field sum 729
+field sqrsum 18981
+field min 26
+field max 27
+attr type  int
+bin	-INF	0
+bin	25	0
+bin	26	27
+bin	27	1
+bin	28	0
+statistic BMacTest.simHelper 	destNeighbors
+field count 729
+field mean 13.026063100137
+field stddev 8.879574722601
+field sum 9496
+field sqrsum 181096
+field min 1
+field max 36
+attr type  int
+bin	-INF	0
+bin	-15	0
+bin	-14	0
+bin	-13	0
+bin	-12	0
+bin	-11	0
+bin	-10	0
+bin	-9	0
+bin	-8	0
+bin	-7	0
+bin	-6	0
+bin	-5	0
+bin	-4	0
+bin	-3	0
+bin	-2	0
+bin	-1	0
+bin	0	0
+bin	1	8
+bin	2	37
+bin	3	37
+bin	4	55
+bin	5	30
+bin	6	57
+bin	7	38
+bin	8	40
+bin	9	31
+bin	10	25
+bin	11	29
+bin	12	23
+bin	13	31
+bin	14	16
+bin	15	21
+bin	16	15
+bin	17	22
+bin	18	16
+bin	19	14
+bin	20	19
+bin	21	15
+bin	22	21
+bin	23	6
+bin	24	20
+bin	25	12
+bin	26	11
+bin	27	18
+bin	28	8
+bin	29	11
+bin	30	10
+bin	31	7
+bin	32	11
+bin	33	4
+bin	34	7
+bin	35	2
+bin	36	2
+bin	37	0
+bin	38	0
+bin	39	0
+bin	40	0
+bin	41	0
+bin	42	0
+bin	43	0
+bin	44	0
+bin	45	0
+bin	46	0
+bin	47	0
+bin	48	0
+bin	49	0
+bin	50	0
+bin	51	0
+bin	52	0
+bin	53	0
+statistic BMacTest.simHelper 	packetsSomebody2Somebody
+field count 28
+field mean 9733.5714285714
+field stddev 1037.0455337898
+field sum 272540
+field sqrsum 2681825070
+field min 7793
+field max 10979
+attr type  int
+bin	-INF	0
+bin	6186	0
+bin	6218	0
+bin	6250	0
+bin	6282	0
+bin	6314	0
+bin	6346	0
+bin	6378	0
+bin	6410	0
+bin	6442	0
+bin	6474	0
+bin	6506	0
+bin	6538	0
+bin	6570	0
+bin	6602	0
+bin	6634	0
+bin	6666	0
+bin	6698	0
+bin	6730	0
+bin	6762	0
+bin	6794	0
+bin	6826	0
+bin	6858	0
+bin	6890	0
+bin	6922	0
+bin	6954	0
+bin	6986	0
+bin	7018	0
+bin	7050	0
+bin	7082	0
+bin	7114	0
+bin	7146	0
+bin	7178	0
+bin	7210	0
+bin	7242	0
+bin	7274	0
+bin	7306	0
+bin	7338	0
+bin	7370	0
+bin	7402	0
+bin	7434	0
+bin	7466	0
+bin	7498	0
+bin	7530	0
+bin	7562	0
+bin	7594	0
+bin	7626	0
+bin	7658	0
+bin	7690	0
+bin	7722	0
+bin	7754	0
+bin	7786	1
+bin	7818	0
+bin	7850	0
+bin	7882	0
+bin	7914	0
+bin	7946	0
+bin	7978	0
+bin	8010	0
+bin	8042	0
+bin	8074	0
+bin	8106	0
+bin	8138	1
+bin	8170	1
+bin	8202	0
+bin	8234	0
+bin	8266	0
+bin	8298	0
+bin	8330	0
+bin	8362	0
+bin	8394	0
+bin	8426	2
+bin	8458	1
+bin	8490	0
+bin	8522	0
+bin	8554	0
+bin	8586	0
+bin	8618	0
+bin	8650	0
+bin	8682	1
+bin	8714	0
+bin	8746	0
+bin	8778	1
+bin	8810	0
+bin	8842	0
+bin	8874	0
+bin	8906	0
+bin	8938	0
+bin	8970	1
+bin	9002	0
+bin	9034	0
+bin	9066	0
+bin	9098	0
+bin	9130	0
+bin	9162	0
+bin	9194	0
+bin	9226	0
+bin	9258	0
+bin	9290	1
+bin	9322	0
+bin	9354	0
+bin	9386	1
+bin	9418	0
+bin	9450	1
+bin	9482	0
+bin	9514	0
+bin	9546	0
+bin	9578	0
+bin	9610	0
+bin	9642	0
+bin	9674	0
+bin	9706	1
+bin	9738	0
+bin	9770	1
+bin	9802	0
+bin	9834	0
+bin	9866	0
+bin	9898	0
+bin	9930	0
+bin	9962	0
+bin	9994	0
+bin	10026	0
+bin	10058	1
+bin	10090	0
+bin	10122	0
+bin	10154	0
+bin	10186	1
+bin	10218	1
+bin	10250	0
+bin	10282	0
+bin	10314	0
+bin	10346	0
+bin	10378	1
+bin	10410	0
+bin	10442	0
+bin	10474	1
+bin	10506	0
+bin	10538	0
+bin	10570	1
+bin	10602	0
+bin	10634	0
+bin	10666	0
+bin	10698	0
+bin	10730	1
+bin	10762	2
+bin	10794	0
+bin	10826	0
+bin	10858	1
+bin	10890	2
+bin	10922	0
+bin	10954	2
+bin	10986	0
+bin	11018	0
+bin	11050	0
+bin	11082	0
+bin	11114	0
+bin	11146	0
+bin	11178	0
+bin	11210	0
+bin	11242	0
+bin	11274	0
+bin	11306	0
+bin	11338	0
+bin	11370	0
+bin	11402	0
+bin	11434	0
+bin	11466	0
+bin	11498	0
+bin	11530	0
+bin	11562	0
+bin	11594	0
+bin	11626	0
+bin	11658	0
+bin	11690	0
+bin	11722	0
+bin	11754	0
+bin	11786	0
+bin	11818	0
+bin	11850	0
+bin	11882	0
+bin	11914	0
+bin	11946	0
+bin	11978	0
+bin	12010	0
+bin	12042	0
+bin	12074	0
+bin	12106	0
+bin	12138	0
+bin	12170	0
+bin	12202	0
+bin	12234	0
+bin	12266	0
+bin	12298	0
+bin	12330	0
+bin	12362	0
+bin	12394	0
+bin	12426	0
+bin	12458	0
+bin	12490	0
+bin	12522	0
+bin	12554	0
+bin	12586	0
+scalar BMacTest.simHelper 	linksWhite2White 	576
+scalar BMacTest.simHelper 	linksWhite2Black 	147
+scalar BMacTest.simHelper 	linksBlack2Black 	6
+scalar BMacTest.optEngine 	idsBestThreshold 	0.46
+scalar BMacTest.optEngine 	idsFalseNegatives 	27
+scalar BMacTest.optEngine 	idsFalsePositives 	19
+scalar BMacTest.optEngine 	idsTrueNegatives 	634
+scalar BMacTest.optEngine 	idsTruePositives 	54
+scalar BMacTest.optEngine 	idsUsedMemory 	51520
+attr unit  B
+scalar BMacTest.optEngine 	normMemoryUsage 	0.0033885035021552
+attr unit  B
+scalar BMacTest.optEngine 	consumedNetworkEnergy 	6251755.9456142
+attr unit  mW
+scalar BMacTest.optEngine 	normNetworkEnergy 	0.0044284543133513
+attr unit  mW
+scalar BMacTest.node[0].nic.ids 	notAffectedByHostState 	0
+scalar BMacTest.node[0].nic.ids 	stats 	1
+scalar BMacTest.node[0].nic.ids 	debug 	0
+scalar BMacTest.node[0].nic.ids 	maxMonitoredNodes 	30
+scalar BMacTest.node[0].nic.ids 	fwdBufferSize 	100
+scalar BMacTest.node[0].nic.ids 	fwdMinPacketsReceived 	0
+scalar BMacTest.node[0].nic.ids 	fwdDetectionThreshold 	0.5
+scalar BMacTest.node[0].nic.ids 	memIDSEntry 	8
+scalar BMacTest.node[0].nic.ids 	memBufferEntry 	16
+scalar BMacTest.node[0].nic.ids 	maxDistance 	999999
+scalar BMacTest.node[0].nic.ids 	fwdPacketTimeout 	999999
+scalar BMacTest.node[0].nic.ids 	neighbour1PacketsReceived 	0
+scalar BMacTest.node[0].nic.ids 	neighbour1PacketsForwarded 	0
+scalar BMacTest.node[0].nic.ids 	neighbour1IntentionalPacketDropping 	0
+scalar BMacTest.node[0].nic.ids 	neighbour2PacketsReceived 	120
+scalar BMacTest.node[0].nic.ids 	neighbour2PacketsForwarded 	120
+scalar BMacTest.node[0].nic.ids 	neighbour2IntentionalPacketDropping 	0
+scalar BMacTest.node[0].nic.ids 	neighbour3PacketsReceived 	120
+scalar BMacTest.node[0].nic.ids 	neighbour3PacketsForwarded 	120
+scalar BMacTest.node[0].nic.ids 	neighbour3IntentionalPacketDropping 	0
+scalar BMacTest.node[0].nic.ids 	neighbour4PacketsReceived 	479
+scalar BMacTest.node[0].nic.ids 	neighbour4PacketsForwarded 	479
+scalar BMacTest.node[0].nic.ids 	neighbour4IntentionalPacketDropping 	0
+scalar BMacTest.node[0].nic.ids 	neighbour5PacketsReceived 	0
+scalar BMacTest.node[0].nic.ids 	neighbour5PacketsForwarded 	0
+scalar BMacTest.node[0].nic.ids 	neighbour5IntentionalPacketDropping 	0
+scalar BMacTest.node[0].nic.ids 	neighbour6PacketsReceived 	0
+scalar BMacTest.node[0].nic.ids 	neighbour6PacketsForwarded 	0
+scalar BMacTest.node[0].nic.ids 	neighbour6IntentionalPacketDropping 	0
+scalar BMacTest.node[0].nic.ids 	neighbour7PacketsReceived 	717
+scalar BMacTest.node[0].nic.ids 	neighbour7PacketsForwarded 	384
+scalar BMacTest.node[0].nic.ids 	neighbour7IntentionalPacketDropping 	0.5
+scalar BMacTest.node[0].nic.ids 	neighbour8PacketsReceived 	625
+scalar BMacTest.node[0].nic.ids 	neighbour8PacketsForwarded 	617
+scalar BMacTest.node[0].nic.ids 	neighbour8IntentionalPacketDropping 	0
+scalar BMacTest.node[0].nic.ids 	neighbour9PacketsReceived 	0
+scalar BMacTest.node[0].nic.ids 	neighbour9PacketsForwarded 	0
+scalar BMacTest.node[0].nic.ids 	neighbour9IntentionalPacketDropping 	0
+scalar BMacTest.node[0].nic.ids 	neighbour10PacketsReceived 	0
+scalar BMacTest.node[0].nic.ids 	neighbour10PacketsForwarded 	0
+scalar BMacTest.node[0].nic.ids 	neighbour10IntentionalPacketDropping 	0.5
+scalar BMacTest.node[0].nic.ids 	neighbour11PacketsReceived 	969
+scalar BMacTest.node[0].nic.ids 	neighbour11PacketsForwarded 	852
+scalar BMacTest.node[0].nic.ids 	neighbour11IntentionalPacketDropping 	0
+scalar BMacTest.node[0].nic.ids 	neighbour12PacketsReceived 	0
+scalar BMacTest.node[0].nic.ids 	neighbour12PacketsForwarded 	0
+scalar BMacTest.node[0].nic.ids 	neighbour12IntentionalPacketDropping 	0
+scalar BMacTest.node[0].nic.ids 	neighbour13PacketsReceived 	0
+scalar BMacTest.node[0].nic.ids 	neighbour13PacketsForwarded 	0
+scalar BMacTest.node[0].nic.ids 	neighbour13IntentionalPacketDropping 	0
+scalar BMacTest.node[0].nic.ids 	neighbour14PacketsReceived 	967
+scalar BMacTest.node[0].nic.ids 	neighbour14PacketsForwarded 	769
+scalar BMacTest.node[0].nic.ids 	neighbour14IntentionalPacketDropping 	0
+scalar BMacTest.node[0].nic.ids 	neighbour15PacketsReceived 	1079
+scalar BMacTest.node[0].nic.ids 	neighbour15PacketsForwarded 	743
+scalar BMacTest.node[0].nic.ids 	neighbour15IntentionalPacketDropping 	0
+scalar BMacTest.node[0].nic.ids 	neighbour16PacketsReceived 	89
+scalar BMacTest.node[0].nic.ids 	neighbour16PacketsForwarded 	60
+scalar BMacTest.node[0].nic.ids 	neighbour16IntentionalPacketDropping 	0
+scalar BMacTest.node[0].nic.ids 	neighbour17PacketsReceived 	0
+scalar BMacTest.node[0].nic.ids 	neighbour17PacketsForwarded 	0
+scalar BMacTest.node[0].nic.ids 	neighbour17IntentionalPacketDropping 	0
+scalar BMacTest.node[0].nic.ids 	neighbour18PacketsReceived 	0
+scalar BMacTest.node[0].nic.ids 	neighbour18PacketsForwarded 	0
+scalar BMacTest.node[0].nic.ids 	neighbour18IntentionalPacketDropping 	0
+scalar BMacTest.node[0].nic.ids 	neighbour19PacketsReceived 	1148
+scalar BMacTest.node[0].nic.ids 	neighbour19PacketsForwarded 	296
+scalar BMacTest.node[0].nic.ids 	neighbour19IntentionalPacketDropping 	0.5
+scalar BMacTest.node[0].nic.ids 	neighbour20PacketsReceived 	104
+scalar BMacTest.node[0].nic.ids 	neighbour20PacketsForwarded 	43
+scalar BMacTest.node[0].nic.ids 	neighbour20IntentionalPacketDropping 	0
+scalar BMacTest.node[0].nic.ids 	neighbour21PacketsReceived 	0
+scalar BMacTest.node[0].nic.ids 	neighbour21PacketsForwarded 	0
+scalar BMacTest.node[0].nic.ids 	neighbour21IntentionalPacketDropping 	0
+scalar BMacTest.node[0].nic.ids 	neighbour22PacketsReceived 	583
+scalar BMacTest.node[0].nic.ids 	neighbour22PacketsForwarded 	237
+scalar BMacTest.node[0].nic.ids 	neighbour22IntentionalPacketDropping 	0
+scalar BMacTest.node[0].nic.ids 	neighbour23PacketsReceived 	176
+scalar BMacTest.node[0].nic.ids 	neighbour23PacketsForwarded 	48
+scalar BMacTest.node[0].nic.ids 	neighbour23IntentionalPacketDropping 	0
+scalar BMacTest.node[0].nic.ids 	neighbour24PacketsReceived 	0
+scalar BMacTest.node[0].nic.ids 	neighbour24PacketsForwarded 	0
+scalar BMacTest.node[0].nic.ids 	neighbour24IntentionalPacketDropping 	0
+scalar BMacTest.node[0].nic.ids 	neighbour26PacketsReceived 	0
+scalar BMacTest.node[0].nic.ids 	neighbour26PacketsForwarded 	0
+scalar BMacTest.node[0].nic.ids 	neighbour26IntentionalPacketDropping 	0
+scalar BMacTest.node[0].nic.ids 	neighbour27PacketsReceived 	0
+scalar BMacTest.node[0].nic.ids 	neighbour27PacketsForwarded 	0
+scalar BMacTest.node[0].nic.ids 	neighbour27IntentionalPacketDropping 	0
+scalar BMacTest.node[0].nic.ids 	data_packets_intercepted 	7913
+scalar BMacTest.node[0].nic.ids 	data_packets_me_to_somebody 	120
+scalar BMacTest.node[0].nic.ids 	data_packets_somebody_to_me 	0
+scalar BMacTest.node[0].nic.ids 	data_packets_somebody_to_somebody 	7793
+scalar BMacTest.node[0].netwl 	nbPacketsForwarded 	0
+scalar BMacTest.node[0].netwl 	nbPacketsReceived 	0
+scalar BMacTest.node[0].netwl 	nbPacketsSent 	120
+scalar BMacTest.node[0].netwl 	nbPacketsDropped 	0
+scalar BMacTest.node[1].nic.ids 	notAffectedByHostState 	0
+scalar BMacTest.node[1].nic.ids 	stats 	1
+scalar BMacTest.node[1].nic.ids 	debug 	0
+scalar BMacTest.node[1].nic.ids 	maxMonitoredNodes 	30
+scalar BMacTest.node[1].nic.ids 	fwdBufferSize 	100
+scalar BMacTest.node[1].nic.ids 	fwdMinPacketsReceived 	0
+scalar BMacTest.node[1].nic.ids 	fwdDetectionThreshold 	0.5
+scalar BMacTest.node[1].nic.ids 	memIDSEntry 	8
+scalar BMacTest.node[1].nic.ids 	memBufferEntry 	16
+scalar BMacTest.node[1].nic.ids 	maxDistance 	999999
+scalar BMacTest.node[1].nic.ids 	fwdPacketTimeout 	999999
+scalar BMacTest.node[1].nic.ids 	neighbour0PacketsReceived 	0
+scalar BMacTest.node[1].nic.ids 	neighbour0PacketsForwarded 	0
+scalar BMacTest.node[1].nic.ids 	neighbour0IntentionalPacketDropping 	0
+scalar BMacTest.node[1].nic.ids 	neighbour2PacketsReceived 	120
+scalar BMacTest.node[1].nic.ids 	neighbour2PacketsForwarded 	120
+scalar BMacTest.node[1].nic.ids 	neighbour2IntentionalPacketDropping 	0
+scalar BMacTest.node[1].nic.ids 	neighbour3PacketsReceived 	120
+scalar BMacTest.node[1].nic.ids 	neighbour3PacketsForwarded 	120
+scalar BMacTest.node[1].nic.ids 	neighbour3IntentionalPacketDropping 	0
+scalar BMacTest.node[1].nic.ids 	neighbour4PacketsReceived 	479
+scalar BMacTest.node[1].nic.ids 	neighbour4PacketsForwarded 	479
+scalar BMacTest.node[1].nic.ids 	neighbour4IntentionalPacketDropping 	0
+scalar BMacTest.node[1].nic.ids 	neighbour5PacketsReceived 	0
+scalar BMacTest.node[1].nic.ids 	neighbour5PacketsForwarded 	0
+scalar BMacTest.node[1].nic.ids 	neighbour5IntentionalPacketDropping 	0
+scalar BMacTest.node[1].nic.ids 	neighbour6PacketsReceived 	0
+scalar BMacTest.node[1].nic.ids 	neighbour6PacketsForwarded 	0
+scalar BMacTest.node[1].nic.ids 	neighbour6IntentionalPacketDropping 	0
+scalar BMacTest.node[1].nic.ids 	neighbour7PacketsReceived 	717
+scalar BMacTest.node[1].nic.ids 	neighbour7PacketsForwarded 	384
+scalar BMacTest.node[1].nic.ids 	neighbour7IntentionalPacketDropping 	0.5
+scalar BMacTest.node[1].nic.ids 	neighbour8PacketsReceived 	625
+scalar BMacTest.node[1].nic.ids 	neighbour8PacketsForwarded 	623
+scalar BMacTest.node[1].nic.ids 	neighbour8IntentionalPacketDropping 	0
+scalar BMacTest.node[1].nic.ids 	neighbour9PacketsReceived 	0
+scalar BMacTest.node[1].nic.ids 	neighbour9PacketsForwarded 	0
+scalar BMacTest.node[1].nic.ids 	neighbour9IntentionalPacketDropping 	0
+scalar BMacTest.node[1].nic.ids 	neighbour10PacketsReceived 	0
+scalar BMacTest.node[1].nic.ids 	neighbour10PacketsForwarded 	0
+scalar BMacTest.node[1].nic.ids 	neighbour10IntentionalPacketDropping 	0.5
+scalar BMacTest.node[1].nic.ids 	neighbour11PacketsReceived 	979
+scalar BMacTest.node[1].nic.ids 	neighbour11PacketsForwarded 	912
+scalar BMacTest.node[1].nic.ids 	neighbour11IntentionalPacketDropping 	0
+scalar BMacTest.node[1].nic.ids 	neighbour12PacketsReceived 	0
+scalar BMacTest.node[1].nic.ids 	neighbour12PacketsForwarded 	0
+scalar BMacTest.node[1].nic.ids 	neighbour12IntentionalPacketDropping 	0
+scalar BMacTest.node[1].nic.ids 	neighbour13PacketsReceived 	0
+scalar BMacTest.node[1].nic.ids 	neighbour13PacketsForwarded 	0
+scalar BMacTest.node[1].nic.ids 	neighbour13IntentionalPacketDropping 	0
+scalar BMacTest.node[1].nic.ids 	neighbour14PacketsReceived 	1031
+scalar BMacTest.node[1].nic.ids 	neighbour14PacketsForwarded 	893
+scalar BMacTest.node[1].nic.ids 	neighbour14IntentionalPacketDropping 	0
+scalar BMacTest.node[1].nic.ids 	neighbour15PacketsReceived 	1156
+scalar BMacTest.node[1].nic.ids 	neighbour15PacketsForwarded 	882
+scalar BMacTest.node[1].nic.ids 	neighbour15IntentionalPacketDropping 	0
+scalar BMacTest.node[1].nic.ids 	neighbour16PacketsReceived 	101
+scalar BMacTest.node[1].nic.ids 	neighbour16PacketsForwarded 	71
+scalar BMacTest.node[1].nic.ids 	neighbour16IntentionalPacketDropping 	0
+scalar BMacTest.node[1].nic.ids 	neighbour17PacketsReceived 	0
+scalar BMacTest.node[1].nic.ids 	neighbour17PacketsForwarded 	0
+scalar BMacTest.node[1].nic.ids 	neighbour17IntentionalPacketDropping 	0
+scalar BMacTest.node[1].nic.ids 	neighbour18PacketsReceived 	0
+scalar BMacTest.node[1].nic.ids 	neighbour18PacketsForwarded 	0
+scalar BMacTest.node[1].nic.ids 	neighbour18IntentionalPacketDropping 	0
+scalar BMacTest.node[1].nic.ids 	neighbour19PacketsReceived 	1308
+scalar BMacTest.node[1].nic.ids 	neighbour19PacketsForwarded 	403
+scalar BMacTest.node[1].nic.ids 	neighbour19IntentionalPacketDropping 	0.5
+scalar BMacTest.node[1].nic.ids 	neighbour20PacketsReceived 	120
+scalar BMacTest.node[1].nic.ids 	neighbour20PacketsForwarded 	61
+scalar BMacTest.node[1].nic.ids 	neighbour20IntentionalPacketDropping 	0
+scalar BMacTest.node[1].nic.ids 	neighbour21PacketsReceived 	0
+scalar BMacTest.node[1].nic.ids 	neighbour21PacketsForwarded 	0
+scalar BMacTest.node[1].nic.ids 	neighbour21IntentionalPacketDropping 	0
+scalar BMacTest.node[1].nic.ids 	neighbour22PacketsReceived 	683
+scalar BMacTest.node[1].nic.ids 	neighbour22PacketsForwarded 	330
+scalar BMacTest.node[1].nic.ids 	neighbour22IntentionalPacketDropping 	0
+scalar BMacTest.node[1].nic.ids 	neighbour23PacketsReceived 	237
+scalar BMacTest.node[1].nic.ids 	neighbour23PacketsForwarded 	91
+scalar BMacTest.node[1].nic.ids 	neighbour23IntentionalPacketDropping 	0
+scalar BMacTest.node[1].nic.ids 	neighbour24PacketsReceived 	0
+scalar BMacTest.node[1].nic.ids 	neighbour24PacketsForwarded 	0
+scalar BMacTest.node[1].nic.ids 	neighbour24IntentionalPacketDropping 	0
+scalar BMacTest.node[1].nic.ids 	neighbour26PacketsReceived 	0
+scalar BMacTest.node[1].nic.ids 	neighbour26PacketsForwarded 	0
+scalar BMacTest.node[1].nic.ids 	neighbour26IntentionalPacketDropping 	0
+scalar BMacTest.node[1].nic.ids 	neighbour27PacketsReceived 	0
+scalar BMacTest.node[1].nic.ids 	neighbour27PacketsForwarded 	0
+scalar BMacTest.node[1].nic.ids 	neighbour27IntentionalPacketDropping 	0
+scalar BMacTest.node[1].nic.ids 	data_packets_intercepted 	8593
+scalar BMacTest.node[1].nic.ids 	data_packets_me_to_somebody 	120
+scalar BMacTest.node[1].nic.ids 	data_packets_somebody_to_me 	0
+scalar BMacTest.node[1].nic.ids 	data_packets_somebody_to_somebody 	8473
+scalar BMacTest.node[1].netwl 	nbPacketsForwarded 	0
+scalar BMacTest.node[1].netwl 	nbPacketsReceived 	0
+scalar BMacTest.node[1].netwl 	nbPacketsSent 	120
+scalar BMacTest.node[1].netwl 	nbPacketsDropped 	0
+scalar BMacTest.node[2].nic.ids 	notAffectedByHostState 	0
+scalar BMacTest.node[2].nic.ids 	stats 	1
+scalar BMacTest.node[2].nic.ids 	debug 	0
+scalar BMacTest.node[2].nic.ids 	maxMonitoredNodes 	30
+scalar BMacTest.node[2].nic.ids 	fwdBufferSize 	100
+scalar BMacTest.node[2].nic.ids 	fwdMinPacketsReceived 	0
+scalar BMacTest.node[2].nic.ids 	fwdDetectionThreshold 	0.5
+scalar BMacTest.node[2].nic.ids 	memIDSEntry 	8
+scalar BMacTest.node[2].nic.ids 	memBufferEntry 	16
+scalar BMacTest.node[2].nic.ids 	maxDistance 	999999
+scalar BMacTest.node[2].nic.ids 	fwdPacketTimeout 	999999
+scalar BMacTest.node[2].nic.ids 	neighbour0PacketsReceived 	0
+scalar BMacTest.node[2].nic.ids 	neighbour0PacketsForwarded 	0
+scalar BMacTest.node[2].nic.ids 	neighbour0IntentionalPacketDropping 	0
+scalar BMacTest.node[2].nic.ids 	neighbour1PacketsReceived 	0
+scalar BMacTest.node[2].nic.ids 	neighbour1PacketsForwarded 	0
+scalar BMacTest.node[2].nic.ids 	neighbour1IntentionalPacketDropping 	0
+scalar BMacTest.node[2].nic.ids 	neighbour3PacketsReceived 	120
+scalar BMacTest.node[2].nic.ids 	neighbour3PacketsForwarded 	120
+scalar BMacTest.node[2].nic.ids 	neighbour3IntentionalPacketDropping 	0
+scalar BMacTest.node[2].nic.ids 	neighbour4PacketsReceived 	480
+scalar BMacTest.node[2].nic.ids 	neighbour4PacketsForwarded 	480
+scalar BMacTest.node[2].nic.ids 	neighbour4IntentionalPacketDropping 	0
+scalar BMacTest.node[2].nic.ids 	neighbour5PacketsReceived 	0
+scalar BMacTest.node[2].nic.ids 	neighbour5PacketsForwarded 	0
+scalar BMacTest.node[2].nic.ids 	neighbour5IntentionalPacketDropping 	0
+scalar BMacTest.node[2].nic.ids 	neighbour6PacketsReceived 	0
+scalar BMacTest.node[2].nic.ids 	neighbour6PacketsForwarded 	0
+scalar BMacTest.node[2].nic.ids 	neighbour6IntentionalPacketDropping 	0
+scalar BMacTest.node[2].nic.ids 	neighbour7PacketsReceived 	717
+scalar BMacTest.node[2].nic.ids 	neighbour7PacketsForwarded 	384
+scalar BMacTest.node[2].nic.ids 	neighbour7IntentionalPacketDropping 	0.5
+scalar BMacTest.node[2].nic.ids 	neighbour8PacketsReceived 	625
+scalar BMacTest.node[2].nic.ids 	neighbour8PacketsForwarded 	622
+scalar BMacTest.node[2].nic.ids 	neighbour8IntentionalPacketDropping 	0
+scalar BMacTest.node[2].nic.ids 	neighbour9PacketsReceived 	0
+scalar BMacTest.node[2].nic.ids 	neighbour9PacketsForwarded 	0
+scalar BMacTest.node[2].nic.ids 	neighbour9IntentionalPacketDropping 	0
+scalar BMacTest.node[2].nic.ids 	neighbour10PacketsReceived 	0
+scalar BMacTest.node[2].nic.ids 	neighbour10PacketsForwarded 	0
+scalar BMacTest.node[2].nic.ids 	neighbour10IntentionalPacketDropping 	0.5
+scalar BMacTest.node[2].nic.ids 	neighbour11PacketsReceived 	980
+scalar BMacTest.node[2].nic.ids 	neighbour11PacketsForwarded 	942
+scalar BMacTest.node[2].nic.ids 	neighbour11IntentionalPacketDropping 	0
+scalar BMacTest.node[2].nic.ids 	neighbour12PacketsReceived 	0
+scalar BMacTest.node[2].nic.ids 	neighbour12PacketsForwarded 	0
+scalar BMacTest.node[2].nic.ids 	neighbour12IntentionalPacketDropping 	0
+scalar BMacTest.node[2].nic.ids 	neighbour13PacketsReceived 	0
+scalar BMacTest.node[2].nic.ids 	neighbour13PacketsForwarded 	0
+scalar BMacTest.node[2].nic.ids 	neighbour13IntentionalPacketDropping 	0
+scalar BMacTest.node[2].nic.ids 	neighbour14PacketsReceived 	1055
+scalar BMacTest.node[2].nic.ids 	neighbour14PacketsForwarded 	973
+scalar BMacTest.node[2].nic.ids 	neighbour14IntentionalPacketDropping 	0
+scalar BMacTest.node[2].nic.ids 	neighbour15PacketsReceived 	1234
+scalar BMacTest.node[2].nic.ids 	neighbour15PacketsForwarded 	1043
+scalar BMacTest.node[2].nic.ids 	neighbour15IntentionalPacketDropping 	0
+scalar BMacTest.node[2].nic.ids 	neighbour16PacketsReceived 	113
+scalar BMacTest.node[2].nic.ids 	neighbour16PacketsForwarded 	100
+scalar BMacTest.node[2].nic.ids 	neighbour16IntentionalPacketDropping 	0
+scalar BMacTest.node[2].nic.ids 	neighbour17PacketsReceived 	0
+scalar BMacTest.node[2].nic.ids 	neighbour17PacketsForwarded 	0
+scalar BMacTest.node[2].nic.ids 	neighbour17IntentionalPacketDropping 	0
+scalar BMacTest.node[2].nic.ids 	neighbour18PacketsReceived 	0
+scalar BMacTest.node[2].nic.ids 	neighbour18PacketsForwarded 	0
+scalar BMacTest.node[2].nic.ids 	neighbour18IntentionalPacketDropping 	0
+scalar BMacTest.node[2].nic.ids 	neighbour19PacketsReceived 	1431
+scalar BMacTest.node[2].nic.ids 	neighbour19PacketsForwarded 	504
+scalar BMacTest.node[2].nic.ids 	neighbour19IntentionalPacketDropping 	0.5
+scalar BMacTest.node[2].nic.ids 	neighbour20PacketsReceived 	166
+scalar BMacTest.node[2].nic.ids 	neighbour20PacketsForwarded 	92
+scalar BMacTest.node[2].nic.ids 	neighbour20IntentionalPacketDropping 	0
+scalar BMacTest.node[2].nic.ids 	neighbour21PacketsReceived 	0
+scalar BMacTest.node[2].nic.ids 	neighbour21PacketsForwarded 	0
+scalar BMacTest.node[2].nic.ids 	neighbour21IntentionalPacketDropping 	0
+scalar BMacTest.node[2].nic.ids 	neighbour22PacketsReceived 	752
+scalar BMacTest.node[2].nic.ids 	neighbour22PacketsForwarded 	444
+scalar BMacTest.node[2].nic.ids 	neighbour22IntentionalPacketDropping 	0
+scalar BMacTest.node[2].nic.ids 	neighbour23PacketsReceived 	258
+scalar BMacTest.node[2].nic.ids 	neighbour23PacketsForwarded 	132
+scalar BMacTest.node[2].nic.ids 	neighbour23IntentionalPacketDropping 	0
+scalar BMacTest.node[2].nic.ids 	neighbour24PacketsReceived 	0
+scalar BMacTest.node[2].nic.ids 	neighbour24PacketsForwarded 	0
+scalar BMacTest.node[2].nic.ids 	neighbour24IntentionalPacketDropping 	0
+scalar BMacTest.node[2].nic.ids 	neighbour26PacketsReceived 	0
+scalar BMacTest.node[2].nic.ids 	neighbour26PacketsForwarded 	0
+scalar BMacTest.node[2].nic.ids 	neighbour26IntentionalPacketDropping 	0
+scalar BMacTest.node[2].nic.ids 	neighbour27PacketsReceived 	0
+scalar BMacTest.node[2].nic.ids 	neighbour27PacketsForwarded 	0
+scalar BMacTest.node[2].nic.ids 	neighbour27IntentionalPacketDropping 	0
+scalar BMacTest.node[2].nic.ids 	data_packets_intercepted 	9142
+scalar BMacTest.node[2].nic.ids 	data_packets_me_to_somebody 	240
+scalar BMacTest.node[2].nic.ids 	data_packets_somebody_to_me 	120
+scalar BMacTest.node[2].nic.ids 	data_packets_somebody_to_somebody 	8782
+scalar BMacTest.node[2].netwl 	nbPacketsForwarded 	120
+scalar BMacTest.node[2].netwl 	nbPacketsReceived 	120
+scalar BMacTest.node[2].netwl 	nbPacketsSent 	120
+scalar BMacTest.node[2].netwl 	nbPacketsDropped 	0
+scalar BMacTest.node[3].nic.ids 	notAffectedByHostState 	0
+scalar BMacTest.node[3].nic.ids 	stats 	1
+scalar BMacTest.node[3].nic.ids 	debug 	0
+scalar BMacTest.node[3].nic.ids 	maxMonitoredNodes 	30
+scalar BMacTest.node[3].nic.ids 	fwdBufferSize 	100
+scalar BMacTest.node[3].nic.ids 	fwdMinPacketsReceived 	0
+scalar BMacTest.node[3].nic.ids 	fwdDetectionThreshold 	0.5
+scalar BMacTest.node[3].nic.ids 	memIDSEntry 	8
+scalar BMacTest.node[3].nic.ids 	memBufferEntry 	16
+scalar BMacTest.node[3].nic.ids 	maxDistance 	999999
+scalar BMacTest.node[3].nic.ids 	fwdPacketTimeout 	999999
+scalar BMacTest.node[3].nic.ids 	neighbour0PacketsReceived 	0
+scalar BMacTest.node[3].nic.ids 	neighbour0PacketsForwarded 	0
+scalar BMacTest.node[3].nic.ids 	neighbour0IntentionalPacketDropping 	0
+scalar BMacTest.node[3].nic.ids 	neighbour1PacketsReceived 	0
+scalar BMacTest.node[3].nic.ids 	neighbour1PacketsForwarded 	0
+scalar BMacTest.node[3].nic.ids 	neighbour1IntentionalPacketDropping 	0
+scalar BMacTest.node[3].nic.ids 	neighbour2PacketsReceived 	120
+scalar BMacTest.node[3].nic.ids 	neighbour2PacketsForwarded 	120
+scalar BMacTest.node[3].nic.ids 	neighbour2IntentionalPacketDropping 	0
+scalar BMacTest.node[3].nic.ids 	neighbour4PacketsReceived 	480
+scalar BMacTest.node[3].nic.ids 	neighbour4PacketsForwarded 	480
+scalar BMacTest.node[3].nic.ids 	neighbour4IntentionalPacketDropping 	0
+scalar BMacTest.node[3].nic.ids 	neighbour5PacketsReceived 	0
+scalar BMacTest.node[3].nic.ids 	neighbour5PacketsForwarded 	0
+scalar BMacTest.node[3].nic.ids 	neighbour5IntentionalPacketDropping 	0
+scalar BMacTest.node[3].nic.ids 	neighbour6PacketsReceived 	0
+scalar BMacTest.node[3].nic.ids 	neighbour6PacketsForwarded 	0
+scalar BMacTest.node[3].nic.ids 	neighbour6IntentionalPacketDropping 	0
+scalar BMacTest.node[3].nic.ids 	neighbour7PacketsReceived 	717
+scalar BMacTest.node[3].nic.ids 	neighbour7PacketsForwarded 	384
+scalar BMacTest.node[3].nic.ids 	neighbour7IntentionalPacketDropping 	0.5
+scalar BMacTest.node[3].nic.ids 	neighbour8PacketsReceived 	625
+scalar BMacTest.node[3].nic.ids 	neighbour8PacketsForwarded 	623
+scalar BMacTest.node[3].nic.ids 	neighbour8IntentionalPacketDropping 	0
+scalar BMacTest.node[3].nic.ids 	neighbour9PacketsReceived 	0
+scalar BMacTest.node[3].nic.ids 	neighbour9PacketsForwarded 	0
+scalar BMacTest.node[3].nic.ids 	neighbour9IntentionalPacketDropping 	0
+scalar BMacTest.node[3].nic.ids 	neighbour10PacketsReceived 	0
+scalar BMacTest.node[3].nic.ids 	neighbour10PacketsForwarded 	0
+scalar BMacTest.node[3].nic.ids 	neighbour10IntentionalPacketDropping 	0.5
+scalar BMacTest.node[3].nic.ids 	neighbour11PacketsReceived 	982
+scalar BMacTest.node[3].nic.ids 	neighbour11PacketsForwarded 	965
+scalar BMacTest.node[3].nic.ids 	neighbour11IntentionalPacketDropping 	0
+scalar BMacTest.node[3].nic.ids 	neighbour12PacketsReceived 	0
+scalar BMacTest.node[3].nic.ids 	neighbour12PacketsForwarded 	0
+scalar BMacTest.node[3].nic.ids 	neighbour12IntentionalPacketDropping 	0
+scalar BMacTest.node[3].nic.ids 	neighbour13PacketsReceived 	0
+scalar BMacTest.node[3].nic.ids 	neighbour13PacketsForwarded 	0
+scalar BMacTest.node[3].nic.ids 	neighbour13IntentionalPacketDropping 	0
+scalar BMacTest.node[3].nic.ids 	neighbour14PacketsReceived 	1083
+scalar BMacTest.node[3].nic.ids 	neighbour14PacketsForwarded 	1030
+scalar BMacTest.node[3].nic.ids 	neighbour14IntentionalPacketDropping 	0
+scalar BMacTest.node[3].nic.ids 	neighbour15PacketsReceived 	1274
+scalar BMacTest.node[3].nic.ids 	neighbour15PacketsForwarded 	1164
+scalar BMacTest.node[3].nic.ids 	neighbour15IntentionalPacketDropping 	0
+scalar BMacTest.node[3].nic.ids 	neighbour16PacketsReceived 	110
+scalar BMacTest.node[3].nic.ids 	neighbour16PacketsForwarded 	94
+scalar BMacTest.node[3].nic.ids 	neighbour16IntentionalPacketDropping 	0
+scalar BMacTest.node[3].nic.ids 	neighbour17PacketsReceived 	0
+scalar BMacTest.node[3].nic.ids 	neighbour17PacketsForwarded 	0
+scalar BMacTest.node[3].nic.ids 	neighbour17IntentionalPacketDropping 	0
+scalar BMacTest.node[3].nic.ids 	neighbour18PacketsReceived 	0
+scalar BMacTest.node[3].nic.ids 	neighbour18PacketsForwarded 	0
+scalar BMacTest.node[3].nic.ids 	neighbour18IntentionalPacketDropping 	0
+scalar BMacTest.node[3].nic.ids 	neighbour19PacketsReceived 	1544
+scalar BMacTest.node[3].nic.ids 	neighbour19PacketsForwarded 	609
+scalar BMacTest.node[3].nic.ids 	neighbour19IntentionalPacketDropping 	0.5
+scalar BMacTest.node[3].nic.ids 	neighbour20PacketsReceived 	170
+scalar BMacTest.node[3].nic.ids 	neighbour20PacketsForwarded 	122
+scalar BMacTest.node[3].nic.ids 	neighbour20IntentionalPacketDropping 	0
+scalar BMacTest.node[3].nic.ids 	neighbour21PacketsReceived 	0
+scalar BMacTest.node[3].nic.ids 	neighbour21PacketsForwarded 	0
+scalar BMacTest.node[3].nic.ids 	neighbour21IntentionalPacketDropping 	0
+scalar BMacTest.node[3].nic.ids 	neighbour22PacketsReceived 	868
+scalar BMacTest.node[3].nic.ids 	neighbour22PacketsForwarded 	582
+scalar BMacTest.node[3].nic.ids 	neighbour22IntentionalPacketDropping 	0
+scalar BMacTest.node[3].nic.ids 	neighbour23PacketsReceived 	311
+scalar BMacTest.node[3].nic.ids 	neighbour23PacketsForwarded 	168
+scalar BMacTest.node[3].nic.ids 	neighbour23IntentionalPacketDropping 	0
+scalar BMacTest.node[3].nic.ids 	neighbour24PacketsReceived 	0
+scalar BMacTest.node[3].nic.ids 	neighbour24PacketsForwarded 	0
+scalar BMacTest.node[3].nic.ids 	neighbour24IntentionalPacketDropping 	0
+scalar BMacTest.node[3].nic.ids 	neighbour26PacketsReceived 	0
+scalar BMacTest.node[3].nic.ids 	neighbour26PacketsForwarded 	0
+scalar BMacTest.node[3].nic.ids 	neighbour26IntentionalPacketDropping 	0
+scalar BMacTest.node[3].nic.ids 	neighbour27PacketsReceived 	0
+scalar BMacTest.node[3].nic.ids 	neighbour27PacketsForwarded 	0
+scalar BMacTest.node[3].nic.ids 	neighbour27IntentionalPacketDropping 	0
+scalar BMacTest.node[3].nic.ids 	data_packets_intercepted 	9666
+scalar BMacTest.node[3].nic.ids 	data_packets_me_to_somebody 	240
+scalar BMacTest.node[3].nic.ids 	data_packets_somebody_to_me 	120
+scalar BMacTest.node[3].nic.ids 	data_packets_somebody_to_somebody 	9306
+scalar BMacTest.node[3].netwl 	nbPacketsForwarded 	120
+scalar BMacTest.node[3].netwl 	nbPacketsReceived 	120
+scalar BMacTest.node[3].netwl 	nbPacketsSent 	120
+scalar BMacTest.node[3].netwl 	nbPacketsDropped 	0
+scalar BMacTest.node[4].nic.ids 	notAffectedByHostState 	0
+scalar BMacTest.node[4].nic.ids 	stats 	1
+scalar BMacTest.node[4].nic.ids 	debug 	0
+scalar BMacTest.node[4].nic.ids 	maxMonitoredNodes 	30
+scalar BMacTest.node[4].nic.ids 	fwdBufferSize 	100
+scalar BMacTest.node[4].nic.ids 	fwdMinPacketsReceived 	0
+scalar BMacTest.node[4].nic.ids 	fwdDetectionThreshold 	0.5
+scalar BMacTest.node[4].nic.ids 	memIDSEntry 	8
+scalar BMacTest.node[4].nic.ids 	memBufferEntry 	16
+scalar BMacTest.node[4].nic.ids 	maxDistance 	999999
+scalar BMacTest.node[4].nic.ids 	fwdPacketTimeout 	999999
+scalar BMacTest.node[4].nic.ids 	neighbour0PacketsReceived 	0
+scalar BMacTest.node[4].nic.ids 	neighbour0PacketsForwarded 	0
+scalar BMacTest.node[4].nic.ids 	neighbour0IntentionalPacketDropping 	0
+scalar BMacTest.node[4].nic.ids 	neighbour1PacketsReceived 	0
+scalar BMacTest.node[4].nic.ids 	neighbour1PacketsForwarded 	0
+scalar BMacTest.node[4].nic.ids 	neighbour1IntentionalPacketDropping 	0
+scalar BMacTest.node[4].nic.ids 	neighbour2PacketsReceived 	120
+scalar BMacTest.node[4].nic.ids 	neighbour2PacketsForwarded 	120
+scalar BMacTest.node[4].nic.ids 	neighbour2IntentionalPacketDropping 	0
+scalar BMacTest.node[4].nic.ids 	neighbour3PacketsReceived 	120
+scalar BMacTest.node[4].nic.ids 	neighbour3PacketsForwarded 	120
+scalar BMacTest.node[4].nic.ids 	neighbour3IntentionalPacketDropping 	0
+scalar BMacTest.node[4].nic.ids 	neighbour5PacketsReceived 	0
+scalar BMacTest.node[4].nic.ids 	neighbour5PacketsForwarded 	0
+scalar BMacTest.node[4].nic.ids 	neighbour5IntentionalPacketDropping 	0
+scalar BMacTest.node[4].nic.ids 	neighbour6PacketsReceived 	0
+scalar BMacTest.node[4].nic.ids 	neighbour6PacketsForwarded 	0
+scalar BMacTest.node[4].nic.ids 	neighbour6IntentionalPacketDropping 	0
+scalar BMacTest.node[4].nic.ids 	neighbour7PacketsReceived 	720
+scalar BMacTest.node[4].nic.ids 	neighbour7PacketsForwarded 	385
+scalar BMacTest.node[4].nic.ids 	neighbour7IntentionalPacketDropping 	0.5
+scalar BMacTest.node[4].nic.ids 	neighbour8PacketsReceived 	625
+scalar BMacTest.node[4].nic.ids 	neighbour8PacketsForwarded 	623
+scalar BMacTest.node[4].nic.ids 	neighbour8IntentionalPacketDropping 	0
+scalar BMacTest.node[4].nic.ids 	neighbour9PacketsReceived 	0
+scalar BMacTest.node[4].nic.ids 	neighbour9PacketsForwarded 	0
+scalar BMacTest.node[4].nic.ids 	neighbour9IntentionalPacketDropping 	0
+scalar BMacTest.node[4].nic.ids 	neighbour10PacketsReceived 	0
+scalar BMacTest.node[4].nic.ids 	neighbour10PacketsForwarded 	0
+scalar BMacTest.node[4].nic.ids 	neighbour10IntentionalPacketDropping 	0.5
+scalar BMacTest.node[4].nic.ids 	neighbour11PacketsReceived 	982
+scalar BMacTest.node[4].nic.ids 	neighbour11PacketsForwarded 	979
+scalar BMacTest.node[4].nic.ids 	neighbour11IntentionalPacketDropping 	0
+scalar BMacTest.node[4].nic.ids 	neighbour12PacketsReceived 	0
+scalar BMacTest.node[4].nic.ids 	neighbour12PacketsForwarded 	0
+scalar BMacTest.node[4].nic.ids 	neighbour12IntentionalPacketDropping 	0
+scalar BMacTest.node[4].nic.ids 	neighbour13PacketsReceived 	0
+scalar BMacTest.node[4].nic.ids 	neighbour13PacketsForwarded 	0
+scalar BMacTest.node[4].nic.ids 	neighbour13IntentionalPacketDropping 	0
+scalar BMacTest.node[4].nic.ids 	neighbour14PacketsReceived 	1098
+scalar BMacTest.node[4].nic.ids 	neighbour14PacketsForwarded 	1088
+scalar BMacTest.node[4].nic.ids 	neighbour14IntentionalPacketDropping 	0
+scalar BMacTest.node[4].nic.ids 	neighbour15PacketsReceived 	1327
+scalar BMacTest.node[4].nic.ids 	neighbour15PacketsForwarded 	1296
+scalar BMacTest.node[4].nic.ids 	neighbour15IntentionalPacketDropping 	0
+scalar BMacTest.node[4].nic.ids 	neighbour16PacketsReceived 	119
+scalar BMacTest.node[4].nic.ids 	neighbour16PacketsForwarded 	117
+scalar BMacTest.node[4].nic.ids 	neighbour16IntentionalPacketDropping 	0
+scalar BMacTest.node[4].nic.ids 	neighbour17PacketsReceived 	0
+scalar BMacTest.node[4].nic.ids 	neighbour17PacketsForwarded 	0
+scalar BMacTest.node[4].nic.ids 	neighbour17IntentionalPacketDropping 	0
+scalar BMacTest.node[4].nic.ids 	neighbour18PacketsReceived 	0
+scalar BMacTest.node[4].nic.ids 	neighbour18PacketsForwarded 	0
+scalar BMacTest.node[4].nic.ids 	neighbour18IntentionalPacketDropping 	0
+scalar BMacTest.node[4].nic.ids 	neighbour19PacketsReceived 	1661
+scalar BMacTest.node[4].nic.ids 	neighbour19PacketsForwarded 	752
+scalar BMacTest.node[4].nic.ids 	neighbour19IntentionalPacketDropping 	0.5
+scalar BMacTest.node[4].nic.ids 	neighbour20PacketsReceived 	207
+scalar BMacTest.node[4].nic.ids 	neighbour20PacketsForwarded 	178
+scalar BMacTest.node[4].nic.ids 	neighbour20IntentionalPacketDropping 	0
+scalar BMacTest.node[4].nic.ids 	neighbour21PacketsReceived 	0
+scalar BMacTest.node[4].nic.ids 	neighbour21PacketsForwarded 	0
+scalar BMacTest.node[4].nic.ids 	neighbour21IntentionalPacketDropping 	0
+scalar BMacTest.node[4].nic.ids 	neighbour22PacketsReceived 	992
+scalar BMacTest.node[4].nic.ids 	neighbour22PacketsForwarded 	836
+scalar BMacTest.node[4].nic.ids 	neighbour22IntentionalPacketDropping 	0
+scalar BMacTest.node[4].nic.ids 	neighbour23PacketsReceived 	391
+scalar BMacTest.node[4].nic.ids 	neighbour23PacketsForwarded 	298
+scalar BMacTest.node[4].nic.ids 	neighbour23IntentionalPacketDropping 	0
+scalar BMacTest.node[4].nic.ids 	neighbour24PacketsReceived 	0
+scalar BMacTest.node[4].nic.ids 	neighbour24PacketsForwarded 	0
+scalar BMacTest.node[4].nic.ids 	neighbour24IntentionalPacketDropping 	0
+scalar BMacTest.node[4].nic.ids 	neighbour26PacketsReceived 	0
+scalar BMacTest.node[4].nic.ids 	neighbour26PacketsForwarded 	0
+scalar BMacTest.node[4].nic.ids 	neighbour26IntentionalPacketDropping 	0
+scalar BMacTest.node[4].nic.ids 	neighbour27PacketsReceived 	0
+scalar BMacTest.node[4].nic.ids 	neighbour27PacketsForwarded 	0
+scalar BMacTest.node[4].nic.ids 	neighbour27IntentionalPacketDropping 	0
+scalar BMacTest.node[4].nic.ids 	data_packets_intercepted 	10467
+scalar BMacTest.node[4].nic.ids 	data_packets_me_to_somebody 	600
+scalar BMacTest.node[4].nic.ids 	data_packets_somebody_to_me 	480
+scalar BMacTest.node[4].nic.ids 	data_packets_somebody_to_somebody 	9387
+scalar BMacTest.node[4].netwl 	nbPacketsForwarded 	480
+scalar BMacTest.node[4].netwl 	nbPacketsReceived 	480
+scalar BMacTest.node[4].netwl 	nbPacketsSent 	120
+scalar BMacTest.node[4].netwl 	nbPacketsDropped 	0
+scalar BMacTest.node[5].nic.ids 	notAffectedByHostState 	0
+scalar BMacTest.node[5].nic.ids 	stats 	1
+scalar BMacTest.node[5].nic.ids 	debug 	0
+scalar BMacTest.node[5].nic.ids 	maxMonitoredNodes 	30
+scalar BMacTest.node[5].nic.ids 	fwdBufferSize 	100
+scalar BMacTest.node[5].nic.ids 	fwdMinPacketsReceived 	0
+scalar BMacTest.node[5].nic.ids 	fwdDetectionThreshold 	0.5
+scalar BMacTest.node[5].nic.ids 	memIDSEntry 	8
+scalar BMacTest.node[5].nic.ids 	memBufferEntry 	16
+scalar BMacTest.node[5].nic.ids 	maxDistance 	999999
+scalar BMacTest.node[5].nic.ids 	fwdPacketTimeout 	999999
+scalar BMacTest.node[5].nic.ids 	neighbour0PacketsReceived 	0
+scalar BMacTest.node[5].nic.ids 	neighbour0PacketsForwarded 	0
+scalar BMacTest.node[5].nic.ids 	neighbour0IntentionalPacketDropping 	0
+scalar BMacTest.node[5].nic.ids 	neighbour1PacketsReceived 	0
+scalar BMacTest.node[5].nic.ids 	neighbour1PacketsForwarded 	0
+scalar BMacTest.node[5].nic.ids 	neighbour1IntentionalPacketDropping 	0
+scalar BMacTest.node[5].nic.ids 	neighbour2PacketsReceived 	120
+scalar BMacTest.node[5].nic.ids 	neighbour2PacketsForwarded 	120
+scalar BMacTest.node[5].nic.ids 	neighbour2IntentionalPacketDropping 	0
+scalar BMacTest.node[5].nic.ids 	neighbour3PacketsReceived 	120
+scalar BMacTest.node[5].nic.ids 	neighbour3PacketsForwarded 	120
+scalar BMacTest.node[5].nic.ids 	neighbour3IntentionalPacketDropping 	0
+scalar BMacTest.node[5].nic.ids 	neighbour4PacketsReceived 	479
+scalar BMacTest.node[5].nic.ids 	neighbour4PacketsForwarded 	479
+scalar BMacTest.node[5].nic.ids 	neighbour4IntentionalPacketDropping 	0
+scalar BMacTest.node[5].nic.ids 	neighbour6PacketsReceived 	0
+scalar BMacTest.node[5].nic.ids 	neighbour6PacketsForwarded 	0
+scalar BMacTest.node[5].nic.ids 	neighbour6IntentionalPacketDropping 	0
+scalar BMacTest.node[5].nic.ids 	neighbour7PacketsReceived 	720
+scalar BMacTest.node[5].nic.ids 	neighbour7PacketsForwarded 	385
+scalar BMacTest.node[5].nic.ids 	neighbour7IntentionalPacketDropping 	0.5
+scalar BMacTest.node[5].nic.ids 	neighbour8PacketsReceived 	625
+scalar BMacTest.node[5].nic.ids 	neighbour8PacketsForwarded 	623
+scalar BMacTest.node[5].nic.ids 	neighbour8IntentionalPacketDropping 	0
+scalar BMacTest.node[5].nic.ids 	neighbour9PacketsReceived 	0
+scalar BMacTest.node[5].nic.ids 	neighbour9PacketsForwarded 	0
+scalar BMacTest.node[5].nic.ids 	neighbour9IntentionalPacketDropping 	0
+scalar BMacTest.node[5].nic.ids 	neighbour10PacketsReceived 	0
+scalar BMacTest.node[5].nic.ids 	neighbour10PacketsForwarded 	0
+scalar BMacTest.node[5].nic.ids 	neighbour10IntentionalPacketDropping 	0.5
+scalar BMacTest.node[5].nic.ids 	neighbour11PacketsReceived 	981
+scalar BMacTest.node[5].nic.ids 	neighbour11PacketsForwarded 	979
+scalar BMacTest.node[5].nic.ids 	neighbour11IntentionalPacketDropping 	0
+scalar BMacTest.node[5].nic.ids 	neighbour12PacketsReceived 	0
+scalar BMacTest.node[5].nic.ids 	neighbour12PacketsForwarded 	0
+scalar BMacTest.node[5].nic.ids 	neighbour12IntentionalPacketDropping 	0
+scalar BMacTest.node[5].nic.ids 	neighbour13PacketsReceived 	0
+scalar BMacTest.node[5].nic.ids 	neighbour13PacketsForwarded 	0
+scalar BMacTest.node[5].nic.ids 	neighbour13IntentionalPacketDropping 	0
+scalar BMacTest.node[5].nic.ids 	neighbour14PacketsReceived 	1099
+scalar BMacTest.node[5].nic.ids 	neighbour14PacketsForwarded 	1099
+scalar BMacTest.node[5].nic.ids 	neighbour14IntentionalPacketDropping 	0
+scalar BMacTest.node[5].nic.ids 	neighbour15PacketsReceived 	1339
+scalar BMacTest.node[5].nic.ids 	neighbour15PacketsForwarded 	1334
+scalar BMacTest.node[5].nic.ids 	neighbour15IntentionalPacketDropping 	0
+scalar BMacTest.node[5].nic.ids 	neighbour16PacketsReceived 	120
+scalar BMacTest.node[5].nic.ids 	neighbour16PacketsForwarded 	119
+scalar BMacTest.node[5].nic.ids 	neighbour16IntentionalPacketDropping 	0
+scalar BMacTest.node[5].nic.ids 	neighbour17PacketsReceived 	0
+scalar BMacTest.node[5].nic.ids 	neighbour17PacketsForwarded 	0
+scalar BMacTest.node[5].nic.ids 	neighbour17IntentionalPacketDropping 	0
+scalar BMacTest.node[5].nic.ids 	neighbour18PacketsReceived 	0
+scalar BMacTest.node[5].nic.ids 	neighbour18PacketsForwarded 	0
+scalar BMacTest.node[5].nic.ids 	neighbour18IntentionalPacketDropping 	0
+scalar BMacTest.node[5].nic.ids 	neighbour19PacketsReceived 	1686
+scalar BMacTest.node[5].nic.ids 	neighbour19PacketsForwarded 	812
+scalar BMacTest.node[5].nic.ids 	neighbour19IntentionalPacketDropping 	0.5
+scalar BMacTest.node[5].nic.ids 	neighbour20PacketsReceived 	229
+scalar BMacTest.node[5].nic.ids 	neighbour20PacketsForwarded 	219
+scalar BMacTest.node[5].nic.ids 	neighbour20IntentionalPacketDropping 	0
+scalar BMacTest.node[5].nic.ids 	neighbour21PacketsReceived 	0
+scalar BMacTest.node[5].nic.ids 	neighbour21PacketsForwarded 	0
+scalar BMacTest.node[5].nic.ids 	neighbour21IntentionalPacketDropping 	0
+scalar BMacTest.node[5].nic.ids 	neighbour22PacketsReceived 	1054
+scalar BMacTest.node[5].nic.ids 	neighbour22PacketsForwarded 	999
+scalar BMacTest.node[5].nic.ids 	neighbour22IntentionalPacketDropping 	0
+scalar BMacTest.node[5].nic.ids 	neighbour23PacketsReceived 	449
+scalar BMacTest.node[5].nic.ids 	neighbour23PacketsForwarded 	408
+scalar BMacTest.node[5].nic.ids 	neighbour23IntentionalPacketDropping 	0
+scalar BMacTest.node[5].nic.ids 	neighbour24PacketsReceived 	0
+scalar BMacTest.node[5].nic.ids 	neighbour24PacketsForwarded 	0
+scalar BMacTest.node[5].nic.ids 	neighbour24IntentionalPacketDropping 	0
+scalar BMacTest.node[5].nic.ids 	neighbour26PacketsReceived 	0
+scalar BMacTest.node[5].nic.ids 	neighbour26PacketsForwarded 	0
+scalar BMacTest.node[5].nic.ids 	neighbour26IntentionalPacketDropping 	0
+scalar BMacTest.node[5].nic.ids 	neighbour27PacketsReceived 	0
+scalar BMacTest.node[5].nic.ids 	neighbour27PacketsForwarded 	0
+scalar BMacTest.node[5].nic.ids 	neighbour27IntentionalPacketDropping 	0
+scalar BMacTest.node[5].nic.ids 	data_packets_intercepted 	10890
+scalar BMacTest.node[5].nic.ids 	data_packets_me_to_somebody 	120
+scalar BMacTest.node[5].nic.ids 	data_packets_somebody_to_me 	0
+scalar BMacTest.node[5].nic.ids 	data_packets_somebody_to_somebody 	10770
+scalar BMacTest.node[5].netwl 	nbPacketsForwarded 	0
+scalar BMacTest.node[5].netwl 	nbPacketsReceived 	0
+scalar BMacTest.node[5].netwl 	nbPacketsSent 	120
+scalar BMacTest.node[5].netwl 	nbPacketsDropped 	0
+scalar BMacTest.node[6].nic.ids 	notAffectedByHostState 	0
+scalar BMacTest.node[6].nic.ids 	stats 	1
+scalar BMacTest.node[6].nic.ids 	debug 	0
+scalar BMacTest.node[6].nic.ids 	maxMonitoredNodes 	30
+scalar BMacTest.node[6].nic.ids 	fwdBufferSize 	100
+scalar BMacTest.node[6].nic.ids 	fwdMinPacketsReceived 	0
+scalar BMacTest.node[6].nic.ids 	fwdDetectionThreshold 	0.5
+scalar BMacTest.node[6].nic.ids 	memIDSEntry 	8
+scalar BMacTest.node[6].nic.ids 	memBufferEntry 	16
+scalar BMacTest.node[6].nic.ids 	maxDistance 	999999
+scalar BMacTest.node[6].nic.ids 	fwdPacketTimeout 	999999
+scalar BMacTest.node[6].nic.ids 	neighbour0PacketsReceived 	0
+scalar BMacTest.node[6].nic.ids 	neighbour0PacketsForwarded 	0
+scalar BMacTest.node[6].nic.ids 	neighbour0IntentionalPacketDropping 	0
+scalar BMacTest.node[6].nic.ids 	neighbour1PacketsReceived 	0
+scalar BMacTest.node[6].nic.ids 	neighbour1PacketsForwarded 	0
+scalar BMacTest.node[6].nic.ids 	neighbour1IntentionalPacketDropping 	0
+scalar BMacTest.node[6].nic.ids 	neighbour2PacketsReceived 	119
+scalar BMacTest.node[6].nic.ids 	neighbour2PacketsForwarded 	119
+scalar BMacTest.node[6].nic.ids 	neighbour2IntentionalPacketDropping 	0
+scalar BMacTest.node[6].nic.ids 	neighbour3PacketsReceived 	120
+scalar BMacTest.node[6].nic.ids 	neighbour3PacketsForwarded 	120
+scalar BMacTest.node[6].nic.ids 	neighbour3IntentionalPacketDropping 	0
+scalar BMacTest.node[6].nic.ids 	neighbour4PacketsReceived 	479
+scalar BMacTest.node[6].nic.ids 	neighbour4PacketsForwarded 	479
+scalar BMacTest.node[6].nic.ids 	neighbour4IntentionalPacketDropping 	0
+scalar BMacTest.node[6].nic.ids 	neighbour5PacketsReceived 	0
+scalar BMacTest.node[6].nic.ids 	neighbour5PacketsForwarded 	0
+scalar BMacTest.node[6].nic.ids 	neighbour5IntentionalPacketDropping 	0
+scalar BMacTest.node[6].nic.ids 	neighbour7PacketsReceived 	717
+scalar BMacTest.node[6].nic.ids 	neighbour7PacketsForwarded 	384
+scalar BMacTest.node[6].nic.ids 	neighbour7IntentionalPacketDropping 	0.5
+scalar BMacTest.node[6].nic.ids 	neighbour8PacketsReceived 	625
+scalar BMacTest.node[6].nic.ids 	neighbour8PacketsForwarded 	623
+scalar BMacTest.node[6].nic.ids 	neighbour8IntentionalPacketDropping 	0
+scalar BMacTest.node[6].nic.ids 	neighbour9PacketsReceived 	0
+scalar BMacTest.node[6].nic.ids 	neighbour9PacketsForwarded 	0
+scalar BMacTest.node[6].nic.ids 	neighbour9IntentionalPacketDropping 	0
+scalar BMacTest.node[6].nic.ids 	neighbour10PacketsReceived 	0
+scalar BMacTest.node[6].nic.ids 	neighbour10PacketsForwarded 	0
+scalar BMacTest.node[6].nic.ids 	neighbour10IntentionalPacketDropping 	0.5
+scalar BMacTest.node[6].nic.ids 	neighbour11PacketsReceived 	981
+scalar BMacTest.node[6].nic.ids 	neighbour11PacketsForwarded 	979
+scalar BMacTest.node[6].nic.ids 	neighbour11IntentionalPacketDropping 	0
+scalar BMacTest.node[6].nic.ids 	neighbour12PacketsReceived 	0
+scalar BMacTest.node[6].nic.ids 	neighbour12PacketsForwarded 	0
+scalar BMacTest.node[6].nic.ids 	neighbour12IntentionalPacketDropping 	0
+scalar BMacTest.node[6].nic.ids 	neighbour13PacketsReceived 	0
+scalar BMacTest.node[6].nic.ids 	neighbour13PacketsForwarded 	0
+scalar BMacTest.node[6].nic.ids 	neighbour13IntentionalPacketDropping 	0
+scalar BMacTest.node[6].nic.ids 	neighbour14PacketsReceived 	1099
+scalar BMacTest.node[6].nic.ids 	neighbour14PacketsForwarded 	1098
+scalar BMacTest.node[6].nic.ids 	neighbour14IntentionalPacketDropping 	0
+scalar BMacTest.node[6].nic.ids 	neighbour15PacketsReceived 	1338
+scalar BMacTest.node[6].nic.ids 	neighbour15PacketsForwarded 	1336
+scalar BMacTest.node[6].nic.ids 	neighbour15IntentionalPacketDropping 	0
+scalar BMacTest.node[6].nic.ids 	neighbour16PacketsReceived 	119
+scalar BMacTest.node[6].nic.ids 	neighbour16PacketsForwarded 	119
+scalar BMacTest.node[6].nic.ids 	neighbour16IntentionalPacketDropping 	0
+scalar BMacTest.node[6].nic.ids 	neighbour17PacketsReceived 	0
+scalar BMacTest.node[6].nic.ids 	neighbour17PacketsForwarded 	0
+scalar BMacTest.node[6].nic.ids 	neighbour17IntentionalPacketDropping 	0
+scalar BMacTest.node[6].nic.ids 	neighbour18PacketsReceived 	0
+scalar BMacTest.node[6].nic.ids 	neighbour18PacketsForwarded 	0
+scalar BMacTest.node[6].nic.ids 	neighbour18IntentionalPacketDropping 	0
+scalar BMacTest.node[6].nic.ids 	neighbour19PacketsReceived 	1693
+scalar BMacTest.node[6].nic.ids 	neighbour19PacketsForwarded 	817
+scalar BMacTest.node[6].nic.ids 	neighbour19IntentionalPacketDropping 	0.5
+scalar BMacTest.node[6].nic.ids 	neighbour20PacketsReceived 	234
+scalar BMacTest.node[6].nic.ids 	neighbour20PacketsForwarded 	233
+scalar BMacTest.node[6].nic.ids 	neighbour20IntentionalPacketDropping 	0
+scalar BMacTest.node[6].nic.ids 	neighbour21PacketsReceived 	0
+scalar BMacTest.node[6].nic.ids 	neighbour21PacketsForwarded 	0
+scalar BMacTest.node[6].nic.ids 	neighbour21IntentionalPacketDropping 	0
+scalar BMacTest.node[6].nic.ids 	neighbour22PacketsReceived 	1058
+scalar BMacTest.node[6].nic.ids 	neighbour22PacketsForwarded 	1042
+scalar BMacTest.node[6].nic.ids 	neighbour22IntentionalPacketDropping 	0
+scalar BMacTest.node[6].nic.ids 	neighbour23PacketsReceived 	469
+scalar BMacTest.node[6].nic.ids 	neighbour23PacketsForwarded 	452
+scalar BMacTest.node[6].nic.ids 	neighbour23IntentionalPacketDropping 	0
+scalar BMacTest.node[6].nic.ids 	neighbour24PacketsReceived 	0
+scalar BMacTest.node[6].nic.ids 	neighbour24PacketsForwarded 	0
+scalar BMacTest.node[6].nic.ids 	neighbour24IntentionalPacketDropping 	0
+scalar BMacTest.node[6].nic.ids 	neighbour26PacketsReceived 	0
+scalar BMacTest.node[6].nic.ids 	neighbour26PacketsForwarded 	0
+scalar BMacTest.node[6].nic.ids 	neighbour26IntentionalPacketDropping 	0
+scalar BMacTest.node[6].nic.ids 	neighbour27PacketsReceived 	0
+scalar BMacTest.node[6].nic.ids 	neighbour27PacketsForwarded 	0
+scalar BMacTest.node[6].nic.ids 	neighbour27IntentionalPacketDropping 	0
+scalar BMacTest.node[6].nic.ids 	data_packets_intercepted 	11018
+scalar BMacTest.node[6].nic.ids 	data_packets_me_to_somebody 	120
+scalar BMacTest.node[6].nic.ids 	data_packets_somebody_to_me 	0
+scalar BMacTest.node[6].nic.ids 	data_packets_somebody_to_somebody 	10898
+scalar BMacTest.node[6].netwl 	nbPacketsForwarded 	0
+scalar BMacTest.node[6].netwl 	nbPacketsReceived 	0
+scalar BMacTest.node[6].netwl 	nbPacketsSent 	120
+scalar BMacTest.node[6].netwl 	nbPacketsDropped 	0
+scalar BMacTest.node[7].nic.ids 	notAffectedByHostState 	0
+scalar BMacTest.node[7].nic.ids 	stats 	1
+scalar BMacTest.node[7].nic.ids 	debug 	0
+scalar BMacTest.node[7].nic.ids 	maxMonitoredNodes 	30
+scalar BMacTest.node[7].nic.ids 	fwdBufferSize 	100
+scalar BMacTest.node[7].nic.ids 	fwdMinPacketsReceived 	0
+scalar BMacTest.node[7].nic.ids 	fwdDetectionThreshold 	0.5
+scalar BMacTest.node[7].nic.ids 	memIDSEntry 	8
+scalar BMacTest.node[7].nic.ids 	memBufferEntry 	16
+scalar BMacTest.node[7].nic.ids 	maxDistance 	999999
+scalar BMacTest.node[7].nic.ids 	fwdPacketTimeout 	999999
+scalar BMacTest.node[7].nic.ids 	neighbour0PacketsReceived 	0
+scalar BMacTest.node[7].nic.ids 	neighbour0PacketsForwarded 	0
+scalar BMacTest.node[7].nic.ids 	neighbour0IntentionalPacketDropping 	0
+scalar BMacTest.node[7].nic.ids 	neighbour1PacketsReceived 	0
+scalar BMacTest.node[7].nic.ids 	neighbour1PacketsForwarded 	0
+scalar BMacTest.node[7].nic.ids 	neighbour1IntentionalPacketDropping 	0
+scalar BMacTest.node[7].nic.ids 	neighbour2PacketsReceived 	119
+scalar BMacTest.node[7].nic.ids 	neighbour2PacketsForwarded 	119
+scalar BMacTest.node[7].nic.ids 	neighbour2IntentionalPacketDropping 	0
+scalar BMacTest.node[7].nic.ids 	neighbour3PacketsReceived 	120
+scalar BMacTest.node[7].nic.ids 	neighbour3PacketsForwarded 	120
+scalar BMacTest.node[7].nic.ids 	neighbour3IntentionalPacketDropping 	0
+scalar BMacTest.node[7].nic.ids 	neighbour4PacketsReceived 	479
+scalar BMacTest.node[7].nic.ids 	neighbour4PacketsForwarded 	479
+scalar BMacTest.node[7].nic.ids 	neighbour4IntentionalPacketDropping 	0
+scalar BMacTest.node[7].nic.ids 	neighbour5PacketsReceived 	0
+scalar BMacTest.node[7].nic.ids 	neighbour5PacketsForwarded 	0
+scalar BMacTest.node[7].nic.ids 	neighbour5IntentionalPacketDropping 	0
+scalar BMacTest.node[7].nic.ids 	neighbour6PacketsReceived 	0
+scalar BMacTest.node[7].nic.ids 	neighbour6PacketsForwarded 	0
+scalar BMacTest.node[7].nic.ids 	neighbour6IntentionalPacketDropping 	0
+scalar BMacTest.node[7].nic.ids 	neighbour8PacketsReceived 	625
+scalar BMacTest.node[7].nic.ids 	neighbour8PacketsForwarded 	623
+scalar BMacTest.node[7].nic.ids 	neighbour8IntentionalPacketDropping 	0
+scalar BMacTest.node[7].nic.ids 	neighbour9PacketsReceived 	0
+scalar BMacTest.node[7].nic.ids 	neighbour9PacketsForwarded 	0
+scalar BMacTest.node[7].nic.ids 	neighbour9IntentionalPacketDropping 	0
+scalar BMacTest.node[7].nic.ids 	neighbour10PacketsReceived 	0
+scalar BMacTest.node[7].nic.ids 	neighbour10PacketsForwarded 	0
+scalar BMacTest.node[7].nic.ids 	neighbour10IntentionalPacketDropping 	0.5
+scalar BMacTest.node[7].nic.ids 	neighbour11PacketsReceived 	981
+scalar BMacTest.node[7].nic.ids 	neighbour11PacketsForwarded 	979
+scalar BMacTest.node[7].nic.ids 	neighbour11IntentionalPacketDropping 	0
+scalar BMacTest.node[7].nic.ids 	neighbour12PacketsReceived 	0
+scalar BMacTest.node[7].nic.ids 	neighbour12PacketsForwarded 	0
+scalar BMacTest.node[7].nic.ids 	neighbour12IntentionalPacketDropping 	0
+scalar BMacTest.node[7].nic.ids 	neighbour13PacketsReceived 	0
+scalar BMacTest.node[7].nic.ids 	neighbour13PacketsForwarded 	0
+scalar BMacTest.node[7].nic.ids 	neighbour13IntentionalPacketDropping 	0
+scalar BMacTest.node[7].nic.ids 	neighbour14PacketsReceived 	1099
+scalar BMacTest.node[7].nic.ids 	neighbour14PacketsForwarded 	1099
+scalar BMacTest.node[7].nic.ids 	neighbour14IntentionalPacketDropping 	0
+scalar BMacTest.node[7].nic.ids 	neighbour15PacketsReceived 	1339
+scalar BMacTest.node[7].nic.ids 	neighbour15PacketsForwarded 	1336
+scalar BMacTest.node[7].nic.ids 	neighbour15IntentionalPacketDropping 	0
+scalar BMacTest.node[7].nic.ids 	neighbour16PacketsReceived 	120
+scalar BMacTest.node[7].nic.ids 	neighbour16PacketsForwarded 	120
+scalar BMacTest.node[7].nic.ids 	neighbour16IntentionalPacketDropping 	0
+scalar BMacTest.node[7].nic.ids 	neighbour17PacketsReceived 	0
+scalar BMacTest.node[7].nic.ids 	neighbour17PacketsForwarded 	0
+scalar BMacTest.node[7].nic.ids 	neighbour17IntentionalPacketDropping 	0
+scalar BMacTest.node[7].nic.ids 	neighbour18PacketsReceived 	0
+scalar BMacTest.node[7].nic.ids 	neighbour18PacketsForwarded 	0
+scalar BMacTest.node[7].nic.ids 	neighbour18IntentionalPacketDropping 	0
+scalar BMacTest.node[7].nic.ids 	neighbour19PacketsReceived 	1692
+scalar BMacTest.node[7].nic.ids 	neighbour19PacketsForwarded 	818
+scalar BMacTest.node[7].nic.ids 	neighbour19IntentionalPacketDropping 	0.5
+scalar BMacTest.node[7].nic.ids 	neighbour20PacketsReceived 	237
+scalar BMacTest.node[7].nic.ids 	neighbour20PacketsForwarded 	231
+scalar BMacTest.node[7].nic.ids 	neighbour20IntentionalPacketDropping 	0
+scalar BMacTest.node[7].nic.ids 	neighbour21PacketsReceived 	0
+scalar BMacTest.node[7].nic.ids 	neighbour21PacketsForwarded 	0
+scalar BMacTest.node[7].nic.ids 	neighbour21IntentionalPacketDropping 	0
+scalar BMacTest.node[7].nic.ids 	neighbour22PacketsReceived 	1058
+scalar BMacTest.node[7].nic.ids 	neighbour22PacketsForwarded 	1035
+scalar BMacTest.node[7].nic.ids 	neighbour22IntentionalPacketDropping 	0
+scalar BMacTest.node[7].nic.ids 	neighbour23PacketsReceived 	464
+scalar BMacTest.node[7].nic.ids 	neighbour23PacketsForwarded 	449
+scalar BMacTest.node[7].nic.ids 	neighbour23IntentionalPacketDropping 	0
+scalar BMacTest.node[7].nic.ids 	neighbour24PacketsReceived 	0
+scalar BMacTest.node[7].nic.ids 	neighbour24PacketsForwarded 	0
+scalar BMacTest.node[7].nic.ids 	neighbour24IntentionalPacketDropping 	0
+scalar BMacTest.node[7].nic.ids 	neighbour26PacketsReceived 	0
+scalar BMacTest.node[7].nic.ids 	neighbour26PacketsForwarded 	0
+scalar BMacTest.node[7].nic.ids 	neighbour26IntentionalPacketDropping 	0
+scalar BMacTest.node[7].nic.ids 	neighbour27PacketsReceived 	0
+scalar BMacTest.node[7].nic.ids 	neighbour27PacketsForwarded 	0
+scalar BMacTest.node[7].nic.ids 	neighbour27IntentionalPacketDropping 	0
+scalar BMacTest.node[7].nic.ids 	data_packets_intercepted 	11005
+scalar BMacTest.node[7].nic.ids 	data_packets_me_to_somebody 	505
+scalar BMacTest.node[7].nic.ids 	data_packets_somebody_to_me 	720
+scalar BMacTest.node[7].nic.ids 	data_packets_somebody_to_somebody 	9780
+scalar BMacTest.node[7].netwl 	nbPacketsForwarded 	385
+scalar BMacTest.node[7].netwl 	nbPacketsReceived 	720
+scalar BMacTest.node[7].netwl 	nbPacketsSent 	120
+scalar BMacTest.node[7].netwl 	nbPacketsDropped 	335
+scalar BMacTest.node[8].nic.ids 	notAffectedByHostState 	0
+scalar BMacTest.node[8].nic.ids 	stats 	1
+scalar BMacTest.node[8].nic.ids 	debug 	0
+scalar BMacTest.node[8].nic.ids 	maxMonitoredNodes 	30
+scalar BMacTest.node[8].nic.ids 	fwdBufferSize 	100
+scalar BMacTest.node[8].nic.ids 	fwdMinPacketsReceived 	0
+scalar BMacTest.node[8].nic.ids 	fwdDetectionThreshold 	0.5
+scalar BMacTest.node[8].nic.ids 	memIDSEntry 	8
+scalar BMacTest.node[8].nic.ids 	memBufferEntry 	16
+scalar BMacTest.node[8].nic.ids 	maxDistance 	999999
+scalar BMacTest.node[8].nic.ids 	fwdPacketTimeout 	999999
+scalar BMacTest.node[8].nic.ids 	neighbour0PacketsReceived 	0
+scalar BMacTest.node[8].nic.ids 	neighbour0PacketsForwarded 	0
+scalar BMacTest.node[8].nic.ids 	neighbour0IntentionalPacketDropping 	0
+scalar BMacTest.node[8].nic.ids 	neighbour1PacketsReceived 	0
+scalar BMacTest.node[8].nic.ids 	neighbour1PacketsForwarded 	0
+scalar BMacTest.node[8].nic.ids 	neighbour1IntentionalPacketDropping 	0
+scalar BMacTest.node[8].nic.ids 	neighbour2PacketsReceived 	117
+scalar BMacTest.node[8].nic.ids 	neighbour2PacketsForwarded 	117
+scalar BMacTest.node[8].nic.ids 	neighbour2IntentionalPacketDropping 	0
+scalar BMacTest.node[8].nic.ids 	neighbour3PacketsReceived 	120
+scalar BMacTest.node[8].nic.ids 	neighbour3PacketsForwarded 	120
+scalar BMacTest.node[8].nic.ids 	neighbour3IntentionalPacketDropping 	0
+scalar BMacTest.node[8].nic.ids 	neighbour4PacketsReceived 	478
+scalar BMacTest.node[8].nic.ids 	neighbour4PacketsForwarded 	478
+scalar BMacTest.node[8].nic.ids 	neighbour4IntentionalPacketDropping 	0
+scalar BMacTest.node[8].nic.ids 	neighbour5PacketsReceived 	0
+scalar BMacTest.node[8].nic.ids 	neighbour5PacketsForwarded 	0
+scalar BMacTest.node[8].nic.ids 	neighbour5IntentionalPacketDropping 	0
+scalar BMacTest.node[8].nic.ids 	neighbour6PacketsReceived 	0
+scalar BMacTest.node[8].nic.ids 	neighbour6PacketsForwarded 	0
+scalar BMacTest.node[8].nic.ids 	neighbour6IntentionalPacketDropping 	0
+scalar BMacTest.node[8].nic.ids 	neighbour7PacketsReceived 	717
+scalar BMacTest.node[8].nic.ids 	neighbour7PacketsForwarded 	383
+scalar BMacTest.node[8].nic.ids 	neighbour7IntentionalPacketDropping 	0.5
+scalar BMacTest.node[8].nic.ids 	neighbour9PacketsReceived 	0
+scalar BMacTest.node[8].nic.ids 	neighbour9PacketsForwarded 	0
+scalar BMacTest.node[8].nic.ids 	neighbour9IntentionalPacketDropping 	0
+scalar BMacTest.node[8].nic.ids 	neighbour10PacketsReceived 	0
+scalar BMacTest.node[8].nic.ids 	neighbour10PacketsForwarded 	0
+scalar BMacTest.node[8].nic.ids 	neighbour10IntentionalPacketDropping 	0.5
+scalar BMacTest.node[8].nic.ids 	neighbour11PacketsReceived 	984
+scalar BMacTest.node[8].nic.ids 	neighbour11PacketsForwarded 	980
+scalar BMacTest.node[8].nic.ids 	neighbour11IntentionalPacketDropping 	0
+scalar BMacTest.node[8].nic.ids 	neighbour12PacketsReceived 	0
+scalar BMacTest.node[8].nic.ids 	neighbour12PacketsForwarded 	0
+scalar BMacTest.node[8].nic.ids 	neighbour12IntentionalPacketDropping 	0
+scalar BMacTest.node[8].nic.ids 	neighbour13PacketsReceived 	0
+scalar BMacTest.node[8].nic.ids 	neighbour13PacketsForwarded 	0
+scalar BMacTest.node[8].nic.ids 	neighbour13IntentionalPacketDropping 	0
+scalar BMacTest.node[8].nic.ids 	neighbour14PacketsReceived 	1099
+scalar BMacTest.node[8].nic.ids 	neighbour14PacketsForwarded 	1099
+scalar BMacTest.node[8].nic.ids 	neighbour14IntentionalPacketDropping 	0
+scalar BMacTest.node[8].nic.ids 	neighbour15PacketsReceived 	1339
+scalar BMacTest.node[8].nic.ids 	neighbour15PacketsForwarded 	1337
+scalar BMacTest.node[8].nic.ids 	neighbour15IntentionalPacketDropping 	0
+scalar BMacTest.node[8].nic.ids 	neighbour16PacketsReceived 	120
+scalar BMacTest.node[8].nic.ids 	neighbour16PacketsForwarded 	120
+scalar BMacTest.node[8].nic.ids 	neighbour16IntentionalPacketDropping 	0
+scalar BMacTest.node[8].nic.ids 	neighbour17PacketsReceived 	0
+scalar BMacTest.node[8].nic.ids 	neighbour17PacketsForwarded 	0
+scalar BMacTest.node[8].nic.ids 	neighbour17IntentionalPacketDropping 	0
+scalar BMacTest.node[8].nic.ids 	neighbour18PacketsReceived 	0
+scalar BMacTest.node[8].nic.ids 	neighbour18PacketsForwarded 	0
+scalar BMacTest.node[8].nic.ids 	neighbour18IntentionalPacketDropping 	0
+scalar BMacTest.node[8].nic.ids 	neighbour19PacketsReceived 	1693
+scalar BMacTest.node[8].nic.ids 	neighbour19PacketsForwarded 	822
+scalar BMacTest.node[8].nic.ids 	neighbour19IntentionalPacketDropping 	0.5
+scalar BMacTest.node[8].nic.ids 	neighbour20PacketsReceived 	238
+scalar BMacTest.node[8].nic.ids 	neighbour20PacketsForwarded 	237
+scalar BMacTest.node[8].nic.ids 	neighbour20IntentionalPacketDropping 	0
+scalar BMacTest.node[8].nic.ids 	neighbour21PacketsReceived 	0
+scalar BMacTest.node[8].nic.ids 	neighbour21PacketsForwarded 	0
+scalar BMacTest.node[8].nic.ids 	neighbour21IntentionalPacketDropping 	0
+scalar BMacTest.node[8].nic.ids 	neighbour22PacketsReceived 	1063
+scalar BMacTest.node[8].nic.ids 	neighbour22PacketsForwarded 	1061
+scalar BMacTest.node[8].nic.ids 	neighbour22IntentionalPacketDropping 	0
+scalar BMacTest.node[8].nic.ids 	neighbour23PacketsReceived 	476
+scalar BMacTest.node[8].nic.ids 	neighbour23PacketsForwarded 	471
+scalar BMacTest.node[8].nic.ids 	neighbour23IntentionalPacketDropping 	0
+scalar BMacTest.node[8].nic.ids 	neighbour24PacketsReceived 	0
+scalar BMacTest.node[8].nic.ids 	neighbour24PacketsForwarded 	0
+scalar BMacTest.node[8].nic.ids 	neighbour24IntentionalPacketDropping 	0
+scalar BMacTest.node[8].nic.ids 	neighbour26PacketsReceived 	0
+scalar BMacTest.node[8].nic.ids 	neighbour26PacketsForwarded 	0
+scalar BMacTest.node[8].nic.ids 	neighbour26IntentionalPacketDropping 	0
+scalar BMacTest.node[8].nic.ids 	neighbour27PacketsReceived 	0
+scalar BMacTest.node[8].nic.ids 	neighbour27PacketsForwarded 	0
+scalar BMacTest.node[8].nic.ids 	neighbour27IntentionalPacketDropping 	0
+scalar BMacTest.node[8].nic.ids 	data_packets_intercepted 	11090
+scalar BMacTest.node[8].nic.ids 	data_packets_me_to_somebody 	744
+scalar BMacTest.node[8].nic.ids 	data_packets_somebody_to_me 	624
+scalar BMacTest.node[8].nic.ids 	data_packets_somebody_to_somebody 	9722
+scalar BMacTest.node[8].netwl 	nbPacketsForwarded 	624
+scalar BMacTest.node[8].netwl 	nbPacketsReceived 	624
+scalar BMacTest.node[8].netwl 	nbPacketsSent 	120
+scalar BMacTest.node[8].netwl 	nbPacketsDropped 	0
+scalar BMacTest.node[9].nic.ids 	notAffectedByHostState 	0
+scalar BMacTest.node[9].nic.ids 	stats 	1
+scalar BMacTest.node[9].nic.ids 	debug 	0
+scalar BMacTest.node[9].nic.ids 	maxMonitoredNodes 	30
+scalar BMacTest.node[9].nic.ids 	fwdBufferSize 	100
+scalar BMacTest.node[9].nic.ids 	fwdMinPacketsReceived 	0
+scalar BMacTest.node[9].nic.ids 	fwdDetectionThreshold 	0.5
+scalar BMacTest.node[9].nic.ids 	memIDSEntry 	8
+scalar BMacTest.node[9].nic.ids 	memBufferEntry 	16
+scalar BMacTest.node[9].nic.ids 	maxDistance 	999999
+scalar BMacTest.node[9].nic.ids 	fwdPacketTimeout 	999999
+scalar BMacTest.node[9].nic.ids 	neighbour0PacketsReceived 	0
+scalar BMacTest.node[9].nic.ids 	neighbour0PacketsForwarded 	0
+scalar BMacTest.node[9].nic.ids 	neighbour0IntentionalPacketDropping 	0
+scalar BMacTest.node[9].nic.ids 	neighbour1PacketsReceived 	0
+scalar BMacTest.node[9].nic.ids 	neighbour1PacketsForwarded 	0
+scalar BMacTest.node[9].nic.ids 	neighbour1IntentionalPacketDropping 	0
+scalar BMacTest.node[9].nic.ids 	neighbour2PacketsReceived 	116
+scalar BMacTest.node[9].nic.ids 	neighbour2PacketsForwarded 	116
+scalar BMacTest.node[9].nic.ids 	neighbour2IntentionalPacketDropping 	0
+scalar BMacTest.node[9].nic.ids 	neighbour3PacketsReceived 	120
+scalar BMacTest.node[9].nic.ids 	neighbour3PacketsForwarded 	120
+scalar BMacTest.node[9].nic.ids 	neighbour3IntentionalPacketDropping 	0
+scalar BMacTest.node[9].nic.ids 	neighbour4PacketsReceived 	479
+scalar BMacTest.node[9].nic.ids 	neighbour4PacketsForwarded 	479
+scalar BMacTest.node[9].nic.ids 	neighbour4IntentionalPacketDropping 	0
+scalar BMacTest.node[9].nic.ids 	neighbour5PacketsReceived 	0
+scalar BMacTest.node[9].nic.ids 	neighbour5PacketsForwarded 	0
+scalar BMacTest.node[9].nic.ids 	neighbour5IntentionalPacketDropping 	0
+scalar BMacTest.node[9].nic.ids 	neighbour6PacketsReceived 	0
+scalar BMacTest.node[9].nic.ids 	neighbour6PacketsForwarded 	0
+scalar BMacTest.node[9].nic.ids 	neighbour6IntentionalPacketDropping 	0
+scalar BMacTest.node[9].nic.ids 	neighbour7PacketsReceived 	717
+scalar BMacTest.node[9].nic.ids 	neighbour7PacketsForwarded 	384
+scalar BMacTest.node[9].nic.ids 	neighbour7IntentionalPacketDropping 	0.5
+scalar BMacTest.node[9].nic.ids 	neighbour8PacketsReceived 	625
+scalar BMacTest.node[9].nic.ids 	neighbour8PacketsForwarded 	623
+scalar BMacTest.node[9].nic.ids 	neighbour8IntentionalPacketDropping 	0
+scalar BMacTest.node[9].nic.ids 	neighbour10PacketsReceived 	0
+scalar BMacTest.node[9].nic.ids 	neighbour10PacketsForwarded 	0
+scalar BMacTest.node[9].nic.ids 	neighbour10IntentionalPacketDropping 	0.5
+scalar BMacTest.node[9].nic.ids 	neighbour11PacketsReceived 	982
+scalar BMacTest.node[9].nic.ids 	neighbour11PacketsForwarded 	980
+scalar BMacTest.node[9].nic.ids 	neighbour11IntentionalPacketDropping 	0
+scalar BMacTest.node[9].nic.ids 	neighbour12PacketsReceived 	0
+scalar BMacTest.node[9].nic.ids 	neighbour12PacketsForwarded 	0
+scalar BMacTest.node[9].nic.ids 	neighbour12IntentionalPacketDropping 	0
+scalar BMacTest.node[9].nic.ids 	neighbour13PacketsReceived 	0
+scalar BMacTest.node[9].nic.ids 	neighbour13PacketsForwarded 	0
+scalar BMacTest.node[9].nic.ids 	neighbour13IntentionalPacketDropping 	0
+scalar BMacTest.node[9].nic.ids 	neighbour14PacketsReceived 	1099
+scalar BMacTest.node[9].nic.ids 	neighbour14PacketsForwarded 	1098
+scalar BMacTest.node[9].nic.ids 	neighbour14IntentionalPacketDropping 	0
+scalar BMacTest.node[9].nic.ids 	neighbour15PacketsReceived 	1338
+scalar BMacTest.node[9].nic.ids 	neighbour15PacketsForwarded 	1336
+scalar BMacTest.node[9].nic.ids 	neighbour15IntentionalPacketDropping 	0
+scalar BMacTest.node[9].nic.ids 	neighbour16PacketsReceived 	120
+scalar BMacTest.node[9].nic.ids 	neighbour16PacketsForwarded 	120
+scalar BMacTest.node[9].nic.ids 	neighbour16IntentionalPacketDropping 	0
+scalar BMacTest.node[9].nic.ids 	neighbour17PacketsReceived 	0
+scalar BMacTest.node[9].nic.ids 	neighbour17PacketsForwarded 	0
+scalar BMacTest.node[9].nic.ids 	neighbour17IntentionalPacketDropping 	0
+scalar BMacTest.node[9].nic.ids 	neighbour18PacketsReceived 	0
+scalar BMacTest.node[9].nic.ids 	neighbour18PacketsForwarded 	0
+scalar BMacTest.node[9].nic.ids 	neighbour18IntentionalPacketDropping 	0
+scalar BMacTest.node[9].nic.ids 	neighbour19PacketsReceived 	1693
+scalar BMacTest.node[9].nic.ids 	neighbour19PacketsForwarded 	822
+scalar BMacTest.node[9].nic.ids 	neighbour19IntentionalPacketDropping 	0.5
+scalar BMacTest.node[9].nic.ids 	neighbour20PacketsReceived 	239
+scalar BMacTest.node[9].nic.ids 	neighbour20PacketsForwarded 	239
+scalar BMacTest.node[9].nic.ids 	neighbour20IntentionalPacketDropping 	0
+scalar BMacTest.node[9].nic.ids 	neighbour21PacketsReceived 	0
+scalar BMacTest.node[9].nic.ids 	neighbour21PacketsForwarded 	0
+scalar BMacTest.node[9].nic.ids 	neighbour21IntentionalPacketDropping 	0
+scalar BMacTest.node[9].nic.ids 	neighbour22PacketsReceived 	1063
+scalar BMacTest.node[9].nic.ids 	neighbour22PacketsForwarded 	1063
+scalar BMacTest.node[9].nic.ids 	neighbour22IntentionalPacketDropping 	0
+scalar BMacTest.node[9].nic.ids 	neighbour23PacketsReceived 	477
+scalar BMacTest.node[9].nic.ids 	neighbour23PacketsForwarded 	476
+scalar BMacTest.node[9].nic.ids 	neighbour23IntentionalPacketDropping 	0
+scalar BMacTest.node[9].nic.ids 	neighbour24PacketsReceived 	0
+scalar BMacTest.node[9].nic.ids 	neighbour24PacketsForwarded 	0
+scalar BMacTest.node[9].nic.ids 	neighbour24IntentionalPacketDropping 	0
+scalar BMacTest.node[9].nic.ids 	neighbour26PacketsReceived 	0
+scalar BMacTest.node[9].nic.ids 	neighbour26PacketsForwarded 	0
+scalar BMacTest.node[9].nic.ids 	neighbour26IntentionalPacketDropping 	0
+scalar BMacTest.node[9].nic.ids 	neighbour27PacketsReceived 	0
+scalar BMacTest.node[9].nic.ids 	neighbour27PacketsForwarded 	0
+scalar BMacTest.node[9].nic.ids 	neighbour27IntentionalPacketDropping 	0
+scalar BMacTest.node[9].nic.ids 	data_packets_intercepted 	11099
+scalar BMacTest.node[9].nic.ids 	data_packets_me_to_somebody 	120
+scalar BMacTest.node[9].nic.ids 	data_packets_somebody_to_me 	0
+scalar BMacTest.node[9].nic.ids 	data_packets_somebody_to_somebody 	10979
+scalar BMacTest.node[9].netwl 	nbPacketsForwarded 	0
+scalar BMacTest.node[9].netwl 	nbPacketsReceived 	0
+scalar BMacTest.node[9].netwl 	nbPacketsSent 	120
+scalar BMacTest.node[9].netwl 	nbPacketsDropped 	0
+scalar BMacTest.node[10].nic.ids 	notAffectedByHostState 	0
+scalar BMacTest.node[10].nic.ids 	stats 	1
+scalar BMacTest.node[10].nic.ids 	debug 	0
+scalar BMacTest.node[10].nic.ids 	maxMonitoredNodes 	30
+scalar BMacTest.node[10].nic.ids 	fwdBufferSize 	100
+scalar BMacTest.node[10].nic.ids 	fwdMinPacketsReceived 	0
+scalar BMacTest.node[10].nic.ids 	fwdDetectionThreshold 	0.5
+scalar BMacTest.node[10].nic.ids 	memIDSEntry 	8
+scalar BMacTest.node[10].nic.ids 	memBufferEntry 	16
+scalar BMacTest.node[10].nic.ids 	maxDistance 	999999
+scalar BMacTest.node[10].nic.ids 	fwdPacketTimeout 	999999
+scalar BMacTest.node[10].nic.ids 	neighbour0PacketsReceived 	0
+scalar BMacTest.node[10].nic.ids 	neighbour0PacketsForwarded 	0
+scalar BMacTest.node[10].nic.ids 	neighbour0IntentionalPacketDropping 	0
+scalar BMacTest.node[10].nic.ids 	neighbour1PacketsReceived 	0
+scalar BMacTest.node[10].nic.ids 	neighbour1PacketsForwarded 	0
+scalar BMacTest.node[10].nic.ids 	neighbour1IntentionalPacketDropping 	0
+scalar BMacTest.node[10].nic.ids 	neighbour2PacketsReceived 	111
+scalar BMacTest.node[10].nic.ids 	neighbour2PacketsForwarded 	109
+scalar BMacTest.node[10].nic.ids 	neighbour2IntentionalPacketDropping 	0
+scalar BMacTest.node[10].nic.ids 	neighbour3PacketsReceived 	117
+scalar BMacTest.node[10].nic.ids 	neighbour3PacketsForwarded 	116
+scalar BMacTest.node[10].nic.ids 	neighbour3IntentionalPacketDropping 	0
+scalar BMacTest.node[10].nic.ids 	neighbour4PacketsReceived 	473
+scalar BMacTest.node[10].nic.ids 	neighbour4PacketsForwarded 	473
+scalar BMacTest.node[10].nic.ids 	neighbour4IntentionalPacketDropping 	0
+scalar BMacTest.node[10].nic.ids 	neighbour5PacketsReceived 	0
+scalar BMacTest.node[10].nic.ids 	neighbour5PacketsForwarded 	0
+scalar BMacTest.node[10].nic.ids 	neighbour5IntentionalPacketDropping 	0
+scalar BMacTest.node[10].nic.ids 	neighbour6PacketsReceived 	0
+scalar BMacTest.node[10].nic.ids 	neighbour6PacketsForwarded 	0
+scalar BMacTest.node[10].nic.ids 	neighbour6IntentionalPacketDropping 	0
+scalar BMacTest.node[10].nic.ids 	neighbour7PacketsReceived 	717
+scalar BMacTest.node[10].nic.ids 	neighbour7PacketsForwarded 	384
+scalar BMacTest.node[10].nic.ids 	neighbour7IntentionalPacketDropping 	0.5
+scalar BMacTest.node[10].nic.ids 	neighbour8PacketsReceived 	625
+scalar BMacTest.node[10].nic.ids 	neighbour8PacketsForwarded 	623
+scalar BMacTest.node[10].nic.ids 	neighbour8IntentionalPacketDropping 	0
+scalar BMacTest.node[10].nic.ids 	neighbour9PacketsReceived 	0
+scalar BMacTest.node[10].nic.ids 	neighbour9PacketsForwarded 	0
+scalar BMacTest.node[10].nic.ids 	neighbour9IntentionalPacketDropping 	0
+scalar BMacTest.node[10].nic.ids 	neighbour11PacketsReceived 	982
+scalar BMacTest.node[10].nic.ids 	neighbour11PacketsForwarded 	980
+scalar BMacTest.node[10].nic.ids 	neighbour11IntentionalPacketDropping 	0
+scalar BMacTest.node[10].nic.ids 	neighbour12PacketsReceived 	0
+scalar BMacTest.node[10].nic.ids 	neighbour12PacketsForwarded 	0
+scalar BMacTest.node[10].nic.ids 	neighbour12IntentionalPacketDropping 	0
+scalar BMacTest.node[10].nic.ids 	neighbour13PacketsReceived 	0
+scalar BMacTest.node[10].nic.ids 	neighbour13PacketsForwarded 	0
+scalar BMacTest.node[10].nic.ids 	neighbour13IntentionalPacketDropping 	0
+scalar BMacTest.node[10].nic.ids 	neighbour14PacketsReceived 	1099
+scalar BMacTest.node[10].nic.ids 	neighbour14PacketsForwarded 	1099
+scalar BMacTest.node[10].nic.ids 	neighbour14IntentionalPacketDropping 	0
+scalar BMacTest.node[10].nic.ids 	neighbour15PacketsReceived 	1339
+scalar BMacTest.node[10].nic.ids 	neighbour15PacketsForwarded 	1337
+scalar BMacTest.node[10].nic.ids 	neighbour15IntentionalPacketDropping 	0
+scalar BMacTest.node[10].nic.ids 	neighbour16PacketsReceived 	120
+scalar BMacTest.node[10].nic.ids 	neighbour16PacketsForwarded 	120
+scalar BMacTest.node[10].nic.ids 	neighbour16IntentionalPacketDropping 	0
+scalar BMacTest.node[10].nic.ids 	neighbour17PacketsReceived 	0
+scalar BMacTest.node[10].nic.ids 	neighbour17PacketsForwarded 	0
+scalar BMacTest.node[10].nic.ids 	neighbour17IntentionalPacketDropping 	0
+scalar BMacTest.node[10].nic.ids 	neighbour18PacketsReceived 	0
+scalar BMacTest.node[10].nic.ids 	neighbour18PacketsForwarded 	0
+scalar BMacTest.node[10].nic.ids 	neighbour18IntentionalPacketDropping 	0
+scalar BMacTest.node[10].nic.ids 	neighbour19PacketsReceived 	1693
+scalar BMacTest.node[10].nic.ids 	neighbour19PacketsForwarded 	822
+scalar BMacTest.node[10].nic.ids 	neighbour19IntentionalPacketDropping 	0.5
+scalar BMacTest.node[10].nic.ids 	neighbour20PacketsReceived 	239
+scalar BMacTest.node[10].nic.ids 	neighbour20PacketsForwarded 	239
+scalar BMacTest.node[10].nic.ids 	neighbour20IntentionalPacketDropping 	0
+scalar BMacTest.node[10].nic.ids 	neighbour21PacketsReceived 	0
+scalar BMacTest.node[10].nic.ids 	neighbour21PacketsForwarded 	0
+scalar BMacTest.node[10].nic.ids 	neighbour21IntentionalPacketDropping 	0
+scalar BMacTest.node[10].nic.ids 	neighbour22PacketsReceived 	1063
+scalar BMacTest.node[10].nic.ids 	neighbour22PacketsForwarded 	1063
+scalar BMacTest.node[10].nic.ids 	neighbour22IntentionalPacketDropping 	0
+scalar BMacTest.node[10].nic.ids 	neighbour23PacketsReceived 	477
+scalar BMacTest.node[10].nic.ids 	neighbour23PacketsForwarded 	474
+scalar BMacTest.node[10].nic.ids 	neighbour23IntentionalPacketDropping 	0
+scalar BMacTest.node[10].nic.ids 	neighbour24PacketsReceived 	0
+scalar BMacTest.node[10].nic.ids 	neighbour24PacketsForwarded 	0
+scalar BMacTest.node[10].nic.ids 	neighbour24IntentionalPacketDropping 	0
+scalar BMacTest.node[10].nic.ids 	neighbour26PacketsReceived 	0
+scalar BMacTest.node[10].nic.ids 	neighbour26PacketsForwarded 	0
+scalar BMacTest.node[10].nic.ids 	neighbour26IntentionalPacketDropping 	0
+scalar BMacTest.node[10].nic.ids 	neighbour27PacketsReceived 	0
+scalar BMacTest.node[10].nic.ids 	neighbour27PacketsForwarded 	0
+scalar BMacTest.node[10].nic.ids 	neighbour27IntentionalPacketDropping 	0
+scalar BMacTest.node[10].nic.ids 	data_packets_intercepted 	11083
+scalar BMacTest.node[10].nic.ids 	data_packets_me_to_somebody 	120
+scalar BMacTest.node[10].nic.ids 	data_packets_somebody_to_me 	0
+scalar BMacTest.node[10].nic.ids 	data_packets_somebody_to_somebody 	10963
+scalar BMacTest.node[10].netwl 	nbPacketsForwarded 	0
+scalar BMacTest.node[10].netwl 	nbPacketsReceived 	0
+scalar BMacTest.node[10].netwl 	nbPacketsSent 	120
+scalar BMacTest.node[10].netwl 	nbPacketsDropped 	0
+scalar BMacTest.node[11].nic.ids 	notAffectedByHostState 	0
+scalar BMacTest.node[11].nic.ids 	stats 	1
+scalar BMacTest.node[11].nic.ids 	debug 	0
+scalar BMacTest.node[11].nic.ids 	maxMonitoredNodes 	30
+scalar BMacTest.node[11].nic.ids 	fwdBufferSize 	100
+scalar BMacTest.node[11].nic.ids 	fwdMinPacketsReceived 	0
+scalar BMacTest.node[11].nic.ids 	fwdDetectionThreshold 	0.5
+scalar BMacTest.node[11].nic.ids 	memIDSEntry 	8
+scalar BMacTest.node[11].nic.ids 	memBufferEntry 	16
+scalar BMacTest.node[11].nic.ids 	maxDistance 	999999
+scalar BMacTest.node[11].nic.ids 	fwdPacketTimeout 	999999
+scalar BMacTest.node[11].nic.ids 	neighbour0PacketsReceived 	0
+scalar BMacTest.node[11].nic.ids 	neighbour0PacketsForwarded 	0
+scalar BMacTest.node[11].nic.ids 	neighbour0IntentionalPacketDropping 	0
+scalar BMacTest.node[11].nic.ids 	neighbour1PacketsReceived 	0
+scalar BMacTest.node[11].nic.ids 	neighbour1PacketsForwarded 	0
+scalar BMacTest.node[11].nic.ids 	neighbour1IntentionalPacketDropping 	0
+scalar BMacTest.node[11].nic.ids 	neighbour2PacketsReceived 	102
+scalar BMacTest.node[11].nic.ids 	neighbour2PacketsForwarded 	95
+scalar BMacTest.node[11].nic.ids 	neighbour2IntentionalPacketDropping 	0
+scalar BMacTest.node[11].nic.ids 	neighbour3PacketsReceived 	110
+scalar BMacTest.node[11].nic.ids 	neighbour3PacketsForwarded 	106
+scalar BMacTest.node[11].nic.ids 	neighbour3IntentionalPacketDropping 	0
+scalar BMacTest.node[11].nic.ids 	neighbour4PacketsReceived 	461
+scalar BMacTest.node[11].nic.ids 	neighbour4PacketsForwarded 	461
+scalar BMacTest.node[11].nic.ids 	neighbour4IntentionalPacketDropping 	0
+scalar BMacTest.node[11].nic.ids 	neighbour5PacketsReceived 	0
+scalar BMacTest.node[11].nic.ids 	neighbour5PacketsForwarded 	0
+scalar BMacTest.node[11].nic.ids 	neighbour5IntentionalPacketDropping 	0
+scalar BMacTest.node[11].nic.ids 	neighbour6PacketsReceived 	0
+scalar BMacTest.node[11].nic.ids 	neighbour6PacketsForwarded 	0
+scalar BMacTest.node[11].nic.ids 	neighbour6IntentionalPacketDropping 	0
+scalar BMacTest.node[11].nic.ids 	neighbour7PacketsReceived 	717
+scalar BMacTest.node[11].nic.ids 	neighbour7PacketsForwarded 	383
+scalar BMacTest.node[11].nic.ids 	neighbour7IntentionalPacketDropping 	0.5
+scalar BMacTest.node[11].nic.ids 	neighbour8PacketsReceived 	624
+scalar BMacTest.node[11].nic.ids 	neighbour8PacketsForwarded 	623
+scalar BMacTest.node[11].nic.ids 	neighbour8IntentionalPacketDropping 	0
+scalar BMacTest.node[11].nic.ids 	neighbour9PacketsReceived 	0
+scalar BMacTest.node[11].nic.ids 	neighbour9PacketsForwarded 	0
+scalar BMacTest.node[11].nic.ids 	neighbour9IntentionalPacketDropping 	0
+scalar BMacTest.node[11].nic.ids 	neighbour10PacketsReceived 	0
+scalar BMacTest.node[11].nic.ids 	neighbour10PacketsForwarded 	0
+scalar BMacTest.node[11].nic.ids 	neighbour10IntentionalPacketDropping 	0.5
+scalar BMacTest.node[11].nic.ids 	neighbour12PacketsReceived 	0
+scalar BMacTest.node[11].nic.ids 	neighbour12PacketsForwarded 	0
+scalar BMacTest.node[11].nic.ids 	neighbour12IntentionalPacketDropping 	0
+scalar BMacTest.node[11].nic.ids 	neighbour13PacketsReceived 	0
+scalar BMacTest.node[11].nic.ids 	neighbour13PacketsForwarded 	0
+scalar BMacTest.node[11].nic.ids 	neighbour13IntentionalPacketDropping 	0
+scalar BMacTest.node[11].nic.ids 	neighbour14PacketsReceived 	1102
+scalar BMacTest.node[11].nic.ids 	neighbour14PacketsForwarded 	1099
+scalar BMacTest.node[11].nic.ids 	neighbour14IntentionalPacketDropping 	0
+scalar BMacTest.node[11].nic.ids 	neighbour15PacketsReceived 	1338
+scalar BMacTest.node[11].nic.ids 	neighbour15PacketsForwarded 	1336
+scalar BMacTest.node[11].nic.ids 	neighbour15IntentionalPacketDropping 	0
+scalar BMacTest.node[11].nic.ids 	neighbour16PacketsReceived 	120
+scalar BMacTest.node[11].nic.ids 	neighbour16PacketsForwarded 	120
+scalar BMacTest.node[11].nic.ids 	neighbour16IntentionalPacketDropping 	0
+scalar BMacTest.node[11].nic.ids 	neighbour17PacketsReceived 	0
+scalar BMacTest.node[11].nic.ids 	neighbour17PacketsForwarded 	0
+scalar BMacTest.node[11].nic.ids 	neighbour17IntentionalPacketDropping 	0
+scalar BMacTest.node[11].nic.ids 	neighbour18PacketsReceived 	0
+scalar BMacTest.node[11].nic.ids 	neighbour18PacketsForwarded 	0
+scalar BMacTest.node[11].nic.ids 	neighbour18IntentionalPacketDropping 	0
+scalar BMacTest.node[11].nic.ids 	neighbour19PacketsReceived 	1692
+scalar BMacTest.node[11].nic.ids 	neighbour19PacketsForwarded 	822
+scalar BMacTest.node[11].nic.ids 	neighbour19IntentionalPacketDropping 	0.5
+scalar BMacTest.node[11].nic.ids 	neighbour20PacketsReceived 	239
+scalar BMacTest.node[11].nic.ids 	neighbour20PacketsForwarded 	239
+scalar BMacTest.node[11].nic.ids 	neighbour20IntentionalPacketDropping 	0
+scalar BMacTest.node[11].nic.ids 	neighbour21PacketsReceived 	0
+scalar BMacTest.node[11].nic.ids 	neighbour21PacketsForwarded 	0
+scalar BMacTest.node[11].nic.ids 	neighbour21IntentionalPacketDropping 	0
+scalar BMacTest.node[11].nic.ids 	neighbour22PacketsReceived 	1063
+scalar BMacTest.node[11].nic.ids 	neighbour22PacketsForwarded 	1063
+scalar BMacTest.node[11].nic.ids 	neighbour22IntentionalPacketDropping 	0
+scalar BMacTest.node[11].nic.ids 	neighbour23PacketsReceived 	477
+scalar BMacTest.node[11].nic.ids 	neighbour23PacketsForwarded 	476
+scalar BMacTest.node[11].nic.ids 	neighbour23IntentionalPacketDropping 	0
+scalar BMacTest.node[11].nic.ids 	neighbour24PacketsReceived 	0
+scalar BMacTest.node[11].nic.ids 	neighbour24PacketsForwarded 	0
+scalar BMacTest.node[11].nic.ids 	neighbour24IntentionalPacketDropping 	0
+scalar BMacTest.node[11].nic.ids 	neighbour26PacketsReceived 	0
+scalar BMacTest.node[11].nic.ids 	neighbour26PacketsForwarded 	0
+scalar BMacTest.node[11].nic.ids 	neighbour26IntentionalPacketDropping 	0
+scalar BMacTest.node[11].nic.ids 	neighbour27PacketsReceived 	0
+scalar BMacTest.node[11].nic.ids 	neighbour27PacketsForwarded 	0
+scalar BMacTest.node[11].nic.ids 	neighbour27IntentionalPacketDropping 	0
+scalar BMacTest.node[11].nic.ids 	data_packets_intercepted 	11057
+scalar BMacTest.node[11].nic.ids 	data_packets_me_to_somebody 	1102
+scalar BMacTest.node[11].nic.ids 	data_packets_somebody_to_me 	982
+scalar BMacTest.node[11].nic.ids 	data_packets_somebody_to_somebody 	8973
+scalar BMacTest.node[11].netwl 	nbPacketsForwarded 	982
+scalar BMacTest.node[11].netwl 	nbPacketsReceived 	982
+scalar BMacTest.node[11].netwl 	nbPacketsSent 	120
+scalar BMacTest.node[11].netwl 	nbPacketsDropped 	0
+scalar BMacTest.node[12].nic.ids 	notAffectedByHostState 	0
+scalar BMacTest.node[12].nic.ids 	stats 	1
+scalar BMacTest.node[12].nic.ids 	debug 	0
+scalar BMacTest.node[12].nic.ids 	maxMonitoredNodes 	30
+scalar BMacTest.node[12].nic.ids 	fwdBufferSize 	100
+scalar BMacTest.node[12].nic.ids 	fwdMinPacketsReceived 	0
+scalar BMacTest.node[12].nic.ids 	fwdDetectionThreshold 	0.5
+scalar BMacTest.node[12].nic.ids 	memIDSEntry 	8
+scalar BMacTest.node[12].nic.ids 	memBufferEntry 	16
+scalar BMacTest.node[12].nic.ids 	maxDistance 	999999
+scalar BMacTest.node[12].nic.ids 	fwdPacketTimeout 	999999
+scalar BMacTest.node[12].nic.ids 	neighbour0PacketsReceived 	0
+scalar BMacTest.node[12].nic.ids 	neighbour0PacketsForwarded 	0
+scalar BMacTest.node[12].nic.ids 	neighbour0IntentionalPacketDropping 	0
+scalar BMacTest.node[12].nic.ids 	neighbour1PacketsReceived 	0
+scalar BMacTest.node[12].nic.ids 	neighbour1PacketsForwarded 	0
+scalar BMacTest.node[12].nic.ids 	neighbour1IntentionalPacketDropping 	0
+scalar BMacTest.node[12].nic.ids 	neighbour2PacketsReceived 	93
+scalar BMacTest.node[12].nic.ids 	neighbour2PacketsForwarded 	77
+scalar BMacTest.node[12].nic.ids 	neighbour2IntentionalPacketDropping 	0
+scalar BMacTest.node[12].nic.ids 	neighbour3PacketsReceived 	107
+scalar BMacTest.node[12].nic.ids 	neighbour3PacketsForwarded 	101
+scalar BMacTest.node[12].nic.ids 	neighbour3IntentionalPacketDropping 	0
+scalar BMacTest.node[12].nic.ids 	neighbour4PacketsReceived 	446
+scalar BMacTest.node[12].nic.ids 	neighbour4PacketsForwarded 	443
+scalar BMacTest.node[12].nic.ids 	neighbour4IntentionalPacketDropping 	0
+scalar BMacTest.node[12].nic.ids 	neighbour5PacketsReceived 	0
+scalar BMacTest.node[12].nic.ids 	neighbour5PacketsForwarded 	0
+scalar BMacTest.node[12].nic.ids 	neighbour5IntentionalPacketDropping 	0
+scalar BMacTest.node[12].nic.ids 	neighbour6PacketsReceived 	0
+scalar BMacTest.node[12].nic.ids 	neighbour6PacketsForwarded 	0
+scalar BMacTest.node[12].nic.ids 	neighbour6IntentionalPacketDropping 	0
+scalar BMacTest.node[12].nic.ids 	neighbour7PacketsReceived 	714
+scalar BMacTest.node[12].nic.ids 	neighbour7PacketsForwarded 	384
+scalar BMacTest.node[12].nic.ids 	neighbour7IntentionalPacketDropping 	0.5
+scalar BMacTest.node[12].nic.ids 	neighbour8PacketsReceived 	625
+scalar BMacTest.node[12].nic.ids 	neighbour8PacketsForwarded 	622
+scalar BMacTest.node[12].nic.ids 	neighbour8IntentionalPacketDropping 	0
+scalar BMacTest.node[12].nic.ids 	neighbour9PacketsReceived 	0
+scalar BMacTest.node[12].nic.ids 	neighbour9PacketsForwarded 	0
+scalar BMacTest.node[12].nic.ids 	neighbour9IntentionalPacketDropping 	0
+scalar BMacTest.node[12].nic.ids 	neighbour10PacketsReceived 	0
+scalar BMacTest.node[12].nic.ids 	neighbour10PacketsForwarded 	0
+scalar BMacTest.node[12].nic.ids 	neighbour10IntentionalPacketDropping 	0.5
+scalar BMacTest.node[12].nic.ids 	neighbour11PacketsReceived 	980
+scalar BMacTest.node[12].nic.ids 	neighbour11PacketsForwarded 	978
+scalar BMacTest.node[12].nic.ids 	neighbour11IntentionalPacketDropping 	0
+scalar BMacTest.node[12].nic.ids 	neighbour13PacketsReceived 	0
+scalar BMacTest.node[12].nic.ids 	neighbour13PacketsForwarded 	0
+scalar BMacTest.node[12].nic.ids 	neighbour13IntentionalPacketDropping 	0
+scalar BMacTest.node[12].nic.ids 	neighbour14PacketsReceived 	1099
+scalar BMacTest.node[12].nic.ids 	neighbour14PacketsForwarded 	1099
+scalar BMacTest.node[12].nic.ids 	neighbour14IntentionalPacketDropping 	0
+scalar BMacTest.node[12].nic.ids 	neighbour15PacketsReceived 	1340
+scalar BMacTest.node[12].nic.ids 	neighbour15PacketsForwarded 	1338
+scalar BMacTest.node[12].nic.ids 	neighbour15IntentionalPacketDropping 	0
+scalar BMacTest.node[12].nic.ids 	neighbour16PacketsReceived 	120
+scalar BMacTest.node[12].nic.ids 	neighbour16PacketsForwarded 	120
+scalar BMacTest.node[12].nic.ids 	neighbour16IntentionalPacketDropping 	0
+scalar BMacTest.node[12].nic.ids 	neighbour17PacketsReceived 	0
+scalar BMacTest.node[12].nic.ids 	neighbour17PacketsForwarded 	0
+scalar BMacTest.node[12].nic.ids 	neighbour17IntentionalPacketDropping 	0
+scalar BMacTest.node[12].nic.ids 	neighbour18PacketsReceived 	0
+scalar BMacTest.node[12].nic.ids 	neighbour18PacketsForwarded 	0
+scalar BMacTest.node[12].nic.ids 	neighbour18IntentionalPacketDropping 	0
+scalar BMacTest.node[12].nic.ids 	neighbour19PacketsReceived 	1693
+scalar BMacTest.node[12].nic.ids 	neighbour19PacketsForwarded 	822
+scalar BMacTest.node[12].nic.ids 	neighbour19IntentionalPacketDropping 	0.5
+scalar BMacTest.node[12].nic.ids 	neighbour20PacketsReceived 	239
+scalar BMacTest.node[12].nic.ids 	neighbour20PacketsForwarded 	239
+scalar BMacTest.node[12].nic.ids 	neighbour20IntentionalPacketDropping 	0
+scalar BMacTest.node[12].nic.ids 	neighbour21PacketsReceived 	0
+scalar BMacTest.node[12].nic.ids 	neighbour21PacketsForwarded 	0
+scalar BMacTest.node[12].nic.ids 	neighbour21IntentionalPacketDropping 	0
+scalar BMacTest.node[12].nic.ids 	neighbour22PacketsReceived 	1063
+scalar BMacTest.node[12].nic.ids 	neighbour22PacketsForwarded 	1063
+scalar BMacTest.node[12].nic.ids 	neighbour22IntentionalPacketDropping 	0
+scalar BMacTest.node[12].nic.ids 	neighbour23PacketsReceived 	477
+scalar BMacTest.node[12].nic.ids 	neighbour23PacketsForwarded 	476
+scalar BMacTest.node[12].nic.ids 	neighbour23IntentionalPacketDropping 	0
+scalar BMacTest.node[12].nic.ids 	neighbour24PacketsReceived 	0
+scalar BMacTest.node[12].nic.ids 	neighbour24PacketsForwarded 	0
+scalar BMacTest.node[12].nic.ids 	neighbour24IntentionalPacketDropping 	0
+scalar BMacTest.node[12].nic.ids 	neighbour26PacketsReceived 	0
+scalar BMacTest.node[12].nic.ids 	neighbour26PacketsForwarded 	0
+scalar BMacTest.node[12].nic.ids 	neighbour26IntentionalPacketDropping 	0
+scalar BMacTest.node[12].nic.ids 	neighbour27PacketsReceived 	0
+scalar BMacTest.node[12].nic.ids 	neighbour27PacketsForwarded 	0
+scalar BMacTest.node[12].nic.ids 	neighbour27IntentionalPacketDropping 	0
+scalar BMacTest.node[12].nic.ids 	data_packets_intercepted 	11028
+scalar BMacTest.node[12].nic.ids 	data_packets_me_to_somebody 	120
+scalar BMacTest.node[12].nic.ids 	data_packets_somebody_to_me 	0
+scalar BMacTest.node[12].nic.ids 	data_packets_somebody_to_somebody 	10908
+scalar BMacTest.node[12].netwl 	nbPacketsForwarded 	0
+scalar BMacTest.node[12].netwl 	nbPacketsReceived 	0
+scalar BMacTest.node[12].netwl 	nbPacketsSent 	120
+scalar BMacTest.node[12].netwl 	nbPacketsDropped 	0
+scalar BMacTest.node[13].nic.ids 	notAffectedByHostState 	0
+scalar BMacTest.node[13].nic.ids 	stats 	1
+scalar BMacTest.node[13].nic.ids 	debug 	0
+scalar BMacTest.node[13].nic.ids 	maxMonitoredNodes 	30
+scalar BMacTest.node[13].nic.ids 	fwdBufferSize 	100
+scalar BMacTest.node[13].nic.ids 	fwdMinPacketsReceived 	0
+scalar BMacTest.node[13].nic.ids 	fwdDetectionThreshold 	0.5
+scalar BMacTest.node[13].nic.ids 	memIDSEntry 	8
+scalar BMacTest.node[13].nic.ids 	memBufferEntry 	16
+scalar BMacTest.node[13].nic.ids 	maxDistance 	999999
+scalar BMacTest.node[13].nic.ids 	fwdPacketTimeout 	999999
+scalar BMacTest.node[13].nic.ids 	neighbour0PacketsReceived 	0
+scalar BMacTest.node[13].nic.ids 	neighbour0PacketsForwarded 	0
+scalar BMacTest.node[13].nic.ids 	neighbour0IntentionalPacketDropping 	0
+scalar BMacTest.node[13].nic.ids 	neighbour1PacketsReceived 	0
+scalar BMacTest.node[13].nic.ids 	neighbour1PacketsForwarded 	0
+scalar BMacTest.node[13].nic.ids 	neighbour1IntentionalPacketDropping 	0
+scalar BMacTest.node[13].nic.ids 	neighbour2PacketsReceived 	87
+scalar BMacTest.node[13].nic.ids 	neighbour2PacketsForwarded 	83
+scalar BMacTest.node[13].nic.ids 	neighbour2IntentionalPacketDropping 	0
+scalar BMacTest.node[13].nic.ids 	neighbour3PacketsReceived 	101
+scalar BMacTest.node[13].nic.ids 	neighbour3PacketsForwarded 	94
+scalar BMacTest.node[13].nic.ids 	neighbour3IntentionalPacketDropping 	0
+scalar BMacTest.node[13].nic.ids 	neighbour4PacketsReceived 	450
+scalar BMacTest.node[13].nic.ids 	neighbour4PacketsForwarded 	443
+scalar BMacTest.node[13].nic.ids 	neighbour4IntentionalPacketDropping 	0
+scalar BMacTest.node[13].nic.ids 	neighbour5PacketsReceived 	0
+scalar BMacTest.node[13].nic.ids 	neighbour5PacketsForwarded 	0
+scalar BMacTest.node[13].nic.ids 	neighbour5IntentionalPacketDropping 	0
+scalar BMacTest.node[13].nic.ids 	neighbour6PacketsReceived 	0
+scalar BMacTest.node[13].nic.ids 	neighbour6PacketsForwarded 	0
+scalar BMacTest.node[13].nic.ids 	neighbour6IntentionalPacketDropping 	0
+scalar BMacTest.node[13].nic.ids 	neighbour7PacketsReceived 	706
+scalar BMacTest.node[13].nic.ids 	neighbour7PacketsForwarded 	377
+scalar BMacTest.node[13].nic.ids 	neighbour7IntentionalPacketDropping 	0.5
+scalar BMacTest.node[13].nic.ids 	neighbour8PacketsReceived 	625
+scalar BMacTest.node[13].nic.ids 	neighbour8PacketsForwarded 	622
+scalar BMacTest.node[13].nic.ids 	neighbour8IntentionalPacketDropping 	0
+scalar BMacTest.node[13].nic.ids 	neighbour9PacketsReceived 	0
+scalar BMacTest.node[13].nic.ids 	neighbour9PacketsForwarded 	0
+scalar BMacTest.node[13].nic.ids 	neighbour9IntentionalPacketDropping 	0
+scalar BMacTest.node[13].nic.ids 	neighbour10PacketsReceived 	0
+scalar BMacTest.node[13].nic.ids 	neighbour10PacketsForwarded 	0
+scalar BMacTest.node[13].nic.ids 	neighbour10IntentionalPacketDropping 	0.5
+scalar BMacTest.node[13].nic.ids 	neighbour11PacketsReceived 	980
+scalar BMacTest.node[13].nic.ids 	neighbour11PacketsForwarded 	978
+scalar BMacTest.node[13].nic.ids 	neighbour11IntentionalPacketDropping 	0
+scalar BMacTest.node[13].nic.ids 	neighbour12PacketsReceived 	0
+scalar BMacTest.node[13].nic.ids 	neighbour12PacketsForwarded 	0
+scalar BMacTest.node[13].nic.ids 	neighbour12IntentionalPacketDropping 	0
+scalar BMacTest.node[13].nic.ids 	neighbour14PacketsReceived 	1099
+scalar BMacTest.node[13].nic.ids 	neighbour14PacketsForwarded 	1098
+scalar BMacTest.node[13].nic.ids 	neighbour14IntentionalPacketDropping 	0
+scalar BMacTest.node[13].nic.ids 	neighbour15PacketsReceived 	1338
+scalar BMacTest.node[13].nic.ids 	neighbour15PacketsForwarded 	1336
+scalar BMacTest.node[13].nic.ids 	neighbour15IntentionalPacketDropping 	0
+scalar BMacTest.node[13].nic.ids 	neighbour16PacketsReceived 	120
+scalar BMacTest.node[13].nic.ids 	neighbour16PacketsForwarded 	120
+scalar BMacTest.node[13].nic.ids 	neighbour16IntentionalPacketDropping 	0
+scalar BMacTest.node[13].nic.ids 	neighbour17PacketsReceived 	0
+scalar BMacTest.node[13].nic.ids 	neighbour17PacketsForwarded 	0
+scalar BMacTest.node[13].nic.ids 	neighbour17IntentionalPacketDropping 	0
+scalar BMacTest.node[13].nic.ids 	neighbour18PacketsReceived 	0
+scalar BMacTest.node[13].nic.ids 	neighbour18PacketsForwarded 	0
+scalar BMacTest.node[13].nic.ids 	neighbour18IntentionalPacketDropping 	0
+scalar BMacTest.node[13].nic.ids 	neighbour19PacketsReceived 	1693
+scalar BMacTest.node[13].nic.ids 	neighbour19PacketsForwarded 	822
+scalar BMacTest.node[13].nic.ids 	neighbour19IntentionalPacketDropping 	0.5
+scalar BMacTest.node[13].nic.ids 	neighbour20PacketsReceived 	239
+scalar BMacTest.node[13].nic.ids 	neighbour20PacketsForwarded 	239
+scalar BMacTest.node[13].nic.ids 	neighbour20IntentionalPacketDropping 	0
+scalar BMacTest.node[13].nic.ids 	neighbour21PacketsReceived 	0
+scalar BMacTest.node[13].nic.ids 	neighbour21PacketsForwarded 	0
+scalar BMacTest.node[13].nic.ids 	neighbour21IntentionalPacketDropping 	0
+scalar BMacTest.node[13].nic.ids 	neighbour22PacketsReceived 	1063
+scalar BMacTest.node[13].nic.ids 	neighbour22PacketsForwarded 	1063
+scalar BMacTest.node[13].nic.ids 	neighbour22IntentionalPacketDropping 	0
+scalar BMacTest.node[13].nic.ids 	neighbour23PacketsReceived 	477
+scalar BMacTest.node[13].nic.ids 	neighbour23PacketsForwarded 	475
+scalar BMacTest.node[13].nic.ids 	neighbour23IntentionalPacketDropping 	0
+scalar BMacTest.node[13].nic.ids 	neighbour24PacketsReceived 	0
+scalar BMacTest.node[13].nic.ids 	neighbour24PacketsForwarded 	0
+scalar BMacTest.node[13].nic.ids 	neighbour24IntentionalPacketDropping 	0
+scalar BMacTest.node[13].nic.ids 	neighbour26PacketsReceived 	0
+scalar BMacTest.node[13].nic.ids 	neighbour26PacketsForwarded 	0
+scalar BMacTest.node[13].nic.ids 	neighbour26IntentionalPacketDropping 	0
+scalar BMacTest.node[13].nic.ids 	neighbour27PacketsReceived 	0
+scalar BMacTest.node[13].nic.ids 	neighbour27PacketsForwarded 	0
+scalar BMacTest.node[13].nic.ids 	neighbour27IntentionalPacketDropping 	0
+scalar BMacTest.node[13].nic.ids 	data_packets_intercepted 	11009
+scalar BMacTest.node[13].nic.ids 	data_packets_me_to_somebody 	120
+scalar BMacTest.node[13].nic.ids 	data_packets_somebody_to_me 	0
+scalar BMacTest.node[13].nic.ids 	data_packets_somebody_to_somebody 	10889
+scalar BMacTest.node[13].netwl 	nbPacketsForwarded 	0
+scalar BMacTest.node[13].netwl 	nbPacketsReceived 	0
+scalar BMacTest.node[13].netwl 	nbPacketsSent 	120
+scalar BMacTest.node[13].netwl 	nbPacketsDropped 	0
+scalar BMacTest.node[14].nic.ids 	notAffectedByHostState 	0
+scalar BMacTest.node[14].nic.ids 	stats 	1
+scalar BMacTest.node[14].nic.ids 	debug 	0
+scalar BMacTest.node[14].nic.ids 	maxMonitoredNodes 	30
+scalar BMacTest.node[14].nic.ids 	fwdBufferSize 	100
+scalar BMacTest.node[14].nic.ids 	fwdMinPacketsReceived 	0
+scalar BMacTest.node[14].nic.ids 	fwdDetectionThreshold 	0.5
+scalar BMacTest.node[14].nic.ids 	memIDSEntry 	8
+scalar BMacTest.node[14].nic.ids 	memBufferEntry 	16
+scalar BMacTest.node[14].nic.ids 	maxDistance 	999999
+scalar BMacTest.node[14].nic.ids 	fwdPacketTimeout 	999999
+scalar BMacTest.node[14].nic.ids 	neighbour0PacketsReceived 	0
+scalar BMacTest.node[14].nic.ids 	neighbour0PacketsForwarded 	0
+scalar BMacTest.node[14].nic.ids 	neighbour0IntentionalPacketDropping 	0
+scalar BMacTest.node[14].nic.ids 	neighbour1PacketsReceived 	0
+scalar BMacTest.node[14].nic.ids 	neighbour1PacketsForwarded 	0
+scalar BMacTest.node[14].nic.ids 	neighbour1IntentionalPacketDropping 	0
+scalar BMacTest.node[14].nic.ids 	neighbour2PacketsReceived 	96
+scalar BMacTest.node[14].nic.ids 	neighbour2PacketsForwarded 	90
+scalar BMacTest.node[14].nic.ids 	neighbour2IntentionalPacketDropping 	0
+scalar BMacTest.node[14].nic.ids 	neighbour3PacketsReceived 	105
+scalar BMacTest.node[14].nic.ids 	neighbour3PacketsForwarded 	99
+scalar BMacTest.node[14].nic.ids 	neighbour3IntentionalPacketDropping 	0
+scalar BMacTest.node[14].nic.ids 	neighbour4PacketsReceived 	449
+scalar BMacTest.node[14].nic.ids 	neighbour4PacketsForwarded 	446
+scalar BMacTest.node[14].nic.ids 	neighbour4IntentionalPacketDropping 	0
+scalar BMacTest.node[14].nic.ids 	neighbour5PacketsReceived 	0
+scalar BMacTest.node[14].nic.ids 	neighbour5PacketsForwarded 	0
+scalar BMacTest.node[14].nic.ids 	neighbour5IntentionalPacketDropping 	0
+scalar BMacTest.node[14].nic.ids 	neighbour6PacketsReceived 	0
+scalar BMacTest.node[14].nic.ids 	neighbour6PacketsForwarded 	0
+scalar BMacTest.node[14].nic.ids 	neighbour6IntentionalPacketDropping 	0
+scalar BMacTest.node[14].nic.ids 	neighbour7PacketsReceived 	714
+scalar BMacTest.node[14].nic.ids 	neighbour7PacketsForwarded 	381
+scalar BMacTest.node[14].nic.ids 	neighbour7IntentionalPacketDropping 	0.5
+scalar BMacTest.node[14].nic.ids 	neighbour8PacketsReceived 	624
+scalar BMacTest.node[14].nic.ids 	neighbour8PacketsForwarded 	622
+scalar BMacTest.node[14].nic.ids 	neighbour8IntentionalPacketDropping 	0
+scalar BMacTest.node[14].nic.ids 	neighbour9PacketsReceived 	0
+scalar BMacTest.node[14].nic.ids 	neighbour9PacketsForwarded 	0
+scalar BMacTest.node[14].nic.ids 	neighbour9IntentionalPacketDropping 	0
+scalar BMacTest.node[14].nic.ids 	neighbour10PacketsReceived 	0
+scalar BMacTest.node[14].nic.ids 	neighbour10PacketsForwarded 	0
+scalar BMacTest.node[14].nic.ids 	neighbour10IntentionalPacketDropping 	0.5
+scalar BMacTest.node[14].nic.ids 	neighbour11PacketsReceived 	980
+scalar BMacTest.node[14].nic.ids 	neighbour11PacketsForwarded 	978
+scalar BMacTest.node[14].nic.ids 	neighbour11IntentionalPacketDropping 	0
+scalar BMacTest.node[14].nic.ids 	neighbour12PacketsReceived 	0
+scalar BMacTest.node[14].nic.ids 	neighbour12PacketsForwarded 	0
+scalar BMacTest.node[14].nic.ids 	neighbour12IntentionalPacketDropping 	0
+scalar BMacTest.node[14].nic.ids 	neighbour13PacketsReceived 	0
+scalar BMacTest.node[14].nic.ids 	neighbour13PacketsForwarded 	0
+scalar BMacTest.node[14].nic.ids 	neighbour13IntentionalPacketDropping 	0
+scalar BMacTest.node[14].nic.ids 	neighbour15PacketsReceived 	1340
+scalar BMacTest.node[14].nic.ids 	neighbour15PacketsForwarded 	1338
+scalar BMacTest.node[14].nic.ids 	neighbour15IntentionalPacketDropping 	0
+scalar BMacTest.node[14].nic.ids 	neighbour16PacketsReceived 	120
+scalar BMacTest.node[14].nic.ids 	neighbour16PacketsForwarded 	120
+scalar BMacTest.node[14].nic.ids 	neighbour16IntentionalPacketDropping 	0
+scalar BMacTest.node[14].nic.ids 	neighbour17PacketsReceived 	0
+scalar BMacTest.node[14].nic.ids 	neighbour17PacketsForwarded 	0
+scalar BMacTest.node[14].nic.ids 	neighbour17IntentionalPacketDropping 	0
+scalar BMacTest.node[14].nic.ids 	neighbour18PacketsReceived 	0
+scalar BMacTest.node[14].nic.ids 	neighbour18PacketsForwarded 	0
+scalar BMacTest.node[14].nic.ids 	neighbour18IntentionalPacketDropping 	0
+scalar BMacTest.node[14].nic.ids 	neighbour19PacketsReceived 	1693
+scalar BMacTest.node[14].nic.ids 	neighbour19PacketsForwarded 	822
+scalar BMacTest.node[14].nic.ids 	neighbour19IntentionalPacketDropping 	0.5
+scalar BMacTest.node[14].nic.ids 	neighbour20PacketsReceived 	239
+scalar BMacTest.node[14].nic.ids 	neighbour20PacketsForwarded 	239
+scalar BMacTest.node[14].nic.ids 	neighbour20IntentionalPacketDropping 	0
+scalar BMacTest.node[14].nic.ids 	neighbour21PacketsReceived 	0
+scalar BMacTest.node[14].nic.ids 	neighbour21PacketsForwarded 	0
+scalar BMacTest.node[14].nic.ids 	neighbour21IntentionalPacketDropping 	0
+scalar BMacTest.node[14].nic.ids 	neighbour22PacketsReceived 	1063
+scalar BMacTest.node[14].nic.ids 	neighbour22PacketsForwarded 	1063
+scalar BMacTest.node[14].nic.ids 	neighbour22IntentionalPacketDropping 	0
+scalar BMacTest.node[14].nic.ids 	neighbour23PacketsReceived 	477
+scalar BMacTest.node[14].nic.ids 	neighbour23PacketsForwarded 	476
+scalar BMacTest.node[14].nic.ids 	neighbour23IntentionalPacketDropping 	0
+scalar BMacTest.node[14].nic.ids 	neighbour24PacketsReceived 	0
+scalar BMacTest.node[14].nic.ids 	neighbour24PacketsForwarded 	0
+scalar BMacTest.node[14].nic.ids 	neighbour24IntentionalPacketDropping 	0
+scalar BMacTest.node[14].nic.ids 	neighbour26PacketsReceived 	0
+scalar BMacTest.node[14].nic.ids 	neighbour26PacketsForwarded 	0
+scalar BMacTest.node[14].nic.ids 	neighbour26IntentionalPacketDropping 	0
+scalar BMacTest.node[14].nic.ids 	neighbour27PacketsReceived 	0
+scalar BMacTest.node[14].nic.ids 	neighbour27PacketsForwarded 	0
+scalar BMacTest.node[14].nic.ids 	neighbour27IntentionalPacketDropping 	0
+scalar BMacTest.node[14].nic.ids 	data_packets_intercepted 	11030
+scalar BMacTest.node[14].nic.ids 	data_packets_me_to_somebody 	1220
+scalar BMacTest.node[14].nic.ids 	data_packets_somebody_to_me 	1100
+scalar BMacTest.node[14].nic.ids 	data_packets_somebody_to_somebody 	8710
+scalar BMacTest.node[14].netwl 	nbPacketsForwarded 	1100
+scalar BMacTest.node[14].netwl 	nbPacketsReceived 	1100
+scalar BMacTest.node[14].netwl 	nbPacketsSent 	120
+scalar BMacTest.node[14].netwl 	nbPacketsDropped 	0
+scalar BMacTest.node[15].nic.ids 	notAffectedByHostState 	0
+scalar BMacTest.node[15].nic.ids 	stats 	1
+scalar BMacTest.node[15].nic.ids 	debug 	0
+scalar BMacTest.node[15].nic.ids 	maxMonitoredNodes 	30
+scalar BMacTest.node[15].nic.ids 	fwdBufferSize 	100
+scalar BMacTest.node[15].nic.ids 	fwdMinPacketsReceived 	0
+scalar BMacTest.node[15].nic.ids 	fwdDetectionThreshold 	0.5
+scalar BMacTest.node[15].nic.ids 	memIDSEntry 	8
+scalar BMacTest.node[15].nic.ids 	memBufferEntry 	16
+scalar BMacTest.node[15].nic.ids 	maxDistance 	999999
+scalar BMacTest.node[15].nic.ids 	fwdPacketTimeout 	999999
+scalar BMacTest.node[15].nic.ids 	neighbour0PacketsReceived 	0
+scalar BMacTest.node[15].nic.ids 	neighbour0PacketsForwarded 	0
+scalar BMacTest.node[15].nic.ids 	neighbour0IntentionalPacketDropping 	0
+scalar BMacTest.node[15].nic.ids 	neighbour1PacketsReceived 	0
+scalar BMacTest.node[15].nic.ids 	neighbour1PacketsForwarded 	0
+scalar BMacTest.node[15].nic.ids 	neighbour1IntentionalPacketDropping 	0
+scalar BMacTest.node[15].nic.ids 	neighbour2PacketsReceived 	84
+scalar BMacTest.node[15].nic.ids 	neighbour2PacketsForwarded 	68
+scalar BMacTest.node[15].nic.ids 	neighbour2IntentionalPacketDropping 	0
+scalar BMacTest.node[15].nic.ids 	neighbour3PacketsReceived 	87
+scalar BMacTest.node[15].nic.ids 	neighbour3PacketsForwarded 	72
+scalar BMacTest.node[15].nic.ids 	neighbour3IntentionalPacketDropping 	0
+scalar BMacTest.node[15].nic.ids 	neighbour4PacketsReceived 	412
+scalar BMacTest.node[15].nic.ids 	neighbour4PacketsForwarded 	401
+scalar BMacTest.node[15].nic.ids 	neighbour4IntentionalPacketDropping 	0
+scalar BMacTest.node[15].nic.ids 	neighbour5PacketsReceived 	0
+scalar BMacTest.node[15].nic.ids 	neighbour5PacketsForwarded 	0
+scalar BMacTest.node[15].nic.ids 	neighbour5IntentionalPacketDropping 	0
+scalar BMacTest.node[15].nic.ids 	neighbour6PacketsReceived 	0
+scalar BMacTest.node[15].nic.ids 	neighbour6PacketsForwarded 	0
+scalar BMacTest.node[15].nic.ids 	neighbour6IntentionalPacketDropping 	0
+scalar BMacTest.node[15].nic.ids 	neighbour7PacketsReceived 	703
+scalar BMacTest.node[15].nic.ids 	neighbour7PacketsForwarded 	374
+scalar BMacTest.node[15].nic.ids 	neighbour7IntentionalPacketDropping 	0.5
+scalar BMacTest.node[15].nic.ids 	neighbour8PacketsReceived 	625
+scalar BMacTest.node[15].nic.ids 	neighbour8PacketsForwarded 	622
+scalar BMacTest.node[15].nic.ids 	neighbour8IntentionalPacketDropping 	0
+scalar BMacTest.node[15].nic.ids 	neighbour9PacketsReceived 	0
+scalar BMacTest.node[15].nic.ids 	neighbour9PacketsForwarded 	0
+scalar BMacTest.node[15].nic.ids 	neighbour9IntentionalPacketDropping 	0
+scalar BMacTest.node[15].nic.ids 	neighbour10PacketsReceived 	0
+scalar BMacTest.node[15].nic.ids 	neighbour10PacketsForwarded 	0
+scalar BMacTest.node[15].nic.ids 	neighbour10IntentionalPacketDropping 	0.5
+scalar BMacTest.node[15].nic.ids 	neighbour11PacketsReceived 	980
+scalar BMacTest.node[15].nic.ids 	neighbour11PacketsForwarded 	978
+scalar BMacTest.node[15].nic.ids 	neighbour11IntentionalPacketDropping 	0
+scalar BMacTest.node[15].nic.ids 	neighbour12PacketsReceived 	0
+scalar BMacTest.node[15].nic.ids 	neighbour12PacketsForwarded 	0
+scalar BMacTest.node[15].nic.ids 	neighbour12IntentionalPacketDropping 	0
+scalar BMacTest.node[15].nic.ids 	neighbour13PacketsReceived 	0
+scalar BMacTest.node[15].nic.ids 	neighbour13PacketsForwarded 	0
+scalar BMacTest.node[15].nic.ids 	neighbour13IntentionalPacketDropping 	0
+scalar BMacTest.node[15].nic.ids 	neighbour14PacketsReceived 	1099
+scalar BMacTest.node[15].nic.ids 	neighbour14PacketsForwarded 	1098
+scalar BMacTest.node[15].nic.ids 	neighbour14IntentionalPacketDropping 	0
+scalar BMacTest.node[15].nic.ids 	neighbour16PacketsReceived 	120
+scalar BMacTest.node[15].nic.ids 	neighbour16PacketsForwarded 	120
+scalar BMacTest.node[15].nic.ids 	neighbour16IntentionalPacketDropping 	0
+scalar BMacTest.node[15].nic.ids 	neighbour17PacketsReceived 	0
+scalar BMacTest.node[15].nic.ids 	neighbour17PacketsForwarded 	0
+scalar BMacTest.node[15].nic.ids 	neighbour17IntentionalPacketDropping 	0
+scalar BMacTest.node[15].nic.ids 	neighbour18PacketsReceived 	0
+scalar BMacTest.node[15].nic.ids 	neighbour18PacketsForwarded 	0
+scalar BMacTest.node[15].nic.ids 	neighbour18IntentionalPacketDropping 	0
+scalar BMacTest.node[15].nic.ids 	neighbour19PacketsReceived 	1699
+scalar BMacTest.node[15].nic.ids 	neighbour19PacketsForwarded 	823
+scalar BMacTest.node[15].nic.ids 	neighbour19IntentionalPacketDropping 	0.5
+scalar BMacTest.node[15].nic.ids 	neighbour20PacketsReceived 	239
+scalar BMacTest.node[15].nic.ids 	neighbour20PacketsForwarded 	239
+scalar BMacTest.node[15].nic.ids 	neighbour20IntentionalPacketDropping 	0
+scalar BMacTest.node[15].nic.ids 	neighbour21PacketsReceived 	0
+scalar BMacTest.node[15].nic.ids 	neighbour21PacketsForwarded 	0
+scalar BMacTest.node[15].nic.ids 	neighbour21IntentionalPacketDropping 	0
+scalar BMacTest.node[15].nic.ids 	neighbour22PacketsReceived 	1063
+scalar BMacTest.node[15].nic.ids 	neighbour22PacketsForwarded 	1063
+scalar BMacTest.node[15].nic.ids 	neighbour22IntentionalPacketDropping 	0
+scalar BMacTest.node[15].nic.ids 	neighbour23PacketsReceived 	477
+scalar BMacTest.node[15].nic.ids 	neighbour23PacketsForwarded 	476
+scalar BMacTest.node[15].nic.ids 	neighbour23IntentionalPacketDropping 	0
+scalar BMacTest.node[15].nic.ids 	neighbour24PacketsReceived 	0
+scalar BMacTest.node[15].nic.ids 	neighbour24PacketsForwarded 	0
+scalar BMacTest.node[15].nic.ids 	neighbour24IntentionalPacketDropping 	0
+scalar BMacTest.node[15].nic.ids 	neighbour26PacketsReceived 	0
+scalar BMacTest.node[15].nic.ids 	neighbour26PacketsForwarded 	0
+scalar BMacTest.node[15].nic.ids 	neighbour26IntentionalPacketDropping 	0
+scalar BMacTest.node[15].nic.ids 	neighbour27PacketsReceived 	0
+scalar BMacTest.node[15].nic.ids 	neighbour27PacketsForwarded 	0
+scalar BMacTest.node[15].nic.ids 	neighbour27IntentionalPacketDropping 	0
+scalar BMacTest.node[15].nic.ids 	data_packets_intercepted 	10954
+scalar BMacTest.node[15].nic.ids 	data_packets_me_to_somebody 	1459
+scalar BMacTest.node[15].nic.ids 	data_packets_somebody_to_me 	1339
+scalar BMacTest.node[15].nic.ids 	data_packets_somebody_to_somebody 	8156
+scalar BMacTest.node[15].netwl 	nbPacketsForwarded 	1339
+scalar BMacTest.node[15].netwl 	nbPacketsReceived 	1339
+scalar BMacTest.node[15].netwl 	nbPacketsSent 	120
+scalar BMacTest.node[15].netwl 	nbPacketsDropped 	0
+scalar BMacTest.node[16].nic.ids 	notAffectedByHostState 	0
+scalar BMacTest.node[16].nic.ids 	stats 	1
+scalar BMacTest.node[16].nic.ids 	debug 	0
+scalar BMacTest.node[16].nic.ids 	maxMonitoredNodes 	30
+scalar BMacTest.node[16].nic.ids 	fwdBufferSize 	100
+scalar BMacTest.node[16].nic.ids 	fwdMinPacketsReceived 	0
+scalar BMacTest.node[16].nic.ids 	fwdDetectionThreshold 	0.5
+scalar BMacTest.node[16].nic.ids 	memIDSEntry 	8
+scalar BMacTest.node[16].nic.ids 	memBufferEntry 	16
+scalar BMacTest.node[16].nic.ids 	maxDistance 	999999
+scalar BMacTest.node[16].nic.ids 	fwdPacketTimeout 	999999
+scalar BMacTest.node[16].nic.ids 	neighbour0PacketsReceived 	0
+scalar BMacTest.node[16].nic.ids 	neighbour0PacketsForwarded 	0
+scalar BMacTest.node[16].nic.ids 	neighbour0IntentionalPacketDropping 	0
+scalar BMacTest.node[16].nic.ids 	neighbour1PacketsReceived 	0
+scalar BMacTest.node[16].nic.ids 	neighbour1PacketsForwarded 	0
+scalar BMacTest.node[16].nic.ids 	neighbour1IntentionalPacketDropping 	0
+scalar BMacTest.node[16].nic.ids 	neighbour2PacketsReceived 	82
+scalar BMacTest.node[16].nic.ids 	neighbour2PacketsForwarded 	67
+scalar BMacTest.node[16].nic.ids 	neighbour2IntentionalPacketDropping 	0
+scalar BMacTest.node[16].nic.ids 	neighbour3PacketsReceived 	95
+scalar BMacTest.node[16].nic.ids 	neighbour3PacketsForwarded 	88
+scalar BMacTest.node[16].nic.ids 	neighbour3IntentionalPacketDropping 	0
+scalar BMacTest.node[16].nic.ids 	neighbour4PacketsReceived 	408
+scalar BMacTest.node[16].nic.ids 	neighbour4PacketsForwarded 	394
+scalar BMacTest.node[16].nic.ids 	neighbour4IntentionalPacketDropping 	0
+scalar BMacTest.node[16].nic.ids 	neighbour5PacketsReceived 	0
+scalar BMacTest.node[16].nic.ids 	neighbour5PacketsForwarded 	0
+scalar BMacTest.node[16].nic.ids 	neighbour5IntentionalPacketDropping 	0
+scalar BMacTest.node[16].nic.ids 	neighbour6PacketsReceived 	0
+scalar BMacTest.node[16].nic.ids 	neighbour6PacketsForwarded 	0
+scalar BMacTest.node[16].nic.ids 	neighbour6IntentionalPacketDropping 	0
+scalar BMacTest.node[16].nic.ids 	neighbour7PacketsReceived 	697
+scalar BMacTest.node[16].nic.ids 	neighbour7PacketsForwarded 	373
+scalar BMacTest.node[16].nic.ids 	neighbour7IntentionalPacketDropping 	0.5
+scalar BMacTest.node[16].nic.ids 	neighbour8PacketsReceived 	624
+scalar BMacTest.node[16].nic.ids 	neighbour8PacketsForwarded 	621
+scalar BMacTest.node[16].nic.ids 	neighbour8IntentionalPacketDropping 	0
+scalar BMacTest.node[16].nic.ids 	neighbour9PacketsReceived 	0
+scalar BMacTest.node[16].nic.ids 	neighbour9PacketsForwarded 	0
+scalar BMacTest.node[16].nic.ids 	neighbour9IntentionalPacketDropping 	0
+scalar BMacTest.node[16].nic.ids 	neighbour10PacketsReceived 	0
+scalar BMacTest.node[16].nic.ids 	neighbour10PacketsForwarded 	0
+scalar BMacTest.node[16].nic.ids 	neighbour10IntentionalPacketDropping 	0.5
+scalar BMacTest.node[16].nic.ids 	neighbour11PacketsReceived 	980
+scalar BMacTest.node[16].nic.ids 	neighbour11PacketsForwarded 	978
+scalar BMacTest.node[16].nic.ids 	neighbour11IntentionalPacketDropping 	0
+scalar BMacTest.node[16].nic.ids 	neighbour12PacketsReceived 	0
+scalar BMacTest.node[16].nic.ids 	neighbour12PacketsForwarded 	0
+scalar BMacTest.node[16].nic.ids 	neighbour12IntentionalPacketDropping 	0
+scalar BMacTest.node[16].nic.ids 	neighbour13PacketsReceived 	0
+scalar BMacTest.node[16].nic.ids 	neighbour13PacketsForwarded 	0
+scalar BMacTest.node[16].nic.ids 	neighbour13IntentionalPacketDropping 	0
+scalar BMacTest.node[16].nic.ids 	neighbour14PacketsReceived 	1099
+scalar BMacTest.node[16].nic.ids 	neighbour14PacketsForwarded 	1099
+scalar BMacTest.node[16].nic.ids 	neighbour14IntentionalPacketDropping 	0
+scalar BMacTest.node[16].nic.ids 	neighbour15PacketsReceived 	1339
+scalar BMacTest.node[16].nic.ids 	neighbour15PacketsForwarded 	1337
+scalar BMacTest.node[16].nic.ids 	neighbour15IntentionalPacketDropping 	0
+scalar BMacTest.node[16].nic.ids 	neighbour17PacketsReceived 	0
+scalar BMacTest.node[16].nic.ids 	neighbour17PacketsForwarded 	0
+scalar BMacTest.node[16].nic.ids 	neighbour17IntentionalPacketDropping 	0
+scalar BMacTest.node[16].nic.ids 	neighbour18PacketsReceived 	0
+scalar BMacTest.node[16].nic.ids 	neighbour18PacketsForwarded 	0
+scalar BMacTest.node[16].nic.ids 	neighbour18IntentionalPacketDropping 	0
+scalar BMacTest.node[16].nic.ids 	neighbour19PacketsReceived 	1698
+scalar BMacTest.node[16].nic.ids 	neighbour19PacketsForwarded 	823
+scalar BMacTest.node[16].nic.ids 	neighbour19IntentionalPacketDropping 	0.5
+scalar BMacTest.node[16].nic.ids 	neighbour20PacketsReceived 	239
+scalar BMacTest.node[16].nic.ids 	neighbour20PacketsForwarded 	239
+scalar BMacTest.node[16].nic.ids 	neighbour20IntentionalPacketDropping 	0
+scalar BMacTest.node[16].nic.ids 	neighbour21PacketsReceived 	0
+scalar BMacTest.node[16].nic.ids 	neighbour21PacketsForwarded 	0
+scalar BMacTest.node[16].nic.ids 	neighbour21IntentionalPacketDropping 	0
+scalar BMacTest.node[16].nic.ids 	neighbour22PacketsReceived 	1063
+scalar BMacTest.node[16].nic.ids 	neighbour22PacketsForwarded 	1063
+scalar BMacTest.node[16].nic.ids 	neighbour22IntentionalPacketDropping 	0
+scalar BMacTest.node[16].nic.ids 	neighbour23PacketsReceived 	477
+scalar BMacTest.node[16].nic.ids 	neighbour23PacketsForwarded 	477
+scalar BMacTest.node[16].nic.ids 	neighbour23IntentionalPacketDropping 	0
+scalar BMacTest.node[16].nic.ids 	neighbour24PacketsReceived 	0
+scalar BMacTest.node[16].nic.ids 	neighbour24PacketsForwarded 	0
+scalar BMacTest.node[16].nic.ids 	neighbour24IntentionalPacketDropping 	0
+scalar BMacTest.node[16].nic.ids 	neighbour26PacketsReceived 	0
+scalar BMacTest.node[16].nic.ids 	neighbour26PacketsForwarded 	0
+scalar BMacTest.node[16].nic.ids 	neighbour26IntentionalPacketDropping 	0
+scalar BMacTest.node[16].nic.ids 	neighbour27PacketsReceived 	0
+scalar BMacTest.node[16].nic.ids 	neighbour27PacketsForwarded 	0
+scalar BMacTest.node[16].nic.ids 	neighbour27IntentionalPacketDropping 	0
+scalar BMacTest.node[16].nic.ids 	data_packets_intercepted 	10949
+scalar BMacTest.node[16].nic.ids 	data_packets_me_to_somebody 	240
+scalar BMacTest.node[16].nic.ids 	data_packets_somebody_to_me 	120
+scalar BMacTest.node[16].nic.ids 	data_packets_somebody_to_somebody 	10589
+scalar BMacTest.node[16].netwl 	nbPacketsForwarded 	120
+scalar BMacTest.node[16].netwl 	nbPacketsReceived 	120
+scalar BMacTest.node[16].netwl 	nbPacketsSent 	120
+scalar BMacTest.node[16].netwl 	nbPacketsDropped 	0
+scalar BMacTest.node[17].nic.ids 	notAffectedByHostState 	0
+scalar BMacTest.node[17].nic.ids 	stats 	1
+scalar BMacTest.node[17].nic.ids 	debug 	0
+scalar BMacTest.node[17].nic.ids 	maxMonitoredNodes 	30
+scalar BMacTest.node[17].nic.ids 	fwdBufferSize 	100
+scalar BMacTest.node[17].nic.ids 	fwdMinPacketsReceived 	0
+scalar BMacTest.node[17].nic.ids 	fwdDetectionThreshold 	0.5
+scalar BMacTest.node[17].nic.ids 	memIDSEntry 	8
+scalar BMacTest.node[17].nic.ids 	memBufferEntry 	16
+scalar BMacTest.node[17].nic.ids 	maxDistance 	999999
+scalar BMacTest.node[17].nic.ids 	fwdPacketTimeout 	999999
+scalar BMacTest.node[17].nic.ids 	neighbour0PacketsReceived 	0
+scalar BMacTest.node[17].nic.ids 	neighbour0PacketsForwarded 	0
+scalar BMacTest.node[17].nic.ids 	neighbour0IntentionalPacketDropping 	0
+scalar BMacTest.node[17].nic.ids 	neighbour1PacketsReceived 	0
+scalar BMacTest.node[17].nic.ids 	neighbour1PacketsForwarded 	0
+scalar BMacTest.node[17].nic.ids 	neighbour1IntentionalPacketDropping 	0
+scalar BMacTest.node[17].nic.ids 	neighbour2PacketsReceived 	72
+scalar BMacTest.node[17].nic.ids 	neighbour2PacketsForwarded 	56
+scalar BMacTest.node[17].nic.ids 	neighbour2IntentionalPacketDropping 	0
+scalar BMacTest.node[17].nic.ids 	neighbour3PacketsReceived 	78
+scalar BMacTest.node[17].nic.ids 	neighbour3PacketsForwarded 	59
+scalar BMacTest.node[17].nic.ids 	neighbour3IntentionalPacketDropping 	0
+scalar BMacTest.node[17].nic.ids 	neighbour4PacketsReceived 	381
+scalar BMacTest.node[17].nic.ids 	neighbour4PacketsForwarded 	363
+scalar BMacTest.node[17].nic.ids 	neighbour4IntentionalPacketDropping 	0
+scalar BMacTest.node[17].nic.ids 	neighbour5PacketsReceived 	0
+scalar BMacTest.node[17].nic.ids 	neighbour5PacketsForwarded 	0
+scalar BMacTest.node[17].nic.ids 	neighbour5IntentionalPacketDropping 	0
+scalar BMacTest.node[17].nic.ids 	neighbour6PacketsReceived 	0
+scalar BMacTest.node[17].nic.ids 	neighbour6PacketsForwarded 	0
+scalar BMacTest.node[17].nic.ids 	neighbour6IntentionalPacketDropping 	0
+scalar BMacTest.node[17].nic.ids 	neighbour7PacketsReceived 	686
+scalar BMacTest.node[17].nic.ids 	neighbour7PacketsForwarded 	362
+scalar BMacTest.node[17].nic.ids 	neighbour7IntentionalPacketDropping 	0.5
+scalar BMacTest.node[17].nic.ids 	neighbour8PacketsReceived 	624
+scalar BMacTest.node[17].nic.ids 	neighbour8PacketsForwarded 	621
+scalar BMacTest.node[17].nic.ids 	neighbour8IntentionalPacketDropping 	0
+scalar BMacTest.node[17].nic.ids 	neighbour9PacketsReceived 	0
+scalar BMacTest.node[17].nic.ids 	neighbour9PacketsForwarded 	0
+scalar BMacTest.node[17].nic.ids 	neighbour9IntentionalPacketDropping 	0
+scalar BMacTest.node[17].nic.ids 	neighbour10PacketsReceived 	0
+scalar BMacTest.node[17].nic.ids 	neighbour10PacketsForwarded 	0
+scalar BMacTest.node[17].nic.ids 	neighbour10IntentionalPacketDropping 	0.5
+scalar BMacTest.node[17].nic.ids 	neighbour11PacketsReceived 	980
+scalar BMacTest.node[17].nic.ids 	neighbour11PacketsForwarded 	978
+scalar BMacTest.node[17].nic.ids 	neighbour11IntentionalPacketDropping 	0
+scalar BMacTest.node[17].nic.ids 	neighbour12PacketsReceived 	0
+scalar BMacTest.node[17].nic.ids 	neighbour12PacketsForwarded 	0
+scalar BMacTest.node[17].nic.ids 	neighbour12IntentionalPacketDropping 	0
+scalar BMacTest.node[17].nic.ids 	neighbour13PacketsReceived 	0
+scalar BMacTest.node[17].nic.ids 	neighbour13PacketsForwarded 	0
+scalar BMacTest.node[17].nic.ids 	neighbour13IntentionalPacketDropping 	0
+scalar BMacTest.node[17].nic.ids 	neighbour14PacketsReceived 	1099
+scalar BMacTest.node[17].nic.ids 	neighbour14PacketsForwarded 	1099
+scalar BMacTest.node[17].nic.ids 	neighbour14IntentionalPacketDropping 	0
+scalar BMacTest.node[17].nic.ids 	neighbour15PacketsReceived 	1339
+scalar BMacTest.node[17].nic.ids 	neighbour15PacketsForwarded 	1337
+scalar BMacTest.node[17].nic.ids 	neighbour15IntentionalPacketDropping 	0
+scalar BMacTest.node[17].nic.ids 	neighbour16PacketsReceived 	120
+scalar BMacTest.node[17].nic.ids 	neighbour16PacketsForwarded 	120
+scalar BMacTest.node[17].nic.ids 	neighbour16IntentionalPacketDropping 	0
+scalar BMacTest.node[17].nic.ids 	neighbour18PacketsReceived 	0
+scalar BMacTest.node[17].nic.ids 	neighbour18PacketsForwarded 	0
+scalar BMacTest.node[17].nic.ids 	neighbour18IntentionalPacketDropping 	0
+scalar BMacTest.node[17].nic.ids 	neighbour19PacketsReceived 	1692
+scalar BMacTest.node[17].nic.ids 	neighbour19PacketsForwarded 	822
+scalar BMacTest.node[17].nic.ids 	neighbour19IntentionalPacketDropping 	0.5
+scalar BMacTest.node[17].nic.ids 	neighbour20PacketsReceived 	239
+scalar BMacTest.node[17].nic.ids 	neighbour20PacketsForwarded 	239
+scalar BMacTest.node[17].nic.ids 	neighbour20IntentionalPacketDropping 	0
+scalar BMacTest.node[17].nic.ids 	neighbour21PacketsReceived 	0
+scalar BMacTest.node[17].nic.ids 	neighbour21PacketsForwarded 	0
+scalar BMacTest.node[17].nic.ids 	neighbour21IntentionalPacketDropping 	0
+scalar BMacTest.node[17].nic.ids 	neighbour22PacketsReceived 	1063
+scalar BMacTest.node[17].nic.ids 	neighbour22PacketsForwarded 	1063
+scalar BMacTest.node[17].nic.ids 	neighbour22IntentionalPacketDropping 	0
+scalar BMacTest.node[17].nic.ids 	neighbour23PacketsReceived 	477
+scalar BMacTest.node[17].nic.ids 	neighbour23PacketsForwarded 	477
+scalar BMacTest.node[17].nic.ids 	neighbour23IntentionalPacketDropping 	0
+scalar BMacTest.node[17].nic.ids 	neighbour24PacketsReceived 	0
+scalar BMacTest.node[17].nic.ids 	neighbour24PacketsForwarded 	0
+scalar BMacTest.node[17].nic.ids 	neighbour24IntentionalPacketDropping 	0
+scalar BMacTest.node[17].nic.ids 	neighbour26PacketsReceived 	0
+scalar BMacTest.node[17].nic.ids 	neighbour26PacketsForwarded 	0
+scalar BMacTest.node[17].nic.ids 	neighbour26IntentionalPacketDropping 	0
+scalar BMacTest.node[17].nic.ids 	neighbour27PacketsReceived 	0
+scalar BMacTest.node[17].nic.ids 	neighbour27PacketsForwarded 	0
+scalar BMacTest.node[17].nic.ids 	neighbour27IntentionalPacketDropping 	0
+scalar BMacTest.node[17].nic.ids 	data_packets_intercepted 	10883
+scalar BMacTest.node[17].nic.ids 	data_packets_me_to_somebody 	120
+scalar BMacTest.node[17].nic.ids 	data_packets_somebody_to_me 	0
+scalar BMacTest.node[17].nic.ids 	data_packets_somebody_to_somebody 	10763
+scalar BMacTest.node[17].netwl 	nbPacketsForwarded 	0
+scalar BMacTest.node[17].netwl 	nbPacketsReceived 	0
+scalar BMacTest.node[17].netwl 	nbPacketsSent 	120
+scalar BMacTest.node[17].netwl 	nbPacketsDropped 	0
+scalar BMacTest.node[18].nic.ids 	notAffectedByHostState 	0
+scalar BMacTest.node[18].nic.ids 	stats 	1
+scalar BMacTest.node[18].nic.ids 	debug 	0
+scalar BMacTest.node[18].nic.ids 	maxMonitoredNodes 	30
+scalar BMacTest.node[18].nic.ids 	fwdBufferSize 	100
+scalar BMacTest.node[18].nic.ids 	fwdMinPacketsReceived 	0
+scalar BMacTest.node[18].nic.ids 	fwdDetectionThreshold 	0.5
+scalar BMacTest.node[18].nic.ids 	memIDSEntry 	8
+scalar BMacTest.node[18].nic.ids 	memBufferEntry 	16
+scalar BMacTest.node[18].nic.ids 	maxDistance 	999999
+scalar BMacTest.node[18].nic.ids 	fwdPacketTimeout 	999999
+scalar BMacTest.node[18].nic.ids 	neighbour0PacketsReceived 	0
+scalar BMacTest.node[18].nic.ids 	neighbour0PacketsForwarded 	0
+scalar BMacTest.node[18].nic.ids 	neighbour0IntentionalPacketDropping 	0
+scalar BMacTest.node[18].nic.ids 	neighbour1PacketsReceived 	0
+scalar BMacTest.node[18].nic.ids 	neighbour1PacketsForwarded 	0
+scalar BMacTest.node[18].nic.ids 	neighbour1IntentionalPacketDropping 	0
+scalar BMacTest.node[18].nic.ids 	neighbour2PacketsReceived 	70
+scalar BMacTest.node[18].nic.ids 	neighbour2PacketsForwarded 	62
+scalar BMacTest.node[18].nic.ids 	neighbour2IntentionalPacketDropping 	0
+scalar BMacTest.node[18].nic.ids 	neighbour3PacketsReceived 	88
+scalar BMacTest.node[18].nic.ids 	neighbour3PacketsForwarded 	68
+scalar BMacTest.node[18].nic.ids 	neighbour3IntentionalPacketDropping 	0
+scalar BMacTest.node[18].nic.ids 	neighbour4PacketsReceived 	371
+scalar BMacTest.node[18].nic.ids 	neighbour4PacketsForwarded 	343
+scalar BMacTest.node[18].nic.ids 	neighbour4IntentionalPacketDropping 	0
+scalar BMacTest.node[18].nic.ids 	neighbour5PacketsReceived 	0
+scalar BMacTest.node[18].nic.ids 	neighbour5PacketsForwarded 	0
+scalar BMacTest.node[18].nic.ids 	neighbour5IntentionalPacketDropping 	0
+scalar BMacTest.node[18].nic.ids 	neighbour6PacketsReceived 	0
+scalar BMacTest.node[18].nic.ids 	neighbour6PacketsForwarded 	0
+scalar BMacTest.node[18].nic.ids 	neighbour6IntentionalPacketDropping 	0
+scalar BMacTest.node[18].nic.ids 	neighbour7PacketsReceived 	668
+scalar BMacTest.node[18].nic.ids 	neighbour7PacketsForwarded 	358
+scalar BMacTest.node[18].nic.ids 	neighbour7IntentionalPacketDropping 	0.5
+scalar BMacTest.node[18].nic.ids 	neighbour8PacketsReceived 	623
+scalar BMacTest.node[18].nic.ids 	neighbour8PacketsForwarded 	619
+scalar BMacTest.node[18].nic.ids 	neighbour8IntentionalPacketDropping 	0
+scalar BMacTest.node[18].nic.ids 	neighbour9PacketsReceived 	0
+scalar BMacTest.node[18].nic.ids 	neighbour9PacketsForwarded 	0
+scalar BMacTest.node[18].nic.ids 	neighbour9IntentionalPacketDropping 	0
+scalar BMacTest.node[18].nic.ids 	neighbour10PacketsReceived 	0
+scalar BMacTest.node[18].nic.ids 	neighbour10PacketsForwarded 	0
+scalar BMacTest.node[18].nic.ids 	neighbour10IntentionalPacketDropping 	0.5
+scalar BMacTest.node[18].nic.ids 	neighbour11PacketsReceived 	979
+scalar BMacTest.node[18].nic.ids 	neighbour11PacketsForwarded 	978
+scalar BMacTest.node[18].nic.ids 	neighbour11IntentionalPacketDropping 	0
+scalar BMacTest.node[18].nic.ids 	neighbour12PacketsReceived 	0
+scalar BMacTest.node[18].nic.ids 	neighbour12PacketsForwarded 	0
+scalar BMacTest.node[18].nic.ids 	neighbour12IntentionalPacketDropping 	0
+scalar BMacTest.node[18].nic.ids 	neighbour13PacketsReceived 	0
+scalar BMacTest.node[18].nic.ids 	neighbour13PacketsForwarded 	0
+scalar BMacTest.node[18].nic.ids 	neighbour13IntentionalPacketDropping 	0
+scalar BMacTest.node[18].nic.ids 	neighbour14PacketsReceived 	1100
+scalar BMacTest.node[18].nic.ids 	neighbour14PacketsForwarded 	1098
+scalar BMacTest.node[18].nic.ids 	neighbour14IntentionalPacketDropping 	0
+scalar BMacTest.node[18].nic.ids 	neighbour15PacketsReceived 	1338
+scalar BMacTest.node[18].nic.ids 	neighbour15PacketsForwarded 	1337
+scalar BMacTest.node[18].nic.ids 	neighbour15IntentionalPacketDropping 	0
+scalar BMacTest.node[18].nic.ids 	neighbour16PacketsReceived 	120
+scalar BMacTest.node[18].nic.ids 	neighbour16PacketsForwarded 	120
+scalar BMacTest.node[18].nic.ids 	neighbour16IntentionalPacketDropping 	0
+scalar BMacTest.node[18].nic.ids 	neighbour17PacketsReceived 	0
+scalar BMacTest.node[18].nic.ids 	neighbour17PacketsForwarded 	0
+scalar BMacTest.node[18].nic.ids 	neighbour17IntentionalPacketDropping 	0
+scalar BMacTest.node[18].nic.ids 	neighbour19PacketsReceived 	1693
+scalar BMacTest.node[18].nic.ids 	neighbour19PacketsForwarded 	822
+scalar BMacTest.node[18].nic.ids 	neighbour19IntentionalPacketDropping 	0.5
+scalar BMacTest.node[18].nic.ids 	neighbour20PacketsReceived 	240
+scalar BMacTest.node[18].nic.ids 	neighbour20PacketsForwarded 	240
+scalar BMacTest.node[18].nic.ids 	neighbour20IntentionalPacketDropping 	0
+scalar BMacTest.node[18].nic.ids 	neighbour21PacketsReceived 	0
+scalar BMacTest.node[18].nic.ids 	neighbour21PacketsForwarded 	0
+scalar BMacTest.node[18].nic.ids 	neighbour21IntentionalPacketDropping 	0
+scalar BMacTest.node[18].nic.ids 	neighbour22PacketsReceived 	1063
+scalar BMacTest.node[18].nic.ids 	neighbour22PacketsForwarded 	1063
+scalar BMacTest.node[18].nic.ids 	neighbour22IntentionalPacketDropping 	0
+scalar BMacTest.node[18].nic.ids 	neighbour23PacketsReceived 	477
+scalar BMacTest.node[18].nic.ids 	neighbour23PacketsForwarded 	476
+scalar BMacTest.node[18].nic.ids 	neighbour23IntentionalPacketDropping 	0
+scalar BMacTest.node[18].nic.ids 	neighbour24PacketsReceived 	0
+scalar BMacTest.node[18].nic.ids 	neighbour24PacketsForwarded 	0
+scalar BMacTest.node[18].nic.ids 	neighbour24IntentionalPacketDropping 	0
+scalar BMacTest.node[18].nic.ids 	neighbour26PacketsReceived 	0
+scalar BMacTest.node[18].nic.ids 	neighbour26PacketsForwarded 	0
+scalar BMacTest.node[18].nic.ids 	neighbour26IntentionalPacketDropping 	0
+scalar BMacTest.node[18].nic.ids 	neighbour27PacketsReceived 	0
+scalar BMacTest.node[18].nic.ids 	neighbour27PacketsForwarded 	0
+scalar BMacTest.node[18].nic.ids 	neighbour27IntentionalPacketDropping 	0
+scalar BMacTest.node[18].nic.ids 	data_packets_intercepted 	10861
+scalar BMacTest.node[18].nic.ids 	data_packets_me_to_somebody 	120
+scalar BMacTest.node[18].nic.ids 	data_packets_somebody_to_me 	0
+scalar BMacTest.node[18].nic.ids 	data_packets_somebody_to_somebody 	10741
+scalar BMacTest.node[18].netwl 	nbPacketsForwarded 	0
+scalar BMacTest.node[18].netwl 	nbPacketsReceived 	0
+scalar BMacTest.node[18].netwl 	nbPacketsSent 	120
+scalar BMacTest.node[18].netwl 	nbPacketsDropped 	0
+scalar BMacTest.node[19].nic.ids 	notAffectedByHostState 	0
+scalar BMacTest.node[19].nic.ids 	stats 	1
+scalar BMacTest.node[19].nic.ids 	debug 	0
+scalar BMacTest.node[19].nic.ids 	maxMonitoredNodes 	30
+scalar BMacTest.node[19].nic.ids 	fwdBufferSize 	100
+scalar BMacTest.node[19].nic.ids 	fwdMinPacketsReceived 	0
+scalar BMacTest.node[19].nic.ids 	fwdDetectionThreshold 	0.5
+scalar BMacTest.node[19].nic.ids 	memIDSEntry 	8
+scalar BMacTest.node[19].nic.ids 	memBufferEntry 	16
+scalar BMacTest.node[19].nic.ids 	maxDistance 	999999
+scalar BMacTest.node[19].nic.ids 	fwdPacketTimeout 	999999
+scalar BMacTest.node[19].nic.ids 	neighbour0PacketsReceived 	0
+scalar BMacTest.node[19].nic.ids 	neighbour0PacketsForwarded 	0
+scalar BMacTest.node[19].nic.ids 	neighbour0IntentionalPacketDropping 	0
+scalar BMacTest.node[19].nic.ids 	neighbour1PacketsReceived 	0
+scalar BMacTest.node[19].nic.ids 	neighbour1PacketsForwarded 	0
+scalar BMacTest.node[19].nic.ids 	neighbour1IntentionalPacketDropping 	0
+scalar BMacTest.node[19].nic.ids 	neighbour2PacketsReceived 	52
+scalar BMacTest.node[19].nic.ids 	neighbour2PacketsForwarded 	37
+scalar BMacTest.node[19].nic.ids 	neighbour2IntentionalPacketDropping 	0
+scalar BMacTest.node[19].nic.ids 	neighbour3PacketsReceived 	79
+scalar BMacTest.node[19].nic.ids 	neighbour3PacketsForwarded 	62
+scalar BMacTest.node[19].nic.ids 	neighbour3IntentionalPacketDropping 	0
+scalar BMacTest.node[19].nic.ids 	neighbour4PacketsReceived 	368
+scalar BMacTest.node[19].nic.ids 	neighbour4PacketsForwarded 	348
+scalar BMacTest.node[19].nic.ids 	neighbour4IntentionalPacketDropping 	0
+scalar BMacTest.node[19].nic.ids 	neighbour5PacketsReceived 	0
+scalar BMacTest.node[19].nic.ids 	neighbour5PacketsForwarded 	0
+scalar BMacTest.node[19].nic.ids 	neighbour5IntentionalPacketDropping 	0
+scalar BMacTest.node[19].nic.ids 	neighbour6PacketsReceived 	0
+scalar BMacTest.node[19].nic.ids 	neighbour6PacketsForwarded 	0
+scalar BMacTest.node[19].nic.ids 	neighbour6IntentionalPacketDropping 	0
+scalar BMacTest.node[19].nic.ids 	neighbour7PacketsReceived 	679
+scalar BMacTest.node[19].nic.ids 	neighbour7PacketsForwarded 	363
+scalar BMacTest.node[19].nic.ids 	neighbour7IntentionalPacketDropping 	0.5
+scalar BMacTest.node[19].nic.ids 	neighbour8PacketsReceived 	621
+scalar BMacTest.node[19].nic.ids 	neighbour8PacketsForwarded 	618
+scalar BMacTest.node[19].nic.ids 	neighbour8IntentionalPacketDropping 	0
+scalar BMacTest.node[19].nic.ids 	neighbour9PacketsReceived 	0
+scalar BMacTest.node[19].nic.ids 	neighbour9PacketsForwarded 	0
+scalar BMacTest.node[19].nic.ids 	neighbour9IntentionalPacketDropping 	0
+scalar BMacTest.node[19].nic.ids 	neighbour10PacketsReceived 	0
+scalar BMacTest.node[19].nic.ids 	neighbour10PacketsForwarded 	0
+scalar BMacTest.node[19].nic.ids 	neighbour10IntentionalPacketDropping 	0.5
+scalar BMacTest.node[19].nic.ids 	neighbour11PacketsReceived 	980
+scalar BMacTest.node[19].nic.ids 	neighbour11PacketsForwarded 	978
+scalar BMacTest.node[19].nic.ids 	neighbour11IntentionalPacketDropping 	0
+scalar BMacTest.node[19].nic.ids 	neighbour12PacketsReceived 	0
+scalar BMacTest.node[19].nic.ids 	neighbour12PacketsForwarded 	0
+scalar BMacTest.node[19].nic.ids 	neighbour12IntentionalPacketDropping 	0
+scalar BMacTest.node[19].nic.ids 	neighbour13PacketsReceived 	0
+scalar BMacTest.node[19].nic.ids 	neighbour13PacketsForwarded 	0
+scalar BMacTest.node[19].nic.ids 	neighbour13IntentionalPacketDropping 	0
+scalar BMacTest.node[19].nic.ids 	neighbour14PacketsReceived 	1099
+scalar BMacTest.node[19].nic.ids 	neighbour14PacketsForwarded 	1098
+scalar BMacTest.node[19].nic.ids 	neighbour14IntentionalPacketDropping 	0
+scalar BMacTest.node[19].nic.ids 	neighbour15PacketsReceived 	1338
+scalar BMacTest.node[19].nic.ids 	neighbour15PacketsForwarded 	1337
+scalar BMacTest.node[19].nic.ids 	neighbour15IntentionalPacketDropping 	0
+scalar BMacTest.node[19].nic.ids 	neighbour16PacketsReceived 	120
+scalar BMacTest.node[19].nic.ids 	neighbour16PacketsForwarded 	120
+scalar BMacTest.node[19].nic.ids 	neighbour16IntentionalPacketDropping 	0
+scalar BMacTest.node[19].nic.ids 	neighbour17PacketsReceived 	0
+scalar BMacTest.node[19].nic.ids 	neighbour17PacketsForwarded 	0
+scalar BMacTest.node[19].nic.ids 	neighbour17IntentionalPacketDropping 	0
+scalar BMacTest.node[19].nic.ids 	neighbour18PacketsReceived 	0
+scalar BMacTest.node[19].nic.ids 	neighbour18PacketsForwarded 	0
+scalar BMacTest.node[19].nic.ids 	neighbour18IntentionalPacketDropping 	0
+scalar BMacTest.node[19].nic.ids 	neighbour20PacketsReceived 	239
+scalar BMacTest.node[19].nic.ids 	neighbour20PacketsForwarded 	239
+scalar BMacTest.node[19].nic.ids 	neighbour20IntentionalPacketDropping 	0
+scalar BMacTest.node[19].nic.ids 	neighbour21PacketsReceived 	0
+scalar BMacTest.node[19].nic.ids 	neighbour21PacketsForwarded 	0
+scalar BMacTest.node[19].nic.ids 	neighbour21IntentionalPacketDropping 	0
+scalar BMacTest.node[19].nic.ids 	neighbour22PacketsReceived 	1064
+scalar BMacTest.node[19].nic.ids 	neighbour22PacketsForwarded 	1063
+scalar BMacTest.node[19].nic.ids 	neighbour22IntentionalPacketDropping 	0
+scalar BMacTest.node[19].nic.ids 	neighbour23PacketsReceived 	477
+scalar BMacTest.node[19].nic.ids 	neighbour23PacketsForwarded 	477
+scalar BMacTest.node[19].nic.ids 	neighbour23IntentionalPacketDropping 	0
+scalar BMacTest.node[19].nic.ids 	neighbour24PacketsReceived 	0
+scalar BMacTest.node[19].nic.ids 	neighbour24PacketsForwarded 	0
+scalar BMacTest.node[19].nic.ids 	neighbour24IntentionalPacketDropping 	0
+scalar BMacTest.node[19].nic.ids 	neighbour26PacketsReceived 	0
+scalar BMacTest.node[19].nic.ids 	neighbour26PacketsForwarded 	0
+scalar BMacTest.node[19].nic.ids 	neighbour26IntentionalPacketDropping 	0
+scalar BMacTest.node[19].nic.ids 	neighbour27PacketsReceived 	0
+scalar BMacTest.node[19].nic.ids 	neighbour27PacketsForwarded 	0
+scalar BMacTest.node[19].nic.ids 	neighbour27IntentionalPacketDropping 	0
+scalar BMacTest.node[19].nic.ids 	data_packets_intercepted 	10842
+scalar BMacTest.node[19].nic.ids 	data_packets_me_to_somebody 	944
+scalar BMacTest.node[19].nic.ids 	data_packets_somebody_to_me 	1697
+scalar BMacTest.node[19].nic.ids 	data_packets_somebody_to_somebody 	8201
+scalar BMacTest.node[19].netwl 	nbPacketsForwarded 	824
+scalar BMacTest.node[19].netwl 	nbPacketsReceived 	1697
+scalar BMacTest.node[19].netwl 	nbPacketsSent 	120
+scalar BMacTest.node[19].netwl 	nbPacketsDropped 	873
+scalar BMacTest.node[20].nic.ids 	notAffectedByHostState 	0
+scalar BMacTest.node[20].nic.ids 	stats 	1
+scalar BMacTest.node[20].nic.ids 	debug 	0
+scalar BMacTest.node[20].nic.ids 	maxMonitoredNodes 	30
+scalar BMacTest.node[20].nic.ids 	fwdBufferSize 	100
+scalar BMacTest.node[20].nic.ids 	fwdMinPacketsReceived 	0
+scalar BMacTest.node[20].nic.ids 	fwdDetectionThreshold 	0.5
+scalar BMacTest.node[20].nic.ids 	memIDSEntry 	8
+scalar BMacTest.node[20].nic.ids 	memBufferEntry 	16
+scalar BMacTest.node[20].nic.ids 	maxDistance 	999999
+scalar BMacTest.node[20].nic.ids 	fwdPacketTimeout 	999999
+scalar BMacTest.node[20].nic.ids 	neighbour0PacketsReceived 	0
+scalar BMacTest.node[20].nic.ids 	neighbour0PacketsForwarded 	0
+scalar BMacTest.node[20].nic.ids 	neighbour0IntentionalPacketDropping 	0
+scalar BMacTest.node[20].nic.ids 	neighbour1PacketsReceived 	0
+scalar BMacTest.node[20].nic.ids 	neighbour1PacketsForwarded 	0
+scalar BMacTest.node[20].nic.ids 	neighbour1IntentionalPacketDropping 	0
+scalar BMacTest.node[20].nic.ids 	neighbour2PacketsReceived 	41
+scalar BMacTest.node[20].nic.ids 	neighbour2PacketsForwarded 	26
+scalar BMacTest.node[20].nic.ids 	neighbour2IntentionalPacketDropping 	0
+scalar BMacTest.node[20].nic.ids 	neighbour3PacketsReceived 	65
+scalar BMacTest.node[20].nic.ids 	neighbour3PacketsForwarded 	41
+scalar BMacTest.node[20].nic.ids 	neighbour3IntentionalPacketDropping 	0
+scalar BMacTest.node[20].nic.ids 	neighbour4PacketsReceived 	302
+scalar BMacTest.node[20].nic.ids 	neighbour4PacketsForwarded 	243
+scalar BMacTest.node[20].nic.ids 	neighbour4IntentionalPacketDropping 	0
+scalar BMacTest.node[20].nic.ids 	neighbour5PacketsReceived 	0
+scalar BMacTest.node[20].nic.ids 	neighbour5PacketsForwarded 	0
+scalar BMacTest.node[20].nic.ids 	neighbour5IntentionalPacketDropping 	0
+scalar BMacTest.node[20].nic.ids 	neighbour6PacketsReceived 	0
+scalar BMacTest.node[20].nic.ids 	neighbour6PacketsForwarded 	0
+scalar BMacTest.node[20].nic.ids 	neighbour6IntentionalPacketDropping 	0
+scalar BMacTest.node[20].nic.ids 	neighbour7PacketsReceived 	607
+scalar BMacTest.node[20].nic.ids 	neighbour7PacketsForwarded 	322
+scalar BMacTest.node[20].nic.ids 	neighbour7IntentionalPacketDropping 	0.5
+scalar BMacTest.node[20].nic.ids 	neighbour8PacketsReceived 	613
+scalar BMacTest.node[20].nic.ids 	neighbour8PacketsForwarded 	609
+scalar BMacTest.node[20].nic.ids 	neighbour8IntentionalPacketDropping 	0
+scalar BMacTest.node[20].nic.ids 	neighbour9PacketsReceived 	0
+scalar BMacTest.node[20].nic.ids 	neighbour9PacketsForwarded 	0
+scalar BMacTest.node[20].nic.ids 	neighbour9IntentionalPacketDropping 	0
+scalar BMacTest.node[20].nic.ids 	neighbour10PacketsReceived 	0
+scalar BMacTest.node[20].nic.ids 	neighbour10PacketsForwarded 	0
+scalar BMacTest.node[20].nic.ids 	neighbour10IntentionalPacketDropping 	0.5
+scalar BMacTest.node[20].nic.ids 	neighbour11PacketsReceived 	978
+scalar BMacTest.node[20].nic.ids 	neighbour11PacketsForwarded 	976
+scalar BMacTest.node[20].nic.ids 	neighbour11IntentionalPacketDropping 	0
+scalar BMacTest.node[20].nic.ids 	neighbour12PacketsReceived 	0
+scalar BMacTest.node[20].nic.ids 	neighbour12PacketsForwarded 	0
+scalar BMacTest.node[20].nic.ids 	neighbour12IntentionalPacketDropping 	0
+scalar BMacTest.node[20].nic.ids 	neighbour13PacketsReceived 	0
+scalar BMacTest.node[20].nic.ids 	neighbour13PacketsForwarded 	0
+scalar BMacTest.node[20].nic.ids 	neighbour13IntentionalPacketDropping 	0
+scalar BMacTest.node[20].nic.ids 	neighbour14PacketsReceived 	1099
+scalar BMacTest.node[20].nic.ids 	neighbour14PacketsForwarded 	1097
+scalar BMacTest.node[20].nic.ids 	neighbour14IntentionalPacketDropping 	0
+scalar BMacTest.node[20].nic.ids 	neighbour15PacketsReceived 	1337
+scalar BMacTest.node[20].nic.ids 	neighbour15PacketsForwarded 	1336
+scalar BMacTest.node[20].nic.ids 	neighbour15IntentionalPacketDropping 	0
+scalar BMacTest.node[20].nic.ids 	neighbour16PacketsReceived 	120
+scalar BMacTest.node[20].nic.ids 	neighbour16PacketsForwarded 	120
+scalar BMacTest.node[20].nic.ids 	neighbour16IntentionalPacketDropping 	0
+scalar BMacTest.node[20].nic.ids 	neighbour17PacketsReceived 	0
+scalar BMacTest.node[20].nic.ids 	neighbour17PacketsForwarded 	0
+scalar BMacTest.node[20].nic.ids 	neighbour17IntentionalPacketDropping 	0
+scalar BMacTest.node[20].nic.ids 	neighbour18PacketsReceived 	0
+scalar BMacTest.node[20].nic.ids 	neighbour18PacketsForwarded 	0
+scalar BMacTest.node[20].nic.ids 	neighbour18IntentionalPacketDropping 	0
+scalar BMacTest.node[20].nic.ids 	neighbour19PacketsReceived 	1692
+scalar BMacTest.node[20].nic.ids 	neighbour19PacketsForwarded 	822
+scalar BMacTest.node[20].nic.ids 	neighbour19IntentionalPacketDropping 	0.5
+scalar BMacTest.node[20].nic.ids 	neighbour21PacketsReceived 	0
+scalar BMacTest.node[20].nic.ids 	neighbour21PacketsForwarded 	0
+scalar BMacTest.node[20].nic.ids 	neighbour21IntentionalPacketDropping 	0
+scalar BMacTest.node[20].nic.ids 	neighbour22PacketsReceived 	1063
+scalar BMacTest.node[20].nic.ids 	neighbour22PacketsForwarded 	1063
+scalar BMacTest.node[20].nic.ids 	neighbour22IntentionalPacketDropping 	0
+scalar BMacTest.node[20].nic.ids 	neighbour23PacketsReceived 	479
+scalar BMacTest.node[20].nic.ids 	neighbour23PacketsForwarded 	478
+scalar BMacTest.node[20].nic.ids 	neighbour23IntentionalPacketDropping 	0
+scalar BMacTest.node[20].nic.ids 	neighbour24PacketsReceived 	0
+scalar BMacTest.node[20].nic.ids 	neighbour24PacketsForwarded 	0
+scalar BMacTest.node[20].nic.ids 	neighbour24IntentionalPacketDropping 	0
+scalar BMacTest.node[20].nic.ids 	neighbour26PacketsReceived 	0
+scalar BMacTest.node[20].nic.ids 	neighbour26PacketsForwarded 	0
+scalar BMacTest.node[20].nic.ids 	neighbour26IntentionalPacketDropping 	0
+scalar BMacTest.node[20].nic.ids 	neighbour27PacketsReceived 	0
+scalar BMacTest.node[20].nic.ids 	neighbour27PacketsForwarded 	0
+scalar BMacTest.node[20].nic.ids 	neighbour27IntentionalPacketDropping 	0
+scalar BMacTest.node[20].nic.ids 	data_packets_intercepted 	10666
+scalar BMacTest.node[20].nic.ids 	data_packets_me_to_somebody 	360
+scalar BMacTest.node[20].nic.ids 	data_packets_somebody_to_me 	240
+scalar BMacTest.node[20].nic.ids 	data_packets_somebody_to_somebody 	10066
+scalar BMacTest.node[20].netwl 	nbPacketsForwarded 	240
+scalar BMacTest.node[20].netwl 	nbPacketsReceived 	240
+scalar BMacTest.node[20].netwl 	nbPacketsSent 	120
+scalar BMacTest.node[20].netwl 	nbPacketsDropped 	0
+scalar BMacTest.node[21].nic.ids 	notAffectedByHostState 	0
+scalar BMacTest.node[21].nic.ids 	stats 	1
+scalar BMacTest.node[21].nic.ids 	debug 	0
+scalar BMacTest.node[21].nic.ids 	maxMonitoredNodes 	30
+scalar BMacTest.node[21].nic.ids 	fwdBufferSize 	100
+scalar BMacTest.node[21].nic.ids 	fwdMinPacketsReceived 	0
+scalar BMacTest.node[21].nic.ids 	fwdDetectionThreshold 	0.5
+scalar BMacTest.node[21].nic.ids 	memIDSEntry 	8
+scalar BMacTest.node[21].nic.ids 	memBufferEntry 	16
+scalar BMacTest.node[21].nic.ids 	maxDistance 	999999
+scalar BMacTest.node[21].nic.ids 	fwdPacketTimeout 	999999
+scalar BMacTest.node[21].nic.ids 	neighbour0PacketsReceived 	0
+scalar BMacTest.node[21].nic.ids 	neighbour0PacketsForwarded 	0
+scalar BMacTest.node[21].nic.ids 	neighbour0IntentionalPacketDropping 	0
+scalar BMacTest.node[21].nic.ids 	neighbour1PacketsReceived 	0
+scalar BMacTest.node[21].nic.ids 	neighbour1PacketsForwarded 	0
+scalar BMacTest.node[21].nic.ids 	neighbour1IntentionalPacketDropping 	0
+scalar BMacTest.node[21].nic.ids 	neighbour2PacketsReceived 	41
+scalar BMacTest.node[21].nic.ids 	neighbour2PacketsForwarded 	23
+scalar BMacTest.node[21].nic.ids 	neighbour2IntentionalPacketDropping 	0
+scalar BMacTest.node[21].nic.ids 	neighbour3PacketsReceived 	58
+scalar BMacTest.node[21].nic.ids 	neighbour3PacketsForwarded 	36
+scalar BMacTest.node[21].nic.ids 	neighbour3IntentionalPacketDropping 	0
+scalar BMacTest.node[21].nic.ids 	neighbour4PacketsReceived 	292
+scalar BMacTest.node[21].nic.ids 	neighbour4PacketsForwarded 	231
+scalar BMacTest.node[21].nic.ids 	neighbour4IntentionalPacketDropping 	0
+scalar BMacTest.node[21].nic.ids 	neighbour5PacketsReceived 	0
+scalar BMacTest.node[21].nic.ids 	neighbour5PacketsForwarded 	0
+scalar BMacTest.node[21].nic.ids 	neighbour5IntentionalPacketDropping 	0
+scalar BMacTest.node[21].nic.ids 	neighbour6PacketsReceived 	0
+scalar BMacTest.node[21].nic.ids 	neighbour6PacketsForwarded 	0
+scalar BMacTest.node[21].nic.ids 	neighbour6IntentionalPacketDropping 	0
+scalar BMacTest.node[21].nic.ids 	neighbour7PacketsReceived 	585
+scalar BMacTest.node[21].nic.ids 	neighbour7PacketsForwarded 	303
+scalar BMacTest.node[21].nic.ids 	neighbour7IntentionalPacketDropping 	0.5
+scalar BMacTest.node[21].nic.ids 	neighbour8PacketsReceived 	609
+scalar BMacTest.node[21].nic.ids 	neighbour8PacketsForwarded 	606
+scalar BMacTest.node[21].nic.ids 	neighbour8IntentionalPacketDropping 	0
+scalar BMacTest.node[21].nic.ids 	neighbour9PacketsReceived 	0
+scalar BMacTest.node[21].nic.ids 	neighbour9PacketsForwarded 	0
+scalar BMacTest.node[21].nic.ids 	neighbour9IntentionalPacketDropping 	0
+scalar BMacTest.node[21].nic.ids 	neighbour10PacketsReceived 	0
+scalar BMacTest.node[21].nic.ids 	neighbour10PacketsForwarded 	0
+scalar BMacTest.node[21].nic.ids 	neighbour10IntentionalPacketDropping 	0.5
+scalar BMacTest.node[21].nic.ids 	neighbour11PacketsReceived 	976
+scalar BMacTest.node[21].nic.ids 	neighbour11PacketsForwarded 	975
+scalar BMacTest.node[21].nic.ids 	neighbour11IntentionalPacketDropping 	0
+scalar BMacTest.node[21].nic.ids 	neighbour12PacketsReceived 	0
+scalar BMacTest.node[21].nic.ids 	neighbour12PacketsForwarded 	0
+scalar BMacTest.node[21].nic.ids 	neighbour12IntentionalPacketDropping 	0
+scalar BMacTest.node[21].nic.ids 	neighbour13PacketsReceived 	0
+scalar BMacTest.node[21].nic.ids 	neighbour13PacketsForwarded 	0
+scalar BMacTest.node[21].nic.ids 	neighbour13IntentionalPacketDropping 	0
+scalar BMacTest.node[21].nic.ids 	neighbour14PacketsReceived 	1100
+scalar BMacTest.node[21].nic.ids 	neighbour14PacketsForwarded 	1097
+scalar BMacTest.node[21].nic.ids 	neighbour14IntentionalPacketDropping 	0
+scalar BMacTest.node[21].nic.ids 	neighbour15PacketsReceived 	1337
+scalar BMacTest.node[21].nic.ids 	neighbour15PacketsForwarded 	1336
+scalar BMacTest.node[21].nic.ids 	neighbour15IntentionalPacketDropping 	0
+scalar BMacTest.node[21].nic.ids 	neighbour16PacketsReceived 	120
+scalar BMacTest.node[21].nic.ids 	neighbour16PacketsForwarded 	120
+scalar BMacTest.node[21].nic.ids 	neighbour16IntentionalPacketDropping 	0
+scalar BMacTest.node[21].nic.ids 	neighbour17PacketsReceived 	0
+scalar BMacTest.node[21].nic.ids 	neighbour17PacketsForwarded 	0
+scalar BMacTest.node[21].nic.ids 	neighbour17IntentionalPacketDropping 	0
+scalar BMacTest.node[21].nic.ids 	neighbour18PacketsReceived 	0
+scalar BMacTest.node[21].nic.ids 	neighbour18PacketsForwarded 	0
+scalar BMacTest.node[21].nic.ids 	neighbour18IntentionalPacketDropping 	0
+scalar BMacTest.node[21].nic.ids 	neighbour19PacketsReceived 	1693
+scalar BMacTest.node[21].nic.ids 	neighbour19PacketsForwarded 	822
+scalar BMacTest.node[21].nic.ids 	neighbour19IntentionalPacketDropping 	0.5
+scalar BMacTest.node[21].nic.ids 	neighbour20PacketsReceived 	240
+scalar BMacTest.node[21].nic.ids 	neighbour20PacketsForwarded 	240
+scalar BMacTest.node[21].nic.ids 	neighbour20IntentionalPacketDropping 	0
+scalar BMacTest.node[21].nic.ids 	neighbour22PacketsReceived 	1063
+scalar BMacTest.node[21].nic.ids 	neighbour22PacketsForwarded 	1063
+scalar BMacTest.node[21].nic.ids 	neighbour22IntentionalPacketDropping 	0
+scalar BMacTest.node[21].nic.ids 	neighbour23PacketsReceived 	477
+scalar BMacTest.node[21].nic.ids 	neighbour23PacketsForwarded 	476
+scalar BMacTest.node[21].nic.ids 	neighbour23IntentionalPacketDropping 	0
+scalar BMacTest.node[21].nic.ids 	neighbour24PacketsReceived 	0
+scalar BMacTest.node[21].nic.ids 	neighbour24PacketsForwarded 	0
+scalar BMacTest.node[21].nic.ids 	neighbour24IntentionalPacketDropping 	0
+scalar BMacTest.node[21].nic.ids 	neighbour26PacketsReceived 	0
+scalar BMacTest.node[21].nic.ids 	neighbour26PacketsForwarded 	0
+scalar BMacTest.node[21].nic.ids 	neighbour26IntentionalPacketDropping 	0
+scalar BMacTest.node[21].nic.ids 	neighbour27PacketsReceived 	0
+scalar BMacTest.node[21].nic.ids 	neighbour27PacketsForwarded 	0
+scalar BMacTest.node[21].nic.ids 	neighbour27IntentionalPacketDropping 	0
+scalar BMacTest.node[21].nic.ids 	data_packets_intercepted 	10624
+scalar BMacTest.node[21].nic.ids 	data_packets_me_to_somebody 	120
+scalar BMacTest.node[21].nic.ids 	data_packets_somebody_to_me 	0
+scalar BMacTest.node[21].nic.ids 	data_packets_somebody_to_somebody 	10504
+scalar BMacTest.node[21].netwl 	nbPacketsForwarded 	0
+scalar BMacTest.node[21].netwl 	nbPacketsReceived 	0
+scalar BMacTest.node[21].netwl 	nbPacketsSent 	120
+scalar BMacTest.node[21].netwl 	nbPacketsDropped 	0
+scalar BMacTest.node[22].nic.ids 	notAffectedByHostState 	0
+scalar BMacTest.node[22].nic.ids 	stats 	1
+scalar BMacTest.node[22].nic.ids 	debug 	0
+scalar BMacTest.node[22].nic.ids 	maxMonitoredNodes 	30
+scalar BMacTest.node[22].nic.ids 	fwdBufferSize 	100
+scalar BMacTest.node[22].nic.ids 	fwdMinPacketsReceived 	0
+scalar BMacTest.node[22].nic.ids 	fwdDetectionThreshold 	0.5
+scalar BMacTest.node[22].nic.ids 	memIDSEntry 	8
+scalar BMacTest.node[22].nic.ids 	memBufferEntry 	16
+scalar BMacTest.node[22].nic.ids 	maxDistance 	999999
+scalar BMacTest.node[22].nic.ids 	fwdPacketTimeout 	999999
+scalar BMacTest.node[22].nic.ids 	neighbour0PacketsReceived 	0
+scalar BMacTest.node[22].nic.ids 	neighbour0PacketsForwarded 	0
+scalar BMacTest.node[22].nic.ids 	neighbour0IntentionalPacketDropping 	0
+scalar BMacTest.node[22].nic.ids 	neighbour1PacketsReceived 	0
+scalar BMacTest.node[22].nic.ids 	neighbour1PacketsForwarded 	0
+scalar BMacTest.node[22].nic.ids 	neighbour1IntentionalPacketDropping 	0
+scalar BMacTest.node[22].nic.ids 	neighbour2PacketsReceived 	44
+scalar BMacTest.node[22].nic.ids 	neighbour2PacketsForwarded 	26
+scalar BMacTest.node[22].nic.ids 	neighbour2IntentionalPacketDropping 	0
+scalar BMacTest.node[22].nic.ids 	neighbour3PacketsReceived 	61
+scalar BMacTest.node[22].nic.ids 	neighbour3PacketsForwarded 	43
+scalar BMacTest.node[22].nic.ids 	neighbour3IntentionalPacketDropping 	0
+scalar BMacTest.node[22].nic.ids 	neighbour4PacketsReceived 	307
+scalar BMacTest.node[22].nic.ids 	neighbour4PacketsForwarded 	266
+scalar BMacTest.node[22].nic.ids 	neighbour4IntentionalPacketDropping 	0
+scalar BMacTest.node[22].nic.ids 	neighbour5PacketsReceived 	0
+scalar BMacTest.node[22].nic.ids 	neighbour5PacketsForwarded 	0
+scalar BMacTest.node[22].nic.ids 	neighbour5IntentionalPacketDropping 	0
+scalar BMacTest.node[22].nic.ids 	neighbour6PacketsReceived 	0
+scalar BMacTest.node[22].nic.ids 	neighbour6PacketsForwarded 	0
+scalar BMacTest.node[22].nic.ids 	neighbour6IntentionalPacketDropping 	0
+scalar BMacTest.node[22].nic.ids 	neighbour7PacketsReceived 	622
+scalar BMacTest.node[22].nic.ids 	neighbour7PacketsForwarded 	319
+scalar BMacTest.node[22].nic.ids 	neighbour7IntentionalPacketDropping 	0.5
+scalar BMacTest.node[22].nic.ids 	neighbour8PacketsReceived 	608
+scalar BMacTest.node[22].nic.ids 	neighbour8PacketsForwarded 	605
+scalar BMacTest.node[22].nic.ids 	neighbour8IntentionalPacketDropping 	0
+scalar BMacTest.node[22].nic.ids 	neighbour9PacketsReceived 	0
+scalar BMacTest.node[22].nic.ids 	neighbour9PacketsForwarded 	0
+scalar BMacTest.node[22].nic.ids 	neighbour9IntentionalPacketDropping 	0
+scalar BMacTest.node[22].nic.ids 	neighbour10PacketsReceived 	0
+scalar BMacTest.node[22].nic.ids 	neighbour10PacketsForwarded 	0
+scalar BMacTest.node[22].nic.ids 	neighbour10IntentionalPacketDropping 	0.5
+scalar BMacTest.node[22].nic.ids 	neighbour11PacketsReceived 	979
+scalar BMacTest.node[22].nic.ids 	neighbour11PacketsForwarded 	978
+scalar BMacTest.node[22].nic.ids 	neighbour11IntentionalPacketDropping 	0
+scalar BMacTest.node[22].nic.ids 	neighbour12PacketsReceived 	0
+scalar BMacTest.node[22].nic.ids 	neighbour12PacketsForwarded 	0
+scalar BMacTest.node[22].nic.ids 	neighbour12IntentionalPacketDropping 	0
+scalar BMacTest.node[22].nic.ids 	neighbour13PacketsReceived 	0
+scalar BMacTest.node[22].nic.ids 	neighbour13PacketsForwarded 	0
+scalar BMacTest.node[22].nic.ids 	neighbour13IntentionalPacketDropping 	0
+scalar BMacTest.node[22].nic.ids 	neighbour14PacketsReceived 	1100
+scalar BMacTest.node[22].nic.ids 	neighbour14PacketsForwarded 	1097
+scalar BMacTest.node[22].nic.ids 	neighbour14IntentionalPacketDropping 	0
+scalar BMacTest.node[22].nic.ids 	neighbour15PacketsReceived 	1337
+scalar BMacTest.node[22].nic.ids 	neighbour15PacketsForwarded 	1336
+scalar BMacTest.node[22].nic.ids 	neighbour15IntentionalPacketDropping 	0
+scalar BMacTest.node[22].nic.ids 	neighbour16PacketsReceived 	120
+scalar BMacTest.node[22].nic.ids 	neighbour16PacketsForwarded 	120
+scalar BMacTest.node[22].nic.ids 	neighbour16IntentionalPacketDropping 	0
+scalar BMacTest.node[22].nic.ids 	neighbour17PacketsReceived 	0
+scalar BMacTest.node[22].nic.ids 	neighbour17PacketsForwarded 	0
+scalar BMacTest.node[22].nic.ids 	neighbour17IntentionalPacketDropping 	0
+scalar BMacTest.node[22].nic.ids 	neighbour18PacketsReceived 	0
+scalar BMacTest.node[22].nic.ids 	neighbour18PacketsForwarded 	0
+scalar BMacTest.node[22].nic.ids 	neighbour18IntentionalPacketDropping 	0
+scalar BMacTest.node[22].nic.ids 	neighbour19PacketsReceived 	1692
+scalar BMacTest.node[22].nic.ids 	neighbour19PacketsForwarded 	822
+scalar BMacTest.node[22].nic.ids 	neighbour19IntentionalPacketDropping 	0.5
+scalar BMacTest.node[22].nic.ids 	neighbour20PacketsReceived 	239
+scalar BMacTest.node[22].nic.ids 	neighbour20PacketsForwarded 	239
+scalar BMacTest.node[22].nic.ids 	neighbour20IntentionalPacketDropping 	0
+scalar BMacTest.node[22].nic.ids 	neighbour21PacketsReceived 	0
+scalar BMacTest.node[22].nic.ids 	neighbour21PacketsForwarded 	0
+scalar BMacTest.node[22].nic.ids 	neighbour21IntentionalPacketDropping 	0
+scalar BMacTest.node[22].nic.ids 	neighbour23PacketsReceived 	477
+scalar BMacTest.node[22].nic.ids 	neighbour23PacketsForwarded 	476
+scalar BMacTest.node[22].nic.ids 	neighbour23IntentionalPacketDropping 	0
+scalar BMacTest.node[22].nic.ids 	neighbour24PacketsReceived 	0
+scalar BMacTest.node[22].nic.ids 	neighbour24PacketsForwarded 	0
+scalar BMacTest.node[22].nic.ids 	neighbour24IntentionalPacketDropping 	0
+scalar BMacTest.node[22].nic.ids 	neighbour26PacketsReceived 	0
+scalar BMacTest.node[22].nic.ids 	neighbour26PacketsForwarded 	0
+scalar BMacTest.node[22].nic.ids 	neighbour26IntentionalPacketDropping 	0
+scalar BMacTest.node[22].nic.ids 	neighbour27PacketsReceived 	0
+scalar BMacTest.node[22].nic.ids 	neighbour27PacketsForwarded 	0
+scalar BMacTest.node[22].nic.ids 	neighbour27IntentionalPacketDropping 	0
+scalar BMacTest.node[22].nic.ids 	data_packets_intercepted 	10683
+scalar BMacTest.node[22].nic.ids 	data_packets_me_to_somebody 	1183
+scalar BMacTest.node[22].nic.ids 	data_packets_somebody_to_me 	1063
+scalar BMacTest.node[22].nic.ids 	data_packets_somebody_to_somebody 	8437
+scalar BMacTest.node[22].netwl 	nbPacketsForwarded 	1063
+scalar BMacTest.node[22].netwl 	nbPacketsReceived 	1063
+scalar BMacTest.node[22].netwl 	nbPacketsSent 	120
+scalar BMacTest.node[22].netwl 	nbPacketsDropped 	0
+scalar BMacTest.node[23].nic.ids 	notAffectedByHostState 	0
+scalar BMacTest.node[23].nic.ids 	stats 	1
+scalar BMacTest.node[23].nic.ids 	debug 	0
+scalar BMacTest.node[23].nic.ids 	maxMonitoredNodes 	30
+scalar BMacTest.node[23].nic.ids 	fwdBufferSize 	100
+scalar BMacTest.node[23].nic.ids 	fwdMinPacketsReceived 	0
+scalar BMacTest.node[23].nic.ids 	fwdDetectionThreshold 	0.5
+scalar BMacTest.node[23].nic.ids 	memIDSEntry 	8
+scalar BMacTest.node[23].nic.ids 	memBufferEntry 	16
+scalar BMacTest.node[23].nic.ids 	maxDistance 	999999
+scalar BMacTest.node[23].nic.ids 	fwdPacketTimeout 	999999
+scalar BMacTest.node[23].nic.ids 	neighbour0PacketsReceived 	0
+scalar BMacTest.node[23].nic.ids 	neighbour0PacketsForwarded 	0
+scalar BMacTest.node[23].nic.ids 	neighbour0IntentionalPacketDropping 	0
+scalar BMacTest.node[23].nic.ids 	neighbour1PacketsReceived 	0
+scalar BMacTest.node[23].nic.ids 	neighbour1PacketsForwarded 	0
+scalar BMacTest.node[23].nic.ids 	neighbour1IntentionalPacketDropping 	0
+scalar BMacTest.node[23].nic.ids 	neighbour2PacketsReceived 	47
+scalar BMacTest.node[23].nic.ids 	neighbour2PacketsForwarded 	27
+scalar BMacTest.node[23].nic.ids 	neighbour2IntentionalPacketDropping 	0
+scalar BMacTest.node[23].nic.ids 	neighbour3PacketsReceived 	47
+scalar BMacTest.node[23].nic.ids 	neighbour3PacketsForwarded 	21
+scalar BMacTest.node[23].nic.ids 	neighbour3IntentionalPacketDropping 	0
+scalar BMacTest.node[23].nic.ids 	neighbour4PacketsReceived 	248
+scalar BMacTest.node[23].nic.ids 	neighbour4PacketsForwarded 	185
+scalar BMacTest.node[23].nic.ids 	neighbour4IntentionalPacketDropping 	0
+scalar BMacTest.node[23].nic.ids 	neighbour5PacketsReceived 	0
+scalar BMacTest.node[23].nic.ids 	neighbour5PacketsForwarded 	0
+scalar BMacTest.node[23].nic.ids 	neighbour5IntentionalPacketDropping 	0
+scalar BMacTest.node[23].nic.ids 	neighbour6PacketsReceived 	0
+scalar BMacTest.node[23].nic.ids 	neighbour6PacketsForwarded 	0
+scalar BMacTest.node[23].nic.ids 	neighbour6IntentionalPacketDropping 	0
+scalar BMacTest.node[23].nic.ids 	neighbour7PacketsReceived 	567
+scalar BMacTest.node[23].nic.ids 	neighbour7PacketsForwarded 	292
+scalar BMacTest.node[23].nic.ids 	neighbour7IntentionalPacketDropping 	0.5
+scalar BMacTest.node[23].nic.ids 	neighbour8PacketsReceived 	599
+scalar BMacTest.node[23].nic.ids 	neighbour8PacketsForwarded 	592
+scalar BMacTest.node[23].nic.ids 	neighbour8IntentionalPacketDropping 	0
+scalar BMacTest.node[23].nic.ids 	neighbour9PacketsReceived 	0
+scalar BMacTest.node[23].nic.ids 	neighbour9PacketsForwarded 	0
+scalar BMacTest.node[23].nic.ids 	neighbour9IntentionalPacketDropping 	0
+scalar BMacTest.node[23].nic.ids 	neighbour10PacketsReceived 	0
+scalar BMacTest.node[23].nic.ids 	neighbour10PacketsForwarded 	0
+scalar BMacTest.node[23].nic.ids 	neighbour10IntentionalPacketDropping 	0.5
+scalar BMacTest.node[23].nic.ids 	neighbour11PacketsReceived 	973
+scalar BMacTest.node[23].nic.ids 	neighbour11PacketsForwarded 	972
+scalar BMacTest.node[23].nic.ids 	neighbour11IntentionalPacketDropping 	0
+scalar BMacTest.node[23].nic.ids 	neighbour12PacketsReceived 	0
+scalar BMacTest.node[23].nic.ids 	neighbour12PacketsForwarded 	0
+scalar BMacTest.node[23].nic.ids 	neighbour12IntentionalPacketDropping 	0
+scalar BMacTest.node[23].nic.ids 	neighbour13PacketsReceived 	0
+scalar BMacTest.node[23].nic.ids 	neighbour13PacketsForwarded 	0
+scalar BMacTest.node[23].nic.ids 	neighbour13IntentionalPacketDropping 	0
+scalar BMacTest.node[23].nic.ids 	neighbour14PacketsReceived 	1100
+scalar BMacTest.node[23].nic.ids 	neighbour14PacketsForwarded 	1097
+scalar BMacTest.node[23].nic.ids 	neighbour14IntentionalPacketDropping 	0
+scalar BMacTest.node[23].nic.ids 	neighbour15PacketsReceived 	1337
+scalar BMacTest.node[23].nic.ids 	neighbour15PacketsForwarded 	1336
+scalar BMacTest.node[23].nic.ids 	neighbour15IntentionalPacketDropping 	0
+scalar BMacTest.node[23].nic.ids 	neighbour16PacketsReceived 	120
+scalar BMacTest.node[23].nic.ids 	neighbour16PacketsForwarded 	120
+scalar BMacTest.node[23].nic.ids 	neighbour16IntentionalPacketDropping 	0
+scalar BMacTest.node[23].nic.ids 	neighbour17PacketsReceived 	0
+scalar BMacTest.node[23].nic.ids 	neighbour17PacketsForwarded 	0
+scalar BMacTest.node[23].nic.ids 	neighbour17IntentionalPacketDropping 	0
+scalar BMacTest.node[23].nic.ids 	neighbour18PacketsReceived 	0
+scalar BMacTest.node[23].nic.ids 	neighbour18PacketsForwarded 	0
+scalar BMacTest.node[23].nic.ids 	neighbour18IntentionalPacketDropping 	0
+scalar BMacTest.node[23].nic.ids 	neighbour19PacketsReceived 	1692
+scalar BMacTest.node[23].nic.ids 	neighbour19PacketsForwarded 	822
+scalar BMacTest.node[23].nic.ids 	neighbour19IntentionalPacketDropping 	0.5
+scalar BMacTest.node[23].nic.ids 	neighbour20PacketsReceived 	239
+scalar BMacTest.node[23].nic.ids 	neighbour20PacketsForwarded 	239
+scalar BMacTest.node[23].nic.ids 	neighbour20IntentionalPacketDropping 	0
+scalar BMacTest.node[23].nic.ids 	neighbour21PacketsReceived 	0
+scalar BMacTest.node[23].nic.ids 	neighbour21PacketsForwarded 	0
+scalar BMacTest.node[23].nic.ids 	neighbour21IntentionalPacketDropping 	0
+scalar BMacTest.node[23].nic.ids 	neighbour22PacketsReceived 	1063
+scalar BMacTest.node[23].nic.ids 	neighbour22PacketsForwarded 	1063
+scalar BMacTest.node[23].nic.ids 	neighbour22IntentionalPacketDropping 	0
+scalar BMacTest.node[23].nic.ids 	neighbour24PacketsReceived 	0
+scalar BMacTest.node[23].nic.ids 	neighbour24PacketsForwarded 	0
+scalar BMacTest.node[23].nic.ids 	neighbour24IntentionalPacketDropping 	0
+scalar BMacTest.node[23].nic.ids 	neighbour26PacketsReceived 	0
+scalar BMacTest.node[23].nic.ids 	neighbour26PacketsForwarded 	0
+scalar BMacTest.node[23].nic.ids 	neighbour26IntentionalPacketDropping 	0
+scalar BMacTest.node[23].nic.ids 	neighbour27PacketsReceived 	0
+scalar BMacTest.node[23].nic.ids 	neighbour27PacketsForwarded 	0
+scalar BMacTest.node[23].nic.ids 	neighbour27IntentionalPacketDropping 	0
+scalar BMacTest.node[23].nic.ids 	data_packets_intercepted 	10542
+scalar BMacTest.node[23].nic.ids 	data_packets_me_to_somebody 	598
+scalar BMacTest.node[23].nic.ids 	data_packets_somebody_to_me 	478
+scalar BMacTest.node[23].nic.ids 	data_packets_somebody_to_somebody 	9466
+scalar BMacTest.node[23].netwl 	nbPacketsForwarded 	478
+scalar BMacTest.node[23].netwl 	nbPacketsReceived 	478
+scalar BMacTest.node[23].netwl 	nbPacketsSent 	120
+scalar BMacTest.node[23].netwl 	nbPacketsDropped 	0
+scalar BMacTest.node[24].nic.ids 	notAffectedByHostState 	0
+scalar BMacTest.node[24].nic.ids 	stats 	1
+scalar BMacTest.node[24].nic.ids 	debug 	0
+scalar BMacTest.node[24].nic.ids 	maxMonitoredNodes 	30
+scalar BMacTest.node[24].nic.ids 	fwdBufferSize 	100
+scalar BMacTest.node[24].nic.ids 	fwdMinPacketsReceived 	0
+scalar BMacTest.node[24].nic.ids 	fwdDetectionThreshold 	0.5
+scalar BMacTest.node[24].nic.ids 	memIDSEntry 	8
+scalar BMacTest.node[24].nic.ids 	memBufferEntry 	16
+scalar BMacTest.node[24].nic.ids 	maxDistance 	999999
+scalar BMacTest.node[24].nic.ids 	fwdPacketTimeout 	999999
+scalar BMacTest.node[24].nic.ids 	neighbour0PacketsReceived 	0
+scalar BMacTest.node[24].nic.ids 	neighbour0PacketsForwarded 	0
+scalar BMacTest.node[24].nic.ids 	neighbour0IntentionalPacketDropping 	0
+scalar BMacTest.node[24].nic.ids 	neighbour1PacketsReceived 	0
+scalar BMacTest.node[24].nic.ids 	neighbour1PacketsForwarded 	0
+scalar BMacTest.node[24].nic.ids 	neighbour1IntentionalPacketDropping 	0
+scalar BMacTest.node[24].nic.ids 	neighbour2PacketsReceived 	29
+scalar BMacTest.node[24].nic.ids 	neighbour2PacketsForwarded 	13
+scalar BMacTest.node[24].nic.ids 	neighbour2IntentionalPacketDropping 	0
+scalar BMacTest.node[24].nic.ids 	neighbour3PacketsReceived 	48
+scalar BMacTest.node[24].nic.ids 	neighbour3PacketsForwarded 	31
+scalar BMacTest.node[24].nic.ids 	neighbour3IntentionalPacketDropping 	0
+scalar BMacTest.node[24].nic.ids 	neighbour4PacketsReceived 	260
+scalar BMacTest.node[24].nic.ids 	neighbour4PacketsForwarded 	197
+scalar BMacTest.node[24].nic.ids 	neighbour4IntentionalPacketDropping 	0
+scalar BMacTest.node[24].nic.ids 	neighbour5PacketsReceived 	0
+scalar BMacTest.node[24].nic.ids 	neighbour5PacketsForwarded 	0
+scalar BMacTest.node[24].nic.ids 	neighbour5IntentionalPacketDropping 	0
+scalar BMacTest.node[24].nic.ids 	neighbour6PacketsReceived 	0
+scalar BMacTest.node[24].nic.ids 	neighbour6PacketsForwarded 	0
+scalar BMacTest.node[24].nic.ids 	neighbour6IntentionalPacketDropping 	0
+scalar BMacTest.node[24].nic.ids 	neighbour7PacketsReceived 	550
+scalar BMacTest.node[24].nic.ids 	neighbour7PacketsForwarded 	280
+scalar BMacTest.node[24].nic.ids 	neighbour7IntentionalPacketDropping 	0.5
+scalar BMacTest.node[24].nic.ids 	neighbour8PacketsReceived 	593
+scalar BMacTest.node[24].nic.ids 	neighbour8PacketsForwarded 	585
+scalar BMacTest.node[24].nic.ids 	neighbour8IntentionalPacketDropping 	0
+scalar BMacTest.node[24].nic.ids 	neighbour9PacketsReceived 	0
+scalar BMacTest.node[24].nic.ids 	neighbour9PacketsForwarded 	0
+scalar BMacTest.node[24].nic.ids 	neighbour9IntentionalPacketDropping 	0
+scalar BMacTest.node[24].nic.ids 	neighbour10PacketsReceived 	0
+scalar BMacTest.node[24].nic.ids 	neighbour10PacketsForwarded 	0
+scalar BMacTest.node[24].nic.ids 	neighbour10IntentionalPacketDropping 	0.5
+scalar BMacTest.node[24].nic.ids 	neighbour11PacketsReceived 	974
+scalar BMacTest.node[24].nic.ids 	neighbour11PacketsForwarded 	973
+scalar BMacTest.node[24].nic.ids 	neighbour11IntentionalPacketDropping 	0
+scalar BMacTest.node[24].nic.ids 	neighbour12PacketsReceived 	0
+scalar BMacTest.node[24].nic.ids 	neighbour12PacketsForwarded 	0
+scalar BMacTest.node[24].nic.ids 	neighbour12IntentionalPacketDropping 	0
+scalar BMacTest.node[24].nic.ids 	neighbour13PacketsReceived 	0
+scalar BMacTest.node[24].nic.ids 	neighbour13PacketsForwarded 	0
+scalar BMacTest.node[24].nic.ids 	neighbour13IntentionalPacketDropping 	0
+scalar BMacTest.node[24].nic.ids 	neighbour14PacketsReceived 	1100
+scalar BMacTest.node[24].nic.ids 	neighbour14PacketsForwarded 	1097
+scalar BMacTest.node[24].nic.ids 	neighbour14IntentionalPacketDropping 	0
+scalar BMacTest.node[24].nic.ids 	neighbour15PacketsReceived 	1337
+scalar BMacTest.node[24].nic.ids 	neighbour15PacketsForwarded 	1336
+scalar BMacTest.node[24].nic.ids 	neighbour15IntentionalPacketDropping 	0
+scalar BMacTest.node[24].nic.ids 	neighbour16PacketsReceived 	120
+scalar BMacTest.node[24].nic.ids 	neighbour16PacketsForwarded 	120
+scalar BMacTest.node[24].nic.ids 	neighbour16IntentionalPacketDropping 	0
+scalar BMacTest.node[24].nic.ids 	neighbour17PacketsReceived 	0
+scalar BMacTest.node[24].nic.ids 	neighbour17PacketsForwarded 	0
+scalar BMacTest.node[24].nic.ids 	neighbour17IntentionalPacketDropping 	0
+scalar BMacTest.node[24].nic.ids 	neighbour18PacketsReceived 	0
+scalar BMacTest.node[24].nic.ids 	neighbour18PacketsForwarded 	0
+scalar BMacTest.node[24].nic.ids 	neighbour18IntentionalPacketDropping 	0
+scalar BMacTest.node[24].nic.ids 	neighbour19PacketsReceived 	1693
+scalar BMacTest.node[24].nic.ids 	neighbour19PacketsForwarded 	822
+scalar BMacTest.node[24].nic.ids 	neighbour19IntentionalPacketDropping 	0.5
+scalar BMacTest.node[24].nic.ids 	neighbour20PacketsReceived 	239
+scalar BMacTest.node[24].nic.ids 	neighbour20PacketsForwarded 	239
+scalar BMacTest.node[24].nic.ids 	neighbour20IntentionalPacketDropping 	0
+scalar BMacTest.node[24].nic.ids 	neighbour21PacketsReceived 	0
+scalar BMacTest.node[24].nic.ids 	neighbour21PacketsForwarded 	0
+scalar BMacTest.node[24].nic.ids 	neighbour21IntentionalPacketDropping 	0
+scalar BMacTest.node[24].nic.ids 	neighbour22PacketsReceived 	1063
+scalar BMacTest.node[24].nic.ids 	neighbour22PacketsForwarded 	1063
+scalar BMacTest.node[24].nic.ids 	neighbour22IntentionalPacketDropping 	0
+scalar BMacTest.node[24].nic.ids 	neighbour23PacketsReceived 	479
+scalar BMacTest.node[24].nic.ids 	neighbour23PacketsForwarded 	477
+scalar BMacTest.node[24].nic.ids 	neighbour23IntentionalPacketDropping 	0
+scalar BMacTest.node[24].nic.ids 	neighbour26PacketsReceived 	0
+scalar BMacTest.node[24].nic.ids 	neighbour26PacketsForwarded 	0
+scalar BMacTest.node[24].nic.ids 	neighbour26IntentionalPacketDropping 	0
+scalar BMacTest.node[24].nic.ids 	neighbour27PacketsReceived 	0
+scalar BMacTest.node[24].nic.ids 	neighbour27PacketsForwarded 	0
+scalar BMacTest.node[24].nic.ids 	neighbour27IntentionalPacketDropping 	0
+scalar BMacTest.node[24].nic.ids 	data_packets_intercepted 	10516
+scalar BMacTest.node[24].nic.ids 	data_packets_me_to_somebody 	120
+scalar BMacTest.node[24].nic.ids 	data_packets_somebody_to_me 	0
+scalar BMacTest.node[24].nic.ids 	data_packets_somebody_to_somebody 	10396
+scalar BMacTest.node[24].netwl 	nbPacketsForwarded 	0
+scalar BMacTest.node[24].netwl 	nbPacketsReceived 	0
+scalar BMacTest.node[24].netwl 	nbPacketsSent 	120
+scalar BMacTest.node[24].netwl 	nbPacketsDropped 	0
+scalar BMacTest.node[25].nic.ids 	notAffectedByHostState 	0
+scalar BMacTest.node[25].nic.ids 	stats 	1
+scalar BMacTest.node[25].nic.ids 	debug 	0
+scalar BMacTest.node[25].nic.ids 	maxMonitoredNodes 	30
+scalar BMacTest.node[25].nic.ids 	fwdBufferSize 	100
+scalar BMacTest.node[25].nic.ids 	fwdMinPacketsReceived 	0
+scalar BMacTest.node[25].nic.ids 	fwdDetectionThreshold 	0.5
+scalar BMacTest.node[25].nic.ids 	memIDSEntry 	8
+scalar BMacTest.node[25].nic.ids 	memBufferEntry 	16
+scalar BMacTest.node[25].nic.ids 	maxDistance 	999999
+scalar BMacTest.node[25].nic.ids 	fwdPacketTimeout 	999999
+scalar BMacTest.node[25].nic.ids 	neighbour0PacketsReceived 	0
+scalar BMacTest.node[25].nic.ids 	neighbour0PacketsForwarded 	0
+scalar BMacTest.node[25].nic.ids 	neighbour0IntentionalPacketDropping 	0
+scalar BMacTest.node[25].nic.ids 	neighbour1PacketsReceived 	0
+scalar BMacTest.node[25].nic.ids 	neighbour1PacketsForwarded 	0
+scalar BMacTest.node[25].nic.ids 	neighbour1IntentionalPacketDropping 	0
+scalar BMacTest.node[25].nic.ids 	neighbour2PacketsReceived 	39
+scalar BMacTest.node[25].nic.ids 	neighbour2PacketsForwarded 	14
+scalar BMacTest.node[25].nic.ids 	neighbour2IntentionalPacketDropping 	0
+scalar BMacTest.node[25].nic.ids 	neighbour3PacketsReceived 	46
+scalar BMacTest.node[25].nic.ids 	neighbour3PacketsForwarded 	22
+scalar BMacTest.node[25].nic.ids 	neighbour3IntentionalPacketDropping 	0
+scalar BMacTest.node[25].nic.ids 	neighbour4PacketsReceived 	218
+scalar BMacTest.node[25].nic.ids 	neighbour4PacketsForwarded 	163
+scalar BMacTest.node[25].nic.ids 	neighbour4IntentionalPacketDropping 	0
+scalar BMacTest.node[25].nic.ids 	neighbour5PacketsReceived 	0
+scalar BMacTest.node[25].nic.ids 	neighbour5PacketsForwarded 	0
+scalar BMacTest.node[25].nic.ids 	neighbour5IntentionalPacketDropping 	0
+scalar BMacTest.node[25].nic.ids 	neighbour6PacketsReceived 	0
+scalar BMacTest.node[25].nic.ids 	neighbour6PacketsForwarded 	0
+scalar BMacTest.node[25].nic.ids 	neighbour6IntentionalPacketDropping 	0
+scalar BMacTest.node[25].nic.ids 	neighbour7PacketsReceived 	543
+scalar BMacTest.node[25].nic.ids 	neighbour7PacketsForwarded 	274
+scalar BMacTest.node[25].nic.ids 	neighbour7IntentionalPacketDropping 	0.5
+scalar BMacTest.node[25].nic.ids 	neighbour8PacketsReceived 	592
+scalar BMacTest.node[25].nic.ids 	neighbour8PacketsForwarded 	587
+scalar BMacTest.node[25].nic.ids 	neighbour8IntentionalPacketDropping 	0
+scalar BMacTest.node[25].nic.ids 	neighbour9PacketsReceived 	0
+scalar BMacTest.node[25].nic.ids 	neighbour9PacketsForwarded 	0
+scalar BMacTest.node[25].nic.ids 	neighbour9IntentionalPacketDropping 	0
+scalar BMacTest.node[25].nic.ids 	neighbour10PacketsReceived 	0
+scalar BMacTest.node[25].nic.ids 	neighbour10PacketsForwarded 	0
+scalar BMacTest.node[25].nic.ids 	neighbour10IntentionalPacketDropping 	0.5
+scalar BMacTest.node[25].nic.ids 	neighbour11PacketsReceived 	977
+scalar BMacTest.node[25].nic.ids 	neighbour11PacketsForwarded 	976
+scalar BMacTest.node[25].nic.ids 	neighbour11IntentionalPacketDropping 	0
+scalar BMacTest.node[25].nic.ids 	neighbour12PacketsReceived 	0
+scalar BMacTest.node[25].nic.ids 	neighbour12PacketsForwarded 	0
+scalar BMacTest.node[25].nic.ids 	neighbour12IntentionalPacketDropping 	0
+scalar BMacTest.node[25].nic.ids 	neighbour13PacketsReceived 	0
+scalar BMacTest.node[25].nic.ids 	neighbour13PacketsForwarded 	0
+scalar BMacTest.node[25].nic.ids 	neighbour13IntentionalPacketDropping 	0
+scalar BMacTest.node[25].nic.ids 	neighbour14PacketsReceived 	1100
+scalar BMacTest.node[25].nic.ids 	neighbour14PacketsForwarded 	1097
+scalar BMacTest.node[25].nic.ids 	neighbour14IntentionalPacketDropping 	0
+scalar BMacTest.node[25].nic.ids 	neighbour15PacketsReceived 	1337
+scalar BMacTest.node[25].nic.ids 	neighbour15PacketsForwarded 	1336
+scalar BMacTest.node[25].nic.ids 	neighbour15IntentionalPacketDropping 	0
+scalar BMacTest.node[25].nic.ids 	neighbour16PacketsReceived 	120
+scalar BMacTest.node[25].nic.ids 	neighbour16PacketsForwarded 	120
+scalar BMacTest.node[25].nic.ids 	neighbour16IntentionalPacketDropping 	0
+scalar BMacTest.node[25].nic.ids 	neighbour17PacketsReceived 	0
+scalar BMacTest.node[25].nic.ids 	neighbour17PacketsForwarded 	0
+scalar BMacTest.node[25].nic.ids 	neighbour17IntentionalPacketDropping 	0
+scalar BMacTest.node[25].nic.ids 	neighbour18PacketsReceived 	0
+scalar BMacTest.node[25].nic.ids 	neighbour18PacketsForwarded 	0
+scalar BMacTest.node[25].nic.ids 	neighbour18IntentionalPacketDropping 	0
+scalar BMacTest.node[25].nic.ids 	neighbour19PacketsReceived 	1692
+scalar BMacTest.node[25].nic.ids 	neighbour19PacketsForwarded 	822
+scalar BMacTest.node[25].nic.ids 	neighbour19IntentionalPacketDropping 	0.5
+scalar BMacTest.node[25].nic.ids 	neighbour20PacketsReceived 	239
+scalar BMacTest.node[25].nic.ids 	neighbour20PacketsForwarded 	239
+scalar BMacTest.node[25].nic.ids 	neighbour20IntentionalPacketDropping 	0
+scalar BMacTest.node[25].nic.ids 	neighbour21PacketsReceived 	0
+scalar BMacTest.node[25].nic.ids 	neighbour21PacketsForwarded 	0
+scalar BMacTest.node[25].nic.ids 	neighbour21IntentionalPacketDropping 	0
+scalar BMacTest.node[25].nic.ids 	neighbour22PacketsReceived 	1063
+scalar BMacTest.node[25].nic.ids 	neighbour22PacketsForwarded 	1063
+scalar BMacTest.node[25].nic.ids 	neighbour22IntentionalPacketDropping 	0
+scalar BMacTest.node[25].nic.ids 	neighbour23PacketsReceived 	477
+scalar BMacTest.node[25].nic.ids 	neighbour23PacketsForwarded 	476
+scalar BMacTest.node[25].nic.ids 	neighbour23IntentionalPacketDropping 	0
+scalar BMacTest.node[25].nic.ids 	neighbour24PacketsReceived 	0
+scalar BMacTest.node[25].nic.ids 	neighbour24PacketsForwarded 	0
+scalar BMacTest.node[25].nic.ids 	neighbour24IntentionalPacketDropping 	0
+scalar BMacTest.node[25].nic.ids 	neighbour26PacketsReceived 	0
+scalar BMacTest.node[25].nic.ids 	neighbour26PacketsForwarded 	0
+scalar BMacTest.node[25].nic.ids 	neighbour26IntentionalPacketDropping 	0
+scalar BMacTest.node[25].nic.ids 	neighbour27PacketsReceived 	0
+scalar BMacTest.node[25].nic.ids 	neighbour27PacketsForwarded 	0
+scalar BMacTest.node[25].nic.ids 	neighbour27IntentionalPacketDropping 	0
+scalar BMacTest.node[25].nic.ids 	data_packets_intercepted 	10475
+scalar BMacTest.node[25].nic.ids 	data_packets_me_to_somebody 	0
+scalar BMacTest.node[25].nic.ids 	data_packets_somebody_to_me 	2019
+scalar BMacTest.node[25].nic.ids 	data_packets_somebody_to_somebody 	8456
+scalar BMacTest.node[25].netwl 	nbPacketsForwarded 	0
+scalar BMacTest.node[25].netwl 	nbPacketsReceived 	2019
+scalar BMacTest.node[25].netwl 	nbPacketsSent 	0
+scalar BMacTest.node[25].netwl 	nbPacketsDropped 	0
+scalar BMacTest.node[25].appl 	"activity duration" 	3599.4387059405
+attr unit  s
+scalar BMacTest.node[25].appl 	firstPacketGeneration 	0.407149256207
+attr unit  s
+scalar BMacTest.node[25].appl 	lastPacketReception 	3599.8458551967
+attr unit  s
+scalar BMacTest.node[25].appl 	nbPacketsSent 	0
+scalar BMacTest.node[25].appl 	nbPacketsReceived 	2019
+statistic BMacTest.node[25].appl 	latency
+field count 2019
+field mean 0.013382185112244
+field stddev 0.0097024374932697
+field sum 27.018631741621
+field sqrsum 0.55153738934713
+field min 0.00272
+field max 0.04256
+scalar BMacTest.node[26].nic.ids 	notAffectedByHostState 	0
+scalar BMacTest.node[26].nic.ids 	stats 	1
+scalar BMacTest.node[26].nic.ids 	debug 	0
+scalar BMacTest.node[26].nic.ids 	maxMonitoredNodes 	30
+scalar BMacTest.node[26].nic.ids 	fwdBufferSize 	100
+scalar BMacTest.node[26].nic.ids 	fwdMinPacketsReceived 	0
+scalar BMacTest.node[26].nic.ids 	fwdDetectionThreshold 	0.5
+scalar BMacTest.node[26].nic.ids 	memIDSEntry 	8
+scalar BMacTest.node[26].nic.ids 	memBufferEntry 	16
+scalar BMacTest.node[26].nic.ids 	maxDistance 	999999
+scalar BMacTest.node[26].nic.ids 	fwdPacketTimeout 	999999
+scalar BMacTest.node[26].nic.ids 	neighbour0PacketsReceived 	0
+scalar BMacTest.node[26].nic.ids 	neighbour0PacketsForwarded 	0
+scalar BMacTest.node[26].nic.ids 	neighbour0IntentionalPacketDropping 	0
+scalar BMacTest.node[26].nic.ids 	neighbour1PacketsReceived 	0
+scalar BMacTest.node[26].nic.ids 	neighbour1PacketsForwarded 	0
+scalar BMacTest.node[26].nic.ids 	neighbour1IntentionalPacketDropping 	0
+scalar BMacTest.node[26].nic.ids 	neighbour2PacketsReceived 	24
+scalar BMacTest.node[26].nic.ids 	neighbour2PacketsForwarded 	11
+scalar BMacTest.node[26].nic.ids 	neighbour2IntentionalPacketDropping 	0
+scalar BMacTest.node[26].nic.ids 	neighbour3PacketsReceived 	41
+scalar BMacTest.node[26].nic.ids 	neighbour3PacketsForwarded 	16
+scalar BMacTest.node[26].nic.ids 	neighbour3IntentionalPacketDropping 	0
+scalar BMacTest.node[26].nic.ids 	neighbour4PacketsReceived 	211
+scalar BMacTest.node[26].nic.ids 	neighbour4PacketsForwarded 	147
+scalar BMacTest.node[26].nic.ids 	neighbour4IntentionalPacketDropping 	0
+scalar BMacTest.node[26].nic.ids 	neighbour5PacketsReceived 	0
+scalar BMacTest.node[26].nic.ids 	neighbour5PacketsForwarded 	0
+scalar BMacTest.node[26].nic.ids 	neighbour5IntentionalPacketDropping 	0
+scalar BMacTest.node[26].nic.ids 	neighbour6PacketsReceived 	0
+scalar BMacTest.node[26].nic.ids 	neighbour6PacketsForwarded 	0
+scalar BMacTest.node[26].nic.ids 	neighbour6IntentionalPacketDropping 	0
+scalar BMacTest.node[26].nic.ids 	neighbour7PacketsReceived 	492
+scalar BMacTest.node[26].nic.ids 	neighbour7PacketsForwarded 	235
+scalar BMacTest.node[26].nic.ids 	neighbour7IntentionalPacketDropping 	0.5
+scalar BMacTest.node[26].nic.ids 	neighbour8PacketsReceived 	570
+scalar BMacTest.node[26].nic.ids 	neighbour8PacketsForwarded 	560
+scalar BMacTest.node[26].nic.ids 	neighbour8IntentionalPacketDropping 	0
+scalar BMacTest.node[26].nic.ids 	neighbour9PacketsReceived 	0
+scalar BMacTest.node[26].nic.ids 	neighbour9PacketsForwarded 	0
+scalar BMacTest.node[26].nic.ids 	neighbour9IntentionalPacketDropping 	0
+scalar BMacTest.node[26].nic.ids 	neighbour10PacketsReceived 	0
+scalar BMacTest.node[26].nic.ids 	neighbour10PacketsForwarded 	0
+scalar BMacTest.node[26].nic.ids 	neighbour10IntentionalPacketDropping 	0.5
+scalar BMacTest.node[26].nic.ids 	neighbour11PacketsReceived 	968
+scalar BMacTest.node[26].nic.ids 	neighbour11PacketsForwarded 	966
+scalar BMacTest.node[26].nic.ids 	neighbour11IntentionalPacketDropping 	0
+scalar BMacTest.node[26].nic.ids 	neighbour12PacketsReceived 	0
+scalar BMacTest.node[26].nic.ids 	neighbour12PacketsForwarded 	0
+scalar BMacTest.node[26].nic.ids 	neighbour12IntentionalPacketDropping 	0
+scalar BMacTest.node[26].nic.ids 	neighbour13PacketsReceived 	0
+scalar BMacTest.node[26].nic.ids 	neighbour13PacketsForwarded 	0
+scalar BMacTest.node[26].nic.ids 	neighbour13IntentionalPacketDropping 	0
+scalar BMacTest.node[26].nic.ids 	neighbour14PacketsReceived 	1099
+scalar BMacTest.node[26].nic.ids 	neighbour14PacketsForwarded 	1097
+scalar BMacTest.node[26].nic.ids 	neighbour14IntentionalPacketDropping 	0
+scalar BMacTest.node[26].nic.ids 	neighbour15PacketsReceived 	1337
+scalar BMacTest.node[26].nic.ids 	neighbour15PacketsForwarded 	1336
+scalar BMacTest.node[26].nic.ids 	neighbour15IntentionalPacketDropping 	0
+scalar BMacTest.node[26].nic.ids 	neighbour16PacketsReceived 	120
+scalar BMacTest.node[26].nic.ids 	neighbour16PacketsForwarded 	120
+scalar BMacTest.node[26].nic.ids 	neighbour16IntentionalPacketDropping 	0
+scalar BMacTest.node[26].nic.ids 	neighbour17PacketsReceived 	0
+scalar BMacTest.node[26].nic.ids 	neighbour17PacketsForwarded 	0
+scalar BMacTest.node[26].nic.ids 	neighbour17IntentionalPacketDropping 	0
+scalar BMacTest.node[26].nic.ids 	neighbour18PacketsReceived 	0
+scalar BMacTest.node[26].nic.ids 	neighbour18PacketsForwarded 	0
+scalar BMacTest.node[26].nic.ids 	neighbour18IntentionalPacketDropping 	0
+scalar BMacTest.node[26].nic.ids 	neighbour19PacketsReceived 	1693
+scalar BMacTest.node[26].nic.ids 	neighbour19PacketsForwarded 	822
+scalar BMacTest.node[26].nic.ids 	neighbour19IntentionalPacketDropping 	0.5
+scalar BMacTest.node[26].nic.ids 	neighbour20PacketsReceived 	239
+scalar BMacTest.node[26].nic.ids 	neighbour20PacketsForwarded 	239
+scalar BMacTest.node[26].nic.ids 	neighbour20IntentionalPacketDropping 	0
+scalar BMacTest.node[26].nic.ids 	neighbour21PacketsReceived 	0
+scalar BMacTest.node[26].nic.ids 	neighbour21PacketsForwarded 	0
+scalar BMacTest.node[26].nic.ids 	neighbour21IntentionalPacketDropping 	0
+scalar BMacTest.node[26].nic.ids 	neighbour22PacketsReceived 	1063
+scalar BMacTest.node[26].nic.ids 	neighbour22PacketsForwarded 	1063
+scalar BMacTest.node[26].nic.ids 	neighbour22IntentionalPacketDropping 	0
+scalar BMacTest.node[26].nic.ids 	neighbour23PacketsReceived 	477
+scalar BMacTest.node[26].nic.ids 	neighbour23PacketsForwarded 	476
+scalar BMacTest.node[26].nic.ids 	neighbour23IntentionalPacketDropping 	0
+scalar BMacTest.node[26].nic.ids 	neighbour24PacketsReceived 	0
+scalar BMacTest.node[26].nic.ids 	neighbour24PacketsForwarded 	0
+scalar BMacTest.node[26].nic.ids 	neighbour24IntentionalPacketDropping 	0
+scalar BMacTest.node[26].nic.ids 	neighbour27PacketsReceived 	0
+scalar BMacTest.node[26].nic.ids 	neighbour27PacketsForwarded 	0
+scalar BMacTest.node[26].nic.ids 	neighbour27IntentionalPacketDropping 	0
+scalar BMacTest.node[26].nic.ids 	data_packets_intercepted 	10365
+scalar BMacTest.node[26].nic.ids 	data_packets_me_to_somebody 	120
+scalar BMacTest.node[26].nic.ids 	data_packets_somebody_to_me 	0
+scalar BMacTest.node[26].nic.ids 	data_packets_somebody_to_somebody 	10245
+scalar BMacTest.node[26].netwl 	nbPacketsForwarded 	0
+scalar BMacTest.node[26].netwl 	nbPacketsReceived 	0
+scalar BMacTest.node[26].netwl 	nbPacketsSent 	120
+scalar BMacTest.node[26].netwl 	nbPacketsDropped 	0
+scalar BMacTest.node[27].nic.ids 	notAffectedByHostState 	0
+scalar BMacTest.node[27].nic.ids 	stats 	1
+scalar BMacTest.node[27].nic.ids 	debug 	0
+scalar BMacTest.node[27].nic.ids 	maxMonitoredNodes 	30
+scalar BMacTest.node[27].nic.ids 	fwdBufferSize 	100
+scalar BMacTest.node[27].nic.ids 	fwdMinPacketsReceived 	0
+scalar BMacTest.node[27].nic.ids 	fwdDetectionThreshold 	0.5
+scalar BMacTest.node[27].nic.ids 	memIDSEntry 	8
+scalar BMacTest.node[27].nic.ids 	memBufferEntry 	16
+scalar BMacTest.node[27].nic.ids 	maxDistance 	999999
+scalar BMacTest.node[27].nic.ids 	fwdPacketTimeout 	999999
+scalar BMacTest.node[27].nic.ids 	neighbour0PacketsReceived 	0
+scalar BMacTest.node[27].nic.ids 	neighbour0PacketsForwarded 	0
+scalar BMacTest.node[27].nic.ids 	neighbour0IntentionalPacketDropping 	0
+scalar BMacTest.node[27].nic.ids 	neighbour1PacketsReceived 	0
+scalar BMacTest.node[27].nic.ids 	neighbour1PacketsForwarded 	0
+scalar BMacTest.node[27].nic.ids 	neighbour1IntentionalPacketDropping 	0
+scalar BMacTest.node[27].nic.ids 	neighbour2PacketsReceived 	40
+scalar BMacTest.node[27].nic.ids 	neighbour2PacketsForwarded 	10
+scalar BMacTest.node[27].nic.ids 	neighbour2IntentionalPacketDropping 	0
+scalar BMacTest.node[27].nic.ids 	neighbour3PacketsReceived 	33
+scalar BMacTest.node[27].nic.ids 	neighbour3PacketsForwarded 	19
+scalar BMacTest.node[27].nic.ids 	neighbour3IntentionalPacketDropping 	0
+scalar BMacTest.node[27].nic.ids 	neighbour4PacketsReceived 	168
+scalar BMacTest.node[27].nic.ids 	neighbour4PacketsForwarded 	105
+scalar BMacTest.node[27].nic.ids 	neighbour4IntentionalPacketDropping 	0
+scalar BMacTest.node[27].nic.ids 	neighbour5PacketsReceived 	0
+scalar BMacTest.node[27].nic.ids 	neighbour5PacketsForwarded 	0
+scalar BMacTest.node[27].nic.ids 	neighbour5IntentionalPacketDropping 	0
+scalar BMacTest.node[27].nic.ids 	neighbour6PacketsReceived 	0
+scalar BMacTest.node[27].nic.ids 	neighbour6PacketsForwarded 	0
+scalar BMacTest.node[27].nic.ids 	neighbour6IntentionalPacketDropping 	0
+scalar BMacTest.node[27].nic.ids 	neighbour7PacketsReceived 	472
+scalar BMacTest.node[27].nic.ids 	neighbour7PacketsForwarded 	229
+scalar BMacTest.node[27].nic.ids 	neighbour7IntentionalPacketDropping 	0.5
+scalar BMacTest.node[27].nic.ids 	neighbour8PacketsReceived 	568
+scalar BMacTest.node[27].nic.ids 	neighbour8PacketsForwarded 	556
+scalar BMacTest.node[27].nic.ids 	neighbour8IntentionalPacketDropping 	0
+scalar BMacTest.node[27].nic.ids 	neighbour9PacketsReceived 	0
+scalar BMacTest.node[27].nic.ids 	neighbour9PacketsForwarded 	0
+scalar BMacTest.node[27].nic.ids 	neighbour9IntentionalPacketDropping 	0
+scalar BMacTest.node[27].nic.ids 	neighbour10PacketsReceived 	0
+scalar BMacTest.node[27].nic.ids 	neighbour10PacketsForwarded 	0
+scalar BMacTest.node[27].nic.ids 	neighbour10IntentionalPacketDropping 	0.5
+scalar BMacTest.node[27].nic.ids 	neighbour11PacketsReceived 	964
+scalar BMacTest.node[27].nic.ids 	neighbour11PacketsForwarded 	962
+scalar BMacTest.node[27].nic.ids 	neighbour11IntentionalPacketDropping 	0
+scalar BMacTest.node[27].nic.ids 	neighbour12PacketsReceived 	0
+scalar BMacTest.node[27].nic.ids 	neighbour12PacketsForwarded 	0
+scalar BMacTest.node[27].nic.ids 	neighbour12IntentionalPacketDropping 	0
+scalar BMacTest.node[27].nic.ids 	neighbour13PacketsReceived 	0
+scalar BMacTest.node[27].nic.ids 	neighbour13PacketsForwarded 	0
+scalar BMacTest.node[27].nic.ids 	neighbour13IntentionalPacketDropping 	0
+scalar BMacTest.node[27].nic.ids 	neighbour14PacketsReceived 	1100
+scalar BMacTest.node[27].nic.ids 	neighbour14PacketsForwarded 	1097
+scalar BMacTest.node[27].nic.ids 	neighbour14IntentionalPacketDropping 	0
+scalar BMacTest.node[27].nic.ids 	neighbour15PacketsReceived 	1337
+scalar BMacTest.node[27].nic.ids 	neighbour15PacketsForwarded 	1337
+scalar BMacTest.node[27].nic.ids 	neighbour15IntentionalPacketDropping 	0
+scalar BMacTest.node[27].nic.ids 	neighbour16PacketsReceived 	120
+scalar BMacTest.node[27].nic.ids 	neighbour16PacketsForwarded 	120
+scalar BMacTest.node[27].nic.ids 	neighbour16IntentionalPacketDropping 	0
+scalar BMacTest.node[27].nic.ids 	neighbour17PacketsReceived 	0
+scalar BMacTest.node[27].nic.ids 	neighbour17PacketsForwarded 	0
+scalar BMacTest.node[27].nic.ids 	neighbour17IntentionalPacketDropping 	0
+scalar BMacTest.node[27].nic.ids 	neighbour18PacketsReceived 	0
+scalar BMacTest.node[27].nic.ids 	neighbour18PacketsForwarded 	0
+scalar BMacTest.node[27].nic.ids 	neighbour18IntentionalPacketDropping 	0
+scalar BMacTest.node[27].nic.ids 	neighbour19PacketsReceived 	1693
+scalar BMacTest.node[27].nic.ids 	neighbour19PacketsForwarded 	822
+scalar BMacTest.node[27].nic.ids 	neighbour19IntentionalPacketDropping 	0.5
+scalar BMacTest.node[27].nic.ids 	neighbour20PacketsReceived 	239
+scalar BMacTest.node[27].nic.ids 	neighbour20PacketsForwarded 	239
+scalar BMacTest.node[27].nic.ids 	neighbour20IntentionalPacketDropping 	0
+scalar BMacTest.node[27].nic.ids 	neighbour21PacketsReceived 	0
+scalar BMacTest.node[27].nic.ids 	neighbour21PacketsForwarded 	0
+scalar BMacTest.node[27].nic.ids 	neighbour21IntentionalPacketDropping 	0
+scalar BMacTest.node[27].nic.ids 	neighbour22PacketsReceived 	1063
+scalar BMacTest.node[27].nic.ids 	neighbour22PacketsForwarded 	1063
+scalar BMacTest.node[27].nic.ids 	neighbour22IntentionalPacketDropping 	0
+scalar BMacTest.node[27].nic.ids 	neighbour23PacketsReceived 	477
+scalar BMacTest.node[27].nic.ids 	neighbour23PacketsForwarded 	477
+scalar BMacTest.node[27].nic.ids 	neighbour23IntentionalPacketDropping 	0
+scalar BMacTest.node[27].nic.ids 	neighbour24PacketsReceived 	0
+scalar BMacTest.node[27].nic.ids 	neighbour24PacketsForwarded 	0
+scalar BMacTest.node[27].nic.ids 	neighbour24IntentionalPacketDropping 	0
+scalar BMacTest.node[27].nic.ids 	neighbour26PacketsReceived 	0
+scalar BMacTest.node[27].nic.ids 	neighbour26PacketsForwarded 	0
+scalar BMacTest.node[27].nic.ids 	neighbour26IntentionalPacketDropping 	0
+scalar BMacTest.node[27].nic.ids 	data_packets_intercepted 	10307
+scalar BMacTest.node[27].nic.ids 	data_packets_me_to_somebody 	120
+scalar BMacTest.node[27].nic.ids 	data_packets_somebody_to_me 	0
+scalar BMacTest.node[27].nic.ids 	data_packets_somebody_to_somebody 	10187
+scalar BMacTest.node[27].netwl 	nbPacketsForwarded 	0
+scalar BMacTest.node[27].netwl 	nbPacketsReceived 	0
+scalar BMacTest.node[27].netwl 	nbPacketsSent 	120
+scalar BMacTest.node[27].netwl 	nbPacketsDropped 	0
